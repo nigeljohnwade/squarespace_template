@@ -1,0 +1,103 @@
+
+/* MOBILE FIRST
+-------------------------------------------------*/
+
+body {
+  max-width: 48em;
+  margin: 0 auto;
+  padding: 100px 15px;
+}
+
+#header { }
+
+#main-navigation {
+  ul {  
+    padding-left: 0;
+    
+    li {
+      display: inline-block;
+
+      ul {
+        display: none;
+      }
+
+      &:not(:last-child) {
+        margin-right: .5em;
+      }
+
+      &:hover > ul {
+        display: inline-block;
+      }
+
+      &.active-link > a {
+        color: salmon;
+      }
+
+      &.active-folder > a {
+        color: orange;
+      }
+    }
+  }
+}
+
+a {
+  color: #999;
+}
+
+#content { }
+
+#footer { }
+
+
+/* HOMEPAGE
+-----------------------------------------------*/
+
+.homepage { }
+
+
+/* BLOG COLLECTION
+-----------------------------------------------*/
+
+.collection-type-blog {
+
+  /* BOTH PAGES 
+  ---------------------------------------------*/
+
+  /* LIST PAGE
+  ---------------------------------------------*/
+
+  &.view-list { }
+
+  /* ITEM PAGE
+  ---------------------------------------------*/  
+
+  &.view-item { }
+  
+}
+
+
+/* TOUCH DEVICE - ADDED BY MODERNIZR
+-----------------------------------------------*/
+
+html.touch {
+  .squarespace-comments .comments-content .comment-list .comment .comment-header .controls .squarespace-comment-buttons .comment-control {
+    opacity: 1;
+  }
+}
+
+
+/* BREAK GRID AND STACK BLOCKS ON SMALL SCREENS 
+-----------------------------------------------*/
+
+@media screen and (max-width: 48em) {
+  .row .col {
+    width: 100%;
+    float: none;
+  }
+}
+
+
+/* BEYOND MOBILE
+-----------------------------------------------*/
+
+@media screen and (min-width: 48em) { }
