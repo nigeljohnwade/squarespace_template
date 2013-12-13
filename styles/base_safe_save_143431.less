@@ -1,0 +1,141 @@
+
+/* MOBILE FIRST
+-------------------------------------------------*/
+
+body {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#collection-52ab104fe4b042887e9c44c5 * {
+    outline: 1px solid blue;
+}
+
+#header { }
+
+#main-navigation {
+  ul {
+    padding-left: 0;
+
+    li {
+      display: inline-block;
+
+      ul {
+        display: none;
+      }
+
+      &:not(:last-child) {
+        margin-right: .5em;
+      }
+
+      &:hover > ul {
+        display: inline-block;
+      }
+
+      &.active-link > a {
+        color: salmon;
+      }
+
+      &.active-folder > a {
+        color: orange;
+      }
+    }
+  }
+}
+
+a {
+  color: #999;
+}
+
+.sqs-block {
+    margin: 0 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+h2 {
+    color: orange;
+}
+
+.blue-button {
+    padding: 10px;
+    display: block;
+    margin: auto auto;
+    width: 180px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+text-shadow: 0 1px 1px #0c7199; /* drop shadow */
+    border: 1px solid #0789bc; /* stroke */
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+background-color: #434345; /* layer fill content */
+-moz-box-shadow: inset 0 0 0 1px rgba(255,255,255,.38); /* inner shadow */
+-webkit-box-shadow: inset 0 0 0 1px rgba(255,255,255,.38); /* inner shadow */
+box-shadow: inset 0 0 0 1px rgba(255,255,255,.38); /* inner shadow */
+background-image: -moz-linear-gradient(bottom, #1da1d7 0%, #09b0f2 100%); /* gradient overlay */
+background-image: -o-linear-gradient(bottom, #1da1d7 0%, #09b0f2 100%); /* gradient overlay */
+background-image: -webkit-linear-gradient(bottom, #1da1d7 0%, #09b0f2 100%); /* gradient overlay */
+background-image: linear-gradient(bottom, #1da1d7 0%, #09b0f2 100%); /* gradient overlay */
+
+}
+
+#content { }
+
+#footer { }
+
+
+/* HOMEPAGE
+-----------------------------------------------*/
+
+.homepage { }
+
+
+/* BLOG COLLECTION
+-----------------------------------------------*/
+
+.collection-type-blog {
+
+  /* BOTH PAGES
+  ---------------------------------------------*/
+
+  /* LIST PAGE
+  ---------------------------------------------*/
+
+  &.view-list { }
+
+  /* ITEM PAGE
+  ---------------------------------------------*/
+
+  &.view-item { }
+
+}
+
+
+/* TOUCH DEVICE - ADDED BY MODERNIZR
+-----------------------------------------------*/
+
+html.touch {
+  .squarespace-comments .comments-content .comment-list .comment .comment-header .controls .squarespace-comment-buttons .comment-control {
+    opacity: 1;
+  }
+}
+
+
+/* BREAK GRID AND STACK BLOCKS ON SMALL SCREENS
+-----------------------------------------------*/
+
+@media screen and (max-width: 48em) {
+  .row .col {
+    width: 100%;
+    float: none;
+  }
+}
+
+
+/* BEYOND MOBILE
+-----------------------------------------------*/
+
+@media screen and (min-width: 48em) { }
