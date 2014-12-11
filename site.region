@@ -5,16 +5,14 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="//use.typekit.net/rmh2fmk.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-    <link rel='stylesheet' href='assets/css/normalize.css'>
-    <link rel='stylesheet' href='assets/css/foundation.css'>
-    <link rel='stylesheet' href='assets/css/style.css'>
-    <link rel='stylesheet' href='assets/css/typicons.min.css'>
+    <link rel='stylesheet' href='/assets/css/normalize.css'>
+    <link rel='stylesheet' href='/assets/css/foundation.css'>
+    <link rel='stylesheet' href='/assets/css/style.css'>
+    <link rel='stylesheet' href='/assets/css/typicons.min.css'>
 
-    <link href="assets/favicon.ico" rel="shortcut icon">
-    <link href="assets/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="/assets/favicon.ico" rel="shortcut icon">
+    <link href="/assets/apple-touch-icon.png" rel="apple-touch-icon">
 
     <title>Stipso</title>
 
