@@ -1,0 +1,85 @@
+.mailchimp-landing {
+  position: relative;
+}
+
+.mailchimp-landing #mac {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+}
+
+.mailchimp-landing #hero.block {
+  padding: 0 0 0px;
+}
+
+.mailchimp-landing #hero.block .large-8 {
+  padding-top: 55px;
+}
+
+.mailchimp-landing #nav-wrapper {
+  margin-bottom: 0px;
+}
+
+#main-content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#main-content h3 {
+  color: #1ea1d7;
+}
+
+.mailchimp-landing #mc_embed_signup {
+  background: rgba(20, 20, 20, 0.4);
+  padding: 40px 30px;
+}
+
+.mailchimp-landing #hero #mc_embed_signup p {
+  font-size: 14px;
+}
+
+.mailchimp-landing #mc_embed_signup form {
+  margin: 0 0;
+}
+
+.mailchimp-landing #mc_embed_signup label {
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+.mailchimp-landing #mc_embed_signup #mc-embedded-subscribe {
+ height: auto;
+ width: auto;
+ margin: 0 0;
+}
+
+.signup-landing #nav-wrapper {
+  margin-bottom: 60px;
+}
+
+.signup-landing #hero.block {
+  padding-bottom: 70px;
+  text-align: left;
+}
+
+.signup-landing #main-content {
+  margin-top: 0;
+}
+
+.signup-landing a#cta-signup {
+  font-weight: bold !important;
+}
+
+.mailchimp-landing #hero h1, .signup-landing #hero h1 {
+  font-size: 36px;
+}
+
+.mailchimp-landing #hero p, .signup-landing #hero p {
+  font-size: 24px;
+}
+
+.mailchimp-landing #hero.block, .signup-landing #hero.block {
+  background-image: url(../img/landing-pages/landing-background.jpg);
+}
+
