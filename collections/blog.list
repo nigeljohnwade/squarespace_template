@@ -25,13 +25,17 @@
   
   <article id="post-{id}" class="{@|item-classes} row">
     
-    <!--MAIN IMAGE-->
+    
     <div class="large-3 columns">
-        {.main-image?}  
-          <a href="{fullUrl}" class="main-image content-fill">
-            <img {@|image-meta} src="{fullUrl}?format=200w"/>
-          </a>
-        {.end}
+        <!--POST META-->
+        
+        <div class="meta">
+          <a href="?author={author.id}"><p>{author.displayName}</p></a>
+          <a href="{fullUrl}"><p><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></p></a>.
+          {.section sourceUrl}
+            <a href="{@}" class="source" target="_blank">Source</a>.
+          {.end}
+        </div>   
     </div>
     <div class="large-9 columns">
         <!--POST TILE-->
@@ -43,7 +47,12 @@
             <a href="{fullUrl}">{title}</a>
           {.end}
         </h1>
-    
+        <!--MAIN IMAGE-->
+        {.main-image?}  
+          <a href="{fullUrl}" class="main-image content-fill">
+            <img {@|image-meta} src="{fullUrl}?format=200w"/>
+          </a>
+        {.end}
         <!--EXCERPT OR BODY-->
     
         {.if excerpt}
@@ -51,7 +60,7 @@
           <a class="link" href="{fullUrl}">Read More</a>
         {.or}
     
-          <!--MAIN CONTENT-->
+        <!--MAIN CONTENT-->
     
           {body}
           <a class="link" href="{fullUrl}">Permalink</a>
@@ -78,15 +87,7 @@
     
         {@|like-button}
         {@|social-button}
-        
-        <!--POST META-->
-        
-        <p class="meta">
-          Published on <a href="{fullUrl}"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="?author={author.id}">{author.displayName}</a>.
-          {.section sourceUrl}
-            <a href="{@}" class="source" target="_blank">Source</a>.
-          {.end}
-        </p>        
+             
     
         <!--LINK TO COMMENTS-->
     
