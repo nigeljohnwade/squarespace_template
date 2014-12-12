@@ -95,9 +95,11 @@
         </div>
     </div>
 </div>
-
-{squarespace.main-content}
-
+<div class="block">
+    <div class="row">
+        {squarespace.main-content}
+    </div>
+</div>
 <div id="footer" class="block">
     <div class="row">
         <div class="large-1 columns">
