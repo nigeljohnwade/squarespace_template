@@ -48,7 +48,7 @@
           {.end}
         </h1>
         <!--MAIN IMAGE-->
-        <div class="large-6">
+        <div class="large-6 columns">
             {.main-image?}  
               <a href="{fullUrl}" class="main-image content-fill">
                 <img {@|image-meta} src="{fullUrl}?format=200w"/>
@@ -56,7 +56,7 @@
             {.end}
         </div>
         <!--EXCERPT OR BODY-->
-        <div class="large-6">
+        <div class="large-6 columns">
         {.if excerpt}
           {excerpt}
           <a class="link" href="{fullUrl}">Read More</a>
