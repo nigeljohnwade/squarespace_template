@@ -24,7 +24,7 @@
         ga('create', 'UA-12386752-16', 'stipso.com');
         ga('send', 'pageview');
     </script>
-
+    {squarespace-headers}
 </head>
 
 <body>
