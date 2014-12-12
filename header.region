@@ -71,7 +71,7 @@
         </div>
     </div>
     <div id="mac-img">
-        <img src="assets/img/mac.png" alt="" />
+        <img src="/assets/img/mac.png" alt="" />
     </div>
 
 </div>
