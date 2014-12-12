@@ -29,7 +29,7 @@
 
     {.main-image?}  
       <a href="{fullUrl}" class="main-image content-fill">
-        <img {@|image-meta} />
+        <img {@|image-meta} src="{fullUrl}?format=200w"/>
       </a>
     {.end}
 
