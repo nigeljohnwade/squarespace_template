@@ -3,7 +3,7 @@
 
   <!--WRAPPER-->
   
-  <article id="post-{id}" class="{@|item-classes}">
+  <article id="post-{id}" class="{@|item-classes} large-9 columns">
     
     <!--POST TILE-->
 
