@@ -77,12 +77,13 @@
           <a class="category" href="?category={@|url-encode}">{@}</a>{.alternates with},
         {.end}
     
-        <!--TAGS-->
+        <!--TAGS
     
         {.repeated section tags}
           <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with},
         {.end}
-    
+        -->
+         
         <!--SHARE AND LIKE
     
         {@|like-button}
