@@ -11,7 +11,7 @@
 <div id="footer" class="block">
     <div class="row">
         <div class="large-1 columns">
-            <img src="assets/img/logo.png" alt="" />
+            <img src="/assets/img/logo.png" alt="" />
         </div>
         <div class="large-11 columns">
             <div class="footer-social-links">
