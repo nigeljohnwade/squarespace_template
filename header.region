@@ -41,7 +41,7 @@
                         </li>
                         <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
                     </ul>
-
+                    <squarespace:navigation navigationId="mainNav" template="navigation">
                     <section class="top-bar-section">
                         <!-- Right Nav Section -->
                         <ul class="right">
