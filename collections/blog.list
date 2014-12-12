@@ -71,12 +71,12 @@
     
         {postItemInjectCode}    
     
-        <!--CATEGORIES-->
+        <!--CATEGORIES
     
         {.repeated section categories}
           <a class="category" href="?category={@|url-encode}">{@}</a>{.alternates with},
         {.end}
-    
+        -->
         <!--TAGS
     
         {.repeated section tags}
