@@ -48,13 +48,15 @@
           {.end}
         </h1>
         <!--MAIN IMAGE-->
-        {.main-image?}  
-          <a href="{fullUrl}" class="main-image content-fill">
-            <img {@|image-meta} src="{fullUrl}?format=200w"/>
-          </a>
-        {.end}
+        <div class="large-6">
+            {.main-image?}  
+              <a href="{fullUrl}" class="main-image content-fill">
+                <img {@|image-meta} src="{fullUrl}?format=200w"/>
+              </a>
+            {.end}
+        </div>
         <!--EXCERPT OR BODY-->
-    
+        <div class="large-6">
         {.if excerpt}
           {excerpt}
           <a class="link" href="{fullUrl}">Read More</a>
@@ -66,7 +68,7 @@
           <a class="link" href="{fullUrl}">Permalink</a>
     
         {.end}
-    
+        </div>
         <!--BLOG INJECTION-->
     
         {postItemInjectCode}    
