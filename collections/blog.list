@@ -23,61 +23,62 @@
 
   <!--WRAPPER-->
   
-  <article id="post-{id}" class="{@|item-classes}">
+  <article id="post-{id}" class="{@|item-classes} row">
     
     <!--MAIN IMAGE-->
-
-    {.main-image?}  
-      <a href="{fullUrl}" class="main-image content-fill">
-        <img {@|image-meta} src="{fullUrl}?format=200w"/>
-      </a>
-    {.end}
-
-    <!--POST TILE-->
-
-    <h1 class="title">
-      {.passthrough?}
-        <a href="{sourceUrl}" target="_blank">{title}</a>
-      {.or}
-        <a href="{fullUrl}">{title}</a>
-      {.end}
-    </h1>
-
-    <!--EXCERPT OR BODY-->
-
-    {.if excerpt}
-      {excerpt}
-      <a class="link" href="{fullUrl}">Read More</a>
-    {.or}
-
-      <!--MAIN CONTENT-->
-
-      {body}
-      <a class="link" href="{fullUrl}">Permalink</a>
-
-    {.end}
-
-    <!--BLOG INJECTION-->
-
-    {postItemInjectCode}    
-
-    <!--CATEGORIES-->
-
-    {.repeated section categories}
-      <a class="category" href="?category={@|url-encode}">{@}</a>{.alternates with},
-    {.end}
-
-    <!--TAGS-->
-
-    {.repeated section tags}
-      <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with},
-    {.end}
-
-    <!--SHARE AND LIKE-->
-
-    {@|like-button}
-    {@|social-button}
-
+    <div class="large-3 columns">
+        {.main-image?}  
+          <a href="{fullUrl}" class="main-image content-fill">
+            <img {@|image-meta} src="{fullUrl}?format=200w"/>
+          </a>
+        {.end}
+    </div>
+    <div class="large-9 columns">
+        <!--POST TILE-->
+            
+        <h1 class="title">
+          {.passthrough?}
+            <a href="{sourceUrl}" target="_blank">{title}</a>
+          {.or}
+            <a href="{fullUrl}">{title}</a>
+          {.end}
+        </h1>
+    
+        <!--EXCERPT OR BODY-->
+    
+        {.if excerpt}
+          {excerpt}
+          <a class="link" href="{fullUrl}">Read More</a>
+        {.or}
+    
+          <!--MAIN CONTENT-->
+    
+          {body}
+          <a class="link" href="{fullUrl}">Permalink</a>
+    
+        {.end}
+    
+        <!--BLOG INJECTION-->
+    
+        {postItemInjectCode}    
+    
+        <!--CATEGORIES-->
+    
+        {.repeated section categories}
+          <a class="category" href="?category={@|url-encode}">{@}</a>{.alternates with},
+        {.end}
+    
+        <!--TAGS-->
+    
+        {.repeated section tags}
+          <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with},
+        {.end}
+    
+        <!--SHARE AND LIKE-->
+    
+        {@|like-button}
+        {@|social-button}
+    </div>
     <!--POST META-->
     
     <p class="meta">
