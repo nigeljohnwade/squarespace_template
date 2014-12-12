@@ -83,11 +83,11 @@
           <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with},
         {.end}
     
-        <!--SHARE AND LIKE-->
+        <!--SHARE AND LIKE
     
         {@|like-button}
         {@|social-button}
-             
+        -->
     
         <!--LINK TO COMMENTS-->
     
