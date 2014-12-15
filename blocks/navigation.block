@@ -1,6 +1,6 @@
 
 <nav id="main-navigation" data-content-field="navigation-mainNav">
-  <ul>
+  <ul class="right">
     {.repeated section items}
 
         <li class="{.section active} active-link{.end}{.if folderActive} active-folder{.end}">
@@ -59,5 +59,7 @@
         </li>
         
     {.end}
+      <li><a href="#" class="button round" data-reveal-id="request-invite-modal">Request Invite</a></li>
+      <li><a href="http://editor.stipso.com" target="_blank">Log In</a></li>
   </ul>
 </nav>
