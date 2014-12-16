@@ -1,0 +1,15 @@
+<div id="partners" class="block">
+    <div class="row">
+        <div class="large-12 columns">
+            <div>
+                <h2>Partners</h2>
+                <h4>Our friends make Stipso work for you.</h4>
+                <p class="subtitle">We work with innovative agencies to bring brands' visual content marketing to life.</p>
+            </div>
+        </div>
+        <div class="large-12 columns">
+            <a href="http://brightfire.co.uk" target="_blank" class="client-logo" id="brightfire"></a>
+            <a href="http://velocitydigital.co.uk" target="_blank" class="client-logo" id="velocity"></a>
+        </div>
+    </div>
+</div>
