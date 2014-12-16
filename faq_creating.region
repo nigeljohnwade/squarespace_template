@@ -1,0 +1,22 @@
+<div class="block gray faq-section">
+    <div class="row" id="creating-living-infographics">
+        <div class="large-12 columns">
+            <div>
+                <h3>Creating Living Infographics</h3>
+                <h4 id="creating-1">Can I show my infographic to my colleague/client/friend before publishing?</h4>
+                <p>You sure can — clicking <b>Preview</b> in the menu bar will take you to a live, fully interactive preview of your Living Infographic. 
+                    You can send that link to anyone, so they can see what you’re working on and give feedback.</p>
+                <p>Please note that contributing answers in the preview mode won’t actually store any data. 
+                    Stipso only starts registering contributions in the database once an infographic is live.</p>
+                <h4 id="creating-2">I've finished building my infographic. What happens now?</h4>
+                <p>That’s great news! Now the only thing left to do is release it into the wild — clicking the <b>Go Live!</b> button will publish your infographic to the web and generate your public link. 
+                    The infographic can now accept and store contributions (answers to questions.)
+                    &nbsp;When you click ‘go live’, you’ll be given a public link to your infographic which you can share or embed.&nbsp;</p>
+                <p>Please note: so that your infographic looks as it should, graph outputs will display randomised data until three contributions are registered. This placeholder data is not stored in the database. </p>
+                <h4 id="creating-3">My campaign is over/I want to retire my infographic. How do I do that?</h4>
+                <p>There are two options here: you can click <b>Disable contributions</b> to switch off the contribution modals; your infographic is still live and viewable, but it will only show the data contributed before you deactivated contributions.</p>
+                <p>Alternatively, you can click <b>Delete</b> in either the editor view or in your main account dashboard to completely remove an infographic — <b>and all the data you’ve collected</b>&nbsp;— from the web.</p>
+            </div>
+        </div>
+    </div>
+</div>

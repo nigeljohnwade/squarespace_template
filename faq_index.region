@@ -1,0 +1,35 @@
+<div class="block">
+    <div class="row" id="faq-contents">
+        <h2>Questions</h2>
+
+        <div class="large-4 columns">
+            <h3>Creating Living Infographics</h3>
+            <ul><li><a href="/faq#creating-1"><div1">Can I show my infographic to my colleague/client/friend before publishing?</div></a></li>
+                <li><a href="/faq#creating-2"><div2">I've finished building my infographic. What happens now?</div></a></li>
+                <li><a href="/faq#creating-3"><div3">My campaign is over/I want to retire my infographic. How do I do that?</div></a></li>
+            </ul></div>
+
+        <div class="large-4 columns">
+            <h3>Billing &amp; Payment</h3>
+            <ul><li><a href="/faq#billing-1"><div1">How does the free trial work?</div></a></li>
+                <li><a href="/faq#billing-2"><div2">How does billing work?</div></a></li>
+                <li><a href="/faq#billing-3"><div3">Can I pay annually?</div></a></li>
+                <li><a href="/faq#billing-4"><div4">Do prices include VAT?</div></a></li>
+                <li><a href="/faq#billing-5"><div5">How are payments handled?</div></a></li>
+                <li><a href="/faq#billing-6"><div6">Do you hold my credit card details?</div></a></li>
+                <li><a href="/faq#billing-7"><div7">How do I close my account/cancel my subscription?</div></a></li>
+                <li><a href="/faq#billing-8"><div8">What's the difference between each plan?</div></a></li>
+                <li><a href="/faq#billing-9"><div9">What happens if I go over my pageview limit?</div></a></li>
+            </ul></div>
+
+        <div class="large-4 columns">
+            <h3>Technical &amp; Data</h3>
+            <ul><li><a href="/faq#technical-1"><div1">Can I integrate external signup forms/embed external content?</div></a></li>
+                <li><a href="/faq#technical-2"><div2">Where is the data from my infographic?</div></a></li>
+                <li><a href="/faq#technical-3"><div3">What data do you collect?</div></a></li>
+                <li><a href="/faq#technical-4"><div4">Can I export the data from my infographic?</div></a></li>
+                <li><a href="/faq#technical-5"><div5">Can I track my infographics with Google Analytics?</div></a></li>
+                <li><a href="/faq#technical-6"><div6">Can I add social sharing to the infographic?</div></a></li>
+            </ul></div>
+    </div>
+</div>

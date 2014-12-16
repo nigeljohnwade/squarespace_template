@@ -1,0 +1,32 @@
+<div class="block gray faq-section">
+    <div class="row">
+        <div class="large-12 columns">
+            <div>
+                <h3>Technical &amp; Data</h3>
+                <h4 id="technical-1">Can I integrate external signup forms/embed external content?</h4>
+                <p>Yes! You can drop external embed codes (which are usually iframes) into your Living Infographics by clicking <strong>Add &gt; Embed Code</strong> in the editor view, and pasting your external code into the text field.</p>
+                <p>Some embed code may not render properly in the editor view — click <b>Preview</b>&nbsp;in the menu bar to see how it’ll look in the public view.</p>
+                <p>So far, we’ve tested this with signup forms from <strong>HubSpot</strong>, <strong>MailChimp</strong> and <strong>Google Forms</strong>; videos from <strong>YouTube</strong> and <strong>Vimeo</strong>; <strong>Twitter</strong> widgets, <strong>SlideShare</strong> presentations and even <strong>Google Maps</strong> embeds.</p>
+                <p>But there’s also plenty we haven’t tested, so the best advice we can give is: give it a go!               
+                    If something strange happens, <a href="mailto:support@stipso.com">get in touch</a> and we’ll take a look at it. </p>
+                <h4>Can I add social sharing buttons to the infographic?&nbsp;</h4>
+                <p>Absolutely — click <b>Add &gt; Sharing Buttons</b> in the editor view to add and configure social buttons. Currently, we support sharing to Facebook, Twitter, Google+ and LinkedIn.<br></p>
+                <h4 id="technical-2">Where is the data from my infographic?&nbsp;</h4>
+                <p>Contributions are stored in Stipso’s databases. Once an infographic is live, clicking <strong>Analytics</strong>&nbsp;in either the editor view or from your Stipso homepage will take you to your analytics dashboard.</p>
+                <h4 id="technical-3">What data do you collect?</h4>
+                <p>Currently, the dashboard shows:</p>
+                <ul>
+                    <li>Total pageviews</li>                    
+                    <li>Total contributions</li>                    
+                    <li>How many people answered each question</li>                    
+                    <li>Which answers they chose</li>                
+                </ul>
+                <p>We’re actively working on building more advanced analytics, and we’ll have more news on that front soon.</p>
+                <h4 id="technical-4">Can I export the data from my infographic?</h4>
+                <p>Not currently, but this is something we’re looking into. Please do let us know what kind of export functionality you’d be interested in seeing.</p>
+                <h4 id="technical-5">Can I track my infographics with Google Analytics?</h4>
+                <p>You sure can: in the editor view, click <b>Settings &gt; Google Analytics</b> and paste your Universal Analytics (UA) code into the input field. It should look like this: <i>UA-12345678-9</i>.</p>
+            </div>
+        </div>
+    </div>
+</div>
