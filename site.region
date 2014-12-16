@@ -9,44 +9,13 @@
     </div>
 </div>
 
-<div id="footer" class="block">
-    <div class="row">
-        <div class="large-1 columns">
-            <img src="/assets/img/logo.png" alt="" />
-        </div>
-        <div class="large-11 columns">
-            <div class="footer-social-links">
-                <a href="http://twitter.com/stipso" target="_blank"><span class="typcn typcn-social-twitter"></span></a>
-                <a href="http://www.facebook.com/stipso" target="_blank"><span class="typcn typcn-social-facebook"></span></a>
-                <a href="https://plus.google.com/+Stipso/posts" target="_blank"><span class="typcn typcn-social-google-plus"></span></a>
-            </div>
-            <div data-barley="footer_maintext" data-barley-editor="advanced">
-                <h5>&copy; 2014 Stipso Ltd. All rights reserved.</h5>
-                <p>CodeBase, Argyle House <br />
-                    Lady Lawson St, Edinburgh EH3 9DR <br />
-                    Stipso Ltd. is registered in Scotland. Company number SC379932.</p>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div id="sub-footer">
-    <div class="row">
-        <div class="large-12 columns">
-            <ul class="sub-navigation">
-                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
 
 <div id="request-invite-modal" class="reveal-modal small" data-reveal>
     <div class="row">
         <div class="small-12 columns">
             <span class="typcn typcn-mail"></span>
-            <div data-barley="requestinvite_header" data-barley-editor="simple">
+            <div>
                 <h3>Request an invitation to Stipso</h3>
                 <p>Stipso is currently in invite-only mode. We'll be launching our public beta
                     very soon — sign up here, and we'll send you an email when we open access.</p>
