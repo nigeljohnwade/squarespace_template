@@ -1,0 +1,75 @@
+<div id="whatis-page">
+    <div class="block gray">
+        <div class="row">
+            <div class="large-6 columns">
+                <div>
+                    <h3>Ask questions. visualise data.&nbsp;</h3>
+                    <h3>engage people.</h3>
+                    <p>Infographics are a fantastic medium for communicating information. But why can’t they do more? 
+                        Stipso makes infographics more social and more shareable. 
+                        Build social traction and engage your audience with visual content that people can play with, engage with and value.</p></div>
+            </div>
+            <div class="large-6 columns">
+                <img src="/assets/img/what-is/ask-questions.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="block orange">
+        <div class="row">
+            <div class="large-6 columns">
+                <img src="/assets/img/what-is/play-harder.jpg" alt=""></div>
+            <div class="large-6 columns">
+                <div>
+                    <h3>Stipso makes infographics work and play harder.</h3>
+                    <p>Living Infographics grow as users contribute. Use them to canvas opinion or capture buzz. 
+                        Tell a story with beautiful, crowdsourced visual content. 
+                        Mash up data visualisation, surveys and game mechanics to grab and hold your audience’s attention. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="row">
+            <div class="large-6 columns">
+                <div>
+                    <h3>Insight through content.</h3>
+                    <p>Drive engagement while collecting deep audience insight. There are no dark arts here: users’ engagement with your Living Infographic provides real, actionable data. 
+                        Entertain your audience, create an emotional connection and gather valuable customer intelligence.</p>
+                </div>
+            </div>
+            <div class="large-6 columns">
+                <img src="/assets/img/what-is/insight-through-content.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="block blue">
+        <div class="row">
+            <div class="large-6 columns">
+                <img src="/assets/img/what-is/creative-marketers.jpg" alt=""></div>
+            <div class="large-6 columns">
+                <div>
+                    <h3>Built for creative marketers.</h3>
+                    <p>Stipso is a powerful creative tool with an intuitive drag-and-drop interface that makes creating Living Infographics fast and easy, 
+                        so your team can react faster and create interactive visual content that slots seamlessly into your wider digital and social media campaigns. 
+                        Stipso works with the tools you already use — from Google Analytics to MailChimp and HubSpot — so you always have the full picture.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block" id="pre-footer-cta">
+        <div class="row">
+            <div class="large-12 columns">
+                <div>
+                    <h3>ready to bring your infographics to life?</h3>
+                    <p>Let’s do it! Hit the button below to request an invite — we’ll let you know as soon as Stipso is ready for you.</p>
+                </div>
+                <a href="#" data-reveal-id="request-invite-modal" class="button round">Request an invitation</a>
+            </div>
+        </div>
+    </div>
+</div>
