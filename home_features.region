@@ -1,0 +1,40 @@
+<div id="features" class="block">
+    <div class="row">
+        <div class="large-12 columns">
+            <div>
+                <h2>a creative tool for content marketers.</h2>
+                <p class="subtitle">Stipso is built for visual content marketing. Living Infographics mash up interactive polls and data visualisation, enabling you to create beautiful, social content that grows as people engage.</p>
+            </div>
+            <div class="row">
+                <div class="large-4 columns">
+                    <div class="icon-wrap">
+                        <span class="typcn typcn-input-checked" id="icon-ask"></span>
+                    </div>
+                    <div>
+                        <h3>Ask</h3>
+                        <p>Tell a story. Ask a question. Start a conversation. Invite your audience to contribute and co-create with you.</p>
+                    </div>
+                </div>
+                <div class="large-4 columns">
+                    <div class="icon-wrap">
+                        <span class="typcn typcn-image" id="icon-visualise"></span>
+                    </div>
+                    <div>
+                        <h3>Visualise</h3>
+                        <p>Stipso visualises user contributions in real time, creating infographics that grow and blossom as people engage.</p>
+                    </div>
+                </div>
+                <div class="large-4 columns">
+                    <div class="icon-wrap">
+                        <span class="typcn typcn-world-outline" id="icon-engage"></span>
+                    </div>
+                    <div>
+                        <h3>Engage</h3>
+                        <p>Living Infographics are beautiful visual content tailor-made for the social web. Engage people, not Google robots.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="/features" class="button round primary">What can it do?</a>
+        </div>
+    </div>
+</div>
