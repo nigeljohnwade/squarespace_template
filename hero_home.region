@@ -12,18 +12,6 @@
 
                     <section class="top-bar-section">
                         <squarespace:navigation navigationId="mainNav" template="navigation">
-                            <!-- Right Nav Section -->
-                            <!--<ul class="right">-->
-                            <!--<li><a href="what-is.html">What is Stipso?</a></li>-->
-                            <!--<li><a href="features.html">Features</a></li>-->
-                            <!--<li><a href="pricing.html">Pricing</a></li>-->
-                            <!--<li><a href="http://blog.stipso.com">Blog</a></li>-->
-                            <!--<li><a href="team.html">Team</a></li>-->
-                            <!--<li><a href="contact.html">Contact</a></li>-->
-                            <!--<li><a href="#" class="button round" data-reveal-id="request-invite-modal">Request an Invitation</a></li>-->
-                            <!--<li><a href="http://editor.stipso.com" target="_blank">Log In</a></li>-->
-                            <!--</ul>-->
-
                     </section>
                 </nav>
             </div>
@@ -31,9 +19,9 @@
     </div>
     <div class="row">
         <div class="large-12 columns">
-            <div data-barley="homepage_hero" data-barley-editor="advanced">
-                <h1>People-Powered Infographics.</h1>
-                <p>{squarespace.main-content}</p>
+            <div>
+                <h1>create People-Powered Infographics.</h1>
+                <p>Create social, interactive infographics which ask questions and visualise data — for visual content marketing that converts.</p>
             </div>
             <a href="#" data-reveal-id="request-invite-modal" class="button round">Start my 30-day free trial</a>
         </div>
