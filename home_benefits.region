@@ -1,0 +1,37 @@
+<div id="benefits" class="orange block">
+    <div class="row">
+        <div class="large-12 columns">
+            <div><h2>death to boring surveys. long live living infographics.</h2><p class="subtitle">Stipso is the creative marketer’s new best friend — a powerful creative tool built for the social web.</p></div>
+            <div class="row">
+                <div class="large-3 columns" id="benefits_fast">
+                    <span class="typcn typcn-stopwatch"></span>
+                    <div class="content">
+                        <div><h3>Fast</h3><p>A simple canvas with a powerful, intuitive drag-and-drop interface makes creating engaging, interactive visual content faster, easier and less costly than ever.</p></div>
+                    </div>
+                </div>
+                <div class="large-3 columns" id="benefits_creative">
+                    <span class="typcn typcn-brush"></span>
+                    <div class="content">
+                        <div><h3>Creative</h3><p>Stipso is built for creatives. It’s your brand. Your style.&nbsp;Your campaign. You upload the infographic, we make it interactive — and bring it to life.</p></div>
+                    </div>
+                </div>
+                <div class="large-3 columns" id="benefits_social">
+                    <span class="typcn typcn-social-twitter"></span>
+                    <div class="content">
+                        <div><h3>Social</h3><p>The power of social sharing is at the heart of Stipso. You can even publish directly to your Facebook page, so you can engage with your audience where they <i>live</i>.</p></div>
+                    </div>
+                </div>
+                <div class="large-3 columns" id="benefits_connected">
+                    <span class="typcn typcn-plug"></span>
+                    <div class="content">
+                        <div><h3>Connected</h3><p>Stipso is a team player, built to work with the tools you rely on – from rich media, to MailChimp and HubSpot forms, to Google Analytics and beyond.&nbsp;</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="benefits-footer">
+                <div><h4 style="text-align: center; "><b>All of which means you’re better equipped to engage your audience—and generate&nbsp;leads.</b></h4></div>
+                <a class="button round small" href="/what-is">Read more here</a>
+            </div>
+        </div>
+    </div>
+</div>
