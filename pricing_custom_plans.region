@@ -1,0 +1,13 @@
+<div class="blue block" id="custom-plans">
+    <div class="row">
+        <div class="large-12 columns">
+            <span class="typcn typcn-beaker"></span>
+            <div>
+                <h3>custom plans for agencies</h3>
+                <p>Our agency plans are geared to the unique requirements of the digital agency, whether you’re a global marketing group or a boutique creative shop. 
+                    We’re flexible around you and your client’s needs — so get in touch, and let’s talk.</p>
+            </div>
+            <a href="mailto:hello@stipso.com" class="button secondary round">hello@stipso.com</a>
+        </div>
+    </div>
+</div>
