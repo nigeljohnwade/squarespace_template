@@ -1,0 +1,26 @@
+<div id="pricing" class="block gray">
+    <div class="row">
+        <div class="large-12 columns">
+            <div>
+                <h2>Pricing</h2>
+                <h4>Let's talk about you.</h4>
+                <p class="subtitle">From the enterprise CMO to the lone startup marketer, Stipso has a plan that’s right for you.&nbsp;</p>
+            </div>
+            <div class="row">
+                <div class="large-6 columns">
+                    <img src="assets/img/cmos.png" alt=""><div>
+                    <h3>stipso for in-house marketers</h3>
+                    <p>For companies who create their own content in-house, Stipso offers a new way to produce sophisticated visual content in a time- and resource-efficient way.</p></div>
+                    <a href="/pricing" class="button round secondary small">Plans &amp; Pricing</a>
+                </div>
+                <div class="large-6 columns">
+                    <img src="assets/img/agencies.png" alt="">
+                    <div>
+                        <h3>stipso For Agencies</h3>
+                        <p>Our agency plan is geared to the unique requirements of the digital agency, whether you’re a global group or a boutique creative shop. </p></div>
+                    <a href="mailto:hello@stipso.com" class="button round secondary small">Get in touch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
