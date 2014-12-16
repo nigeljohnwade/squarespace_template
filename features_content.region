@@ -1,0 +1,89 @@
+<div id="features-page">
+    <div class="block orange">
+        <div class="row" id="creative-freedom">
+            <div class="large-6 columns">
+                <div>
+                    <h3>Creative freedom.</h3>
+                    <p>Stipso was built for creatives, so there are no boring templates here. 
+                        Stipso is <b>a blank canvas with an elegant card-based interface</b> that puts creative control back where it belongs: in your hands.</p>
+                    <p>Upload your campaign assets — brand collateral, images, typefaces — to make your Living Infographic both <b>visually unique and</b>
+                        <span style="font-family: inherit; font-size: 1rem; line-height: 1.6;"><b>&nbsp;aesthetically consistent</b> with your creative strategy.</span></p>
+                    <p>Producing quality content is a collaborative process, so we make it easy to <b>generate live previews</b> in the cloud for colleagues, clients and partners.</p>
+                </div>
+            </div>
+            <div class="large-6 columns">
+                <img src="/assets/img/features/creative-freedom.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="block gray">
+        <div class="row" id="data-vis">
+            <div class="large-6 columns">
+                <img src="/assets/img/features/data-vis.jpg" alt=""></div>
+            <div class="large-6 columns">
+                <div>
+                    <h3>Effortless data visualisation.</h3>
+                    <p>Stipso handles the heavy lifting of data visualisation. Just ask a question, define your answer options and pick an output format, and our <b>robust visualisation engine</b> handles the rest, producing <b>beautiful, completely customisable graph and chart outputs</b> that update as people contribute data.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="row">
+            <div class="large-6 columns">
+                <div>
+                    <h3>Social Infographics.</h3>
+                    <p>Living Infographics are made to share. Stipso offers <b>baked-in social functionality</b>, making sharing to the social web a breeze. You can even embed Twitter widgets directly into your infographic, to hook in to your wider social campaigns.</p>
+                    <p><span style="font-family: inherit; font-size: 1rem; line-height: 1.6;">Best of all, Living Infographics are <b>people-powered</b>: the more they’re shared, and the more people engage, the more valuable they become.</span></p>
+                </div>
+            </div>
+            <div class="large-6 columns">
+                <img src="/assets/img/features/sharing.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="block blue">
+        <div class="row">
+            <div class="large-6 columns">
+                <img src="/assets/img/features/call-to-action.jpg" alt=""></div>
+            <div class="large-6 columns">
+                <div>
+                    <h3>integrated Calls to Action.</h3>
+                    <p>Drive conversions with integrated calls to action: use your Living Infographic to <b>collect email signups</b> using MailChimp or HubSpot, 
+                        <b>run competitions</b> or channel users further down your marketing funnel with embedded links, rich media — from <b>cat GIFs</b> to <b>YouTube videos</b> to 
+                        <b>SlideShare decks</b> and beyond — and effective social integration. You can drive people to your landing page — or even use a Living Infographic <i>as</i> a standalone landing page.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="row">
+            <div class="large-6 columns">
+                <div><h3>Audience insight and analytics.</h3><p>You’re asking questions, and people are answering them. 
+                    There are valuable, actionable audience insights in that data — so Stipso has <b>a robust contributions dashboard</b> to help you find them. 
+                    We put <b>reporting and ROI</b> at the heart of the process.</p>
+                    <p>We know that digital marketers live and die by their analytics, and there’s nothing more important than a bird’s eye view of your entire campaign —&nbsp;so <b>we make Google Analytics integration seamless</b>: just plug in your UA code, and away you go.</p>
+                </div>
+            </div>
+            <div class="large-6 columns">
+                <img src="/assets/img/features/analytics.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="block gray" id="pre-footer-cta">
+        <div class="row">
+            <div class="large-12 columns">
+                <div>
+                    <h3>ready to bring your infographics to life?</h3>
+                    <p>Let’s do it! Hit the button below to request an invite — we’ll let you know as soon as Stipso is ready for you.</p>
+                </div>
+                <a href="#" data-reveal-id="request-invite-modal" class="button round">Request an invitation</a>
+            </div>
+        </div>
+    </div>
+</div>
