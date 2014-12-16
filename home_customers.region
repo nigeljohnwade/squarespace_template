@@ -1,0 +1,21 @@
+<div id="customers" class="block blue">
+    <div class="row">
+        <div class="large-12 columns">
+            <div>
+                <h2>Customers</h2>
+                <h4>You're in good company.</h4>
+                <p class="subtitle">Meet the top-class brands and agencies already using Stipso in their content marketing.</p>
+            </div>
+        </div>
+        <div class="large-12 columns">
+            <a href="http://freeagent.com" target="_blank" class="client-logo" id="freeagent"></a>
+            <a href="http://edinburghairport.com" target="_blank" class="client-logo" id="edinair"></a>
+            <a href="http://turingfestival.com" target="_blank" class="client-logo" id="turing"></a>
+            <a href="http://biteglobal.com" target="_blank" class="client-logo" id="bite"></a>
+            <a href="http://www.morganintl.com/" target="_blank" class="client-logo" id="morgan" title="Global lead in professional training for certifications: CPA, CFA, CMA, CIA"></a><br><a href="http://workplacesystems.com" target="_blank" class="client-logo" id="workplace"></a>
+            <a href="http://disciplinedentrepreneurship.com" target="_blank" class="client-logo" id="disciplined"></a>
+            <a href="http://digitaslbi.com" target="_blank" class="client-logo" id="digitaslbi"></a>
+            <a href="http://powa.com" target="_blank" class="client-logo" id="powa"></a>
+        </div>
+    </div>
+</div>
