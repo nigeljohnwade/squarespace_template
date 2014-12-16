@@ -1,0 +1,13 @@
+<div class="block blue" id="connect">
+    <div class="row">
+        <div class="large-12 columns">
+            <div>
+                <h3>Connect with us</h3>
+                <p>You can find and follow Stipso in all the usual places around the web. Come and say hello on…</p>
+                <a href="#"><span class="typcn typcn-social-facebook"></span></a>
+                <a href="#"><span class="typcn typcn-social-twitter"></span></a>
+                <a href="#"><span class="typcn typcn-social-google-plus"></span></a>
+            </div>
+        </div>
+    </div>
+</div>

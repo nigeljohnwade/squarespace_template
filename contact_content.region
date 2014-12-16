@@ -1,0 +1,16 @@
+<div class="block gray">
+    <div class="row">
+        <div class="large-6 columns">
+            <div>
+                <h3>If you’re interested in using Stipso, or for general enquiries...</h3>
+                <p>We’ll be happy to answer any questions you have. Email us at <a href="mailto:hello@stipso.com">hello@stipso.com</a> and let’s talk. </p>
+                <p><span style="font-family: inherit; font-size: 1rem; line-height: 1.6;">For account and billing queries, email <a href="mailto:support@stipso.com">support@stipso.com</a> with your Stipso username.&nbsp;</span><span style="font-family: inherit; font-size: 1rem; line-height: 1.6;">You can also check out our frequently asked questions.</span><br></p></div>
+        </div>
+        <div class="large-6 columns">
+            <div>
+                <h3>If you’re having technical Issues with Stipso...</h3>
+                <p>We’re sorry to hear you’re having problems. Send an email to <a href="mailto:support@stipso.com">support@stipso.com</a> and we’ll make the interns pedal faster.</p>
+                <p>You can also click the question mark icon in the bottom right hand corner of the Stipso editor view to send us a message via <a href="#">Intercom</a>.</p></div>
+        </div>
+    </div>
+</div>
