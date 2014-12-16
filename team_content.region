@@ -1,0 +1,83 @@
+<div id="team">
+
+    <div id="sub-hero" class="block">
+        <div class="row">
+            <div class="large-12 columns">
+                <div>
+                    <h2>We build beautiful things.</h2>
+                    <p class="subtitle">Stipso is built by a small team of entrepreneurs, marketers, hackers and creatives working in the 
+                        <a href="http://www.thisiscodebase.com" target="_blank">CodeBase</a>&nbsp;incubator in Edinburgh, Scotland.
+                        &nbsp;</p>
+                    <p class="subtitle">For more information about Stipso, look us up on <a href="http://www.crunchbase.com/organization/stipso">CrunchBase</a>
+                        or&nbsp;<a href="https://angel.co/stipso" target="_blank">AngelList</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="vision" class="block gray">
+        <div class="row">
+            <h3>Vision</h3>
+            <div class="row">
+                <div class="large-4 large-offset-2 columns team-single">
+                    <img src="/assets/img/steven.png" alt=""><div><br><h4>Steven drost</h4><p class="job-title">Co-founder &amp; Chief Executive Officer</p><p>An improving bread baker, voracious reader and recovering market researcher, Steven oversees product development and strategy. He spends a lot of time thinking about making products, the web and Sherlock Holmes.</p></div>
+                    <a href="http://twitter.com/drostyboy" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+                    <a href="http://uk.linkedin.com/in/stevendrost" target="_blank" class="linked-in"><span class="typcn typcn-social-linkedin-circular"></span></a>
+                </div>
+                <div class="large-4 columns team-single">
+                    <img src="/assets/img/brian.png" alt=""><div><br><h4>Brian corcoran</h4><p class="job-title">Co-founder &amp; Chief Customer Officer</p><p>A Dubliner transplanted to Edinburgh, Brian leads Stipso’s customer acquisition and inbound marketing activities, and in his spare time enjoys relaxing activities such as rock climbing and long-distance cycling.</p></div>
+                    <a href="http://twitter.com/brianc13" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+                    <a href="http://uk.linkedin.com/in/briandcorcoran" target="_blank" class="linked-in"><span class="typcn typcn-social-linkedin-circular"></span></a>
+                </div>
+                <div class="large-2 columns"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="tech" class="block blue">
+        <div class="row">
+            <h3>Tech</h3>
+            <div class="row">
+                <div class="large-4 large-offset-2 columns team-single">
+                    <img src="/assets/img/iain.png" alt=""><div><h4>Iain broadfoot</h4><p class="job-title">Lead Developer</p><p>Iain is Stipso’s lead software engineer. He keeps trying to escape software development, but no extreme sport                compares to the thrill of deploying untested code to unstable cloud platforms.</p></div>
+                    <a href="http://twitter.com/ibroadfo" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+                </div>
+                <div class="large-4 columns team-single">
+                    <img src="/assets/img/ivana.png" alt=""><div><h4>Ivana mcconnell</h4><p class="job-title">Lead Designer</p><p>Hailing from Sarajevo via Vancouver, Stipso’s&nbsp;front-end/UX designer Ivana spends her days pushing pixels and obsessing over typography. She is a keen boulderer, and is usually waiting for it to be lunchtime.</p></div>
+                    <a href="http://twitter.com/ivanamcconnell" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+                </div>
+                <div class="large-2 columns"></div>
+            </div>
+        </div>
+        <div class="row second">
+            <div class="large-4 large-offset-2 columns team-single">
+                <img src="/assets/img/donald.png" alt=""><div><h4>Donald anderson</h4><p class="job-title">Developer</p><p>Formerly our fresh-faced new kid, Donald spends his days buried in code developing new features. He can generally be found with doughnuts that he tries in increasingly devious ways to hide from the rest of us.</p></div>
+                <a href="http://twitter.com/____Donald____" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+            </div>
+            <div class="large-4 columns team-single">
+                <img src="/assets/img/donaldm.png" alt=""><div><h4>Donald Mackintosh</h4><p class="job-title">Graduate Developer</p><p>Because one Donald just wasn't enough. New Donald is Stipso's graduate developer and resident cartographer. He wrangles APIs, builds new features and may or may not be developing SkyNet in his 20% time.</p></div>
+                <a href="http://twitter.com/Donald_I_M" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+            </div>
+            <div class="large-2 columns"></div>
+        </div>
+        <div class="row second">
+            <div class="large-4 large-offset-4 columns team-single">
+                <img src="/assets/img/alex.png" alt=""><div><h4>Alex Mantzaris</h4><p class="job-title">Data Scientist</p><p>Originally hailing from Greece via the US, Alex is a post-doctoral researcher in maths at the University of Strathclyde. He specialises in temporal networks and social data, and works with Stipso's product team on data analysis and insights. </p></div>
+                <a href="http://twitter.com/v4ss" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="marketing" class="block orange">
+        <div class="row">
+            <h3>Marketing</h3>
+            <div class="row">
+                <div class="large-4 columns large-offset-4 team-single">
+                    <img src="/assets/img/marcus.png" alt=""><div><br><h4>Marcus kernohan</h4><p class="job-title">Content Strategist</p><p>A reformed journalist, Marcus is our resident writer, editor and marketing strategist. He spends his days writing about digital marketing, product design and data visualisation.</p></div>
+                    <a href="http://twitter.com/mkernohan" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
