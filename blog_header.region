@@ -19,8 +19,7 @@
     <link href="/assets/img/favicon.ico" rel="shortcut icon">
 
     <script type="text/javascript" src="//use.typekit.net/ven0qnx.js"></script>
-    <style type="text/css">.tk-rooney-web{font-family:"rooney-web",sans-serif;}.tk-azo-sans-web{font-family:"azo-sans-web",sans-serif;}</style><link rel="stylesheet" href="http://use.typekit.net/c/4a56f8/1w;azo-sans-web,2,ZCv:N:i4,ZCz:N:i7,ZCr:N:n3,ZFC:N:n4,ZCy:N:n7;rooney-web,2,Q8d:N:i4,Q8j:N:i7,Q8c:N:n4,Q8h:N:n7/d?3bb2a6e53c9684ffdc9a9bf21b5b2a6212c659a382e93df341d51f532a29835b448dcd7bd4000726d4c13d3049db54b911bde5af016bbc5adba1c683e9cbb1d9eb2e1869562df20903395a9dd28cb38f1c8f291766e4efdf969952d2c434756bd611ab0b54a421e60e4b09669b49dbf58a8386ba8cfcdc59a5b01f1e7585b4174ebecfe9b87073704b7502028e"><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
+    
     <script>
         $(document).ready(function() {
             $('code').addClass('prettyprint linenums');
