@@ -32,9 +32,9 @@
     <div class="row">
         <div class="large-12 columns">
             <ul class="sub-navigation">
-                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="/faq.html">FAQ</a></li>
+                <li><a href="/terms-and-conditions.html">Terms and Conditions</a></li>
             </ul>
         </div>
     </div>
@@ -53,7 +53,7 @@
 
             <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup">
-                <form action="http://stipso.us4.list-manage1.com/subscribe/post?u=1ad23b5de7bb71c2b1f6e628b&amp;id=f898f9a0af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <form action="//stipso.us4.list-manage1.com/subscribe/post?u=1ad23b5de7bb71c2b1f6e628b&amp;id=f898f9a0af" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <div class="mc-field-group">
                         <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
                         </label>
