@@ -38,7 +38,6 @@
 
 <script>
     $(document).ready(function(){
-        alert('ready');
         foundation();
     });
 </script>
