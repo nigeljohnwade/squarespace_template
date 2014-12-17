@@ -33,6 +33,7 @@
 
 
 <script type="text/javascript">
+    $(document).foundation();
     $(function() {
         $(".account-type").click(function() {
             $(this).toggleClass("selected");
