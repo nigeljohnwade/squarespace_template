@@ -37,7 +37,10 @@
 
 
 <script>
-    $(document).foundation();
+    $(document).ready(function(){
+        alert('ready');
+        foundation();
+    });
 </script>
 
 <script type="text/javascript">
