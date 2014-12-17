@@ -30,3 +30,24 @@
         </div>
     </div>
 </div>
+<script src='/assets/js/jquery.js'></script>
+<script src='/assets/js/foundation.min.js'></script>
+<script src='/assets/js/retina.js'></script>
+
+
+
+<script>
+    $(document).foundation();
+</script>
+
+<script type="text/javascript">
+    $(function() {
+        $(".account-type").click(function() {
+            $(this).toggleClass("selected");
+        });
+
+    });</script>
+
+</body>
+
+</html>
