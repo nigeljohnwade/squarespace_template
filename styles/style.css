@@ -33,7 +33,7 @@ ul, ol {
 }
 
 #hero.block {
-  background-image: url(../img/header.jpg);
+  background-image: url(../assets/img/header.jpg);
   background-size: cover;
   padding: 0 0 100px;
   background-color: #444346;
@@ -237,7 +237,7 @@ h1 {
   margin-bottom: 0; }
 
 #footer {
-  background-image: url(../img/footer.png);
+  background-image: url(../assets/img/footer.png);
   background-size: cover;
   text-shadow: 0 0 10px black;
   background-color: #444346; }
@@ -435,90 +435,90 @@ h1 {
 .client-logo#disciplined {
   width: 184px;
   height: 28px;
-  background-image: url(../img/logos/de-bw@2x.png);
+  background-image: url(../assets/img/logos/de-bw@2x.png);
   background-size: 184px 28px; }
   .client-logo#disciplined:hover {
-    background-image: url(../img/logos/de-colour@2x.png); }
+    background-image: url(../assets/img/logos/de-colour@2x.png); }
 
 .client-logo#workplace {
   width: 119px;
   height: 33px;
-  background-image: url(../img/logos/workplacebw.png);
+  background-image: url(../assets/img/logos/workplacebw.png);
   background-size: 119px 33px; }
   .client-logo#workplace:hover {
-    background-image: url(../img/logos/workplace.png); }
+    background-image: url(../assets/img/logos/workplace.png); }
 
 .client-logo#digitaslbi {
   width: 183px;
   height: 36px;
-  background-image: url(../img/logos/digitaslbibw.png);
+  background-image: url(../assets/img/logos/digitaslbibw.png);
   background-size: 183px 36px; }
   .client-logo#digitaslbi:hover {
-    background-image: url(../img/logos/digitaslbi.png); }
+    background-image: url(../assets/img/logos/digitaslbi.png); }
 
 .client-logo#bite {
   width: 80px;
   height: 34px;
-  background-image: url(../img/logos/bitebw.png);
+  background-image: url(../assets/img/logos/bitebw.png);
   background-size: 80px 34px; }
   .client-logo#bite:hover {
-    background-image: url(../img/logos/bite.png); }
+    background-image: url(../assets/img/logos/bite.png); }
 
 .client-logo#morgan {
   width: 160px;
   height: 29px;
-  background-image: url(../img/logos/morgan-bw.png);
+  background-image: url(../assets/img/logos/morgan-bw.png);
   background-size: 160px 29px; }
   .client-logo#morgan:hover {
-    background-image: url(../img/logos/morgan-colour.png); }
+    background-image: url(../assets/img/logos/morgan-colour.png); }
 
 .client-logo#turing {
   width: 188px;
   height: 44px;
-  background-image: url(../img/logos/turingbw.png);
+  background-image: url(../assets/img/logos/turingbw.png);
   background-size: 188px 44px; }
   .client-logo#turing:hover {
-    background-image: url(../img/logos/turing.png); }
+    background-image: url(../assets/img/logos/turing.png); }
 
 .client-logo#freeagent {
   width: 183px;
   height: 36px;
-  background-image: url(../img/logos/freeagentbw.png);
+  background-image: url(../assets/img/logos/freeagentbw.png);
   background-size: 183px 37px; }
   .client-logo#freeagent:hover {
-    background-image: url(../img/logos/freeagent.png); }
+    background-image: url(../assets/img/logos/freeagent.png); }
 
 .client-logo#edinair {
   width: 183px;
   height: 49px;
-  background-image: url(../img/logos/edinairbw.png);
+  background-image: url(../assets/img/logos/edinairbw.png);
   background-size: 183px 49px; }
   .client-logo#edinair:hover {
-    background-image: url(../img/logos/edinair.png); }
+    background-image: url(../assets/img/logos/edinair.png); }
 
 .client-logo#powa {
   width: 128px;
   height: 35px;
-  background-image: url(../img/logos/powabw.png);
+  background-image: url(../assets/img/logos/powabw.png);
   background-size: 128px 35px; }
   .client-logo#powa:hover {
-    background-image: url(../img/logos/powatag.png); }
+    background-image: url(../assets/img/logos/powatag.png); }
 
 .client-logo#brightfire {
   width: 160px;
   height: 40px;
-  background-image: url(../img/logos/brightfire-bw.jpg);
+  background-image: url(../assets/img/logos/brightfire-bw.jpg);
   background-size: 160px 40px; }
   .client-logo#brightfire:hover {
-    background-image: url(../img/logos/brightfire-colour.jpg); }
+    background-image: url(../assets/img/logos/brightfire-colour.jpg); }
 
 .client-logo#velocity {
   width: 159px;
   height: 32px;
-  background-image: url(../img/logos/velocity-bw.png);
+  background-image: url(../assets/img/logos/velocity-bw.png);
   background-size: 159px 32px; }
   .client-logo#velocity:hover {
-    background-image: url(../img/logos/velocity-colour.png); }
+    background-image: url(../assets/img/logos/velocity-colour.png); }
 
 .indicates-required {
   margin-bottom: 15px;
