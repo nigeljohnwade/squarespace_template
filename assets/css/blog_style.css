@@ -238,7 +238,7 @@ textarea {
     color: #1ea1d7;
 }
 
-.meta-text .author a {
+.meta-text a p.author{
         color: #444346;
 }
 
