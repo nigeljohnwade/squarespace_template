@@ -9,8 +9,6 @@
     <script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <link rel="alternate" type="application/atom+xml" title="Atom" href="blog.stipso.com/feed/atom/">
     <link rel="stylesheet" href="/assets/css/foundation.css">
-    <script type="text/javascript" src="/assets/js/menu.js"></script>
-    <script type="text/javascript" src="/assets/js/easymodal.js"></script>
     <script type="text/javascript" src="/assets/js/foundation.min.js"></script><meta class="foundation-mq-small"><meta class="foundation-mq-medium"><meta class="foundation-mq-large"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-xxlarge"><style></style>
     <link rel="stylesheet" href="/assets/css/typicons.min.css">
     <link rel="stylesheet" href="/assets/css/blog_style.css">
