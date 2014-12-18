@@ -600,6 +600,14 @@ line-height:13px;
     font-size: 72px;
     margin-bottom: 20px;
 }
+#footer {
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+    background-color: #444346; }
+#footer h5, #footer p {
+    color: white;
+    font-size: 14px; }
 
 #footer-social-links a {
     line-height: 16px;
