@@ -1,2 +1,3 @@
-{squarespace.main-content}
-
+<div class="row main-body">
+    {squarespace.main-content}
+</div>
