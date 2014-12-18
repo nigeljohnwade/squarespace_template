@@ -26,7 +26,7 @@
   </div>
 
   
-  <article id="post-{id}" class="{@|item-classes} large-9 columns">
+  <article id="post-{id}" class="{@|item-classes} large-9 columns post-content">
     
     <!--POST TILE-->
 
