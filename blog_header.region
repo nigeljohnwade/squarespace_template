@@ -39,6 +39,7 @@
         })();
 
     </script>
+    {squarespace-headers}
 </head>
 
 <body>
