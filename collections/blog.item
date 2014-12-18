@@ -1,4 +1,4 @@
-
+<div class="main-body">
 {.section item}
 
   <!--WRAPPER-->
@@ -115,3 +115,4 @@
 
   </nav>
 {.end}
+</div>
