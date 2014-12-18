@@ -157,7 +157,7 @@ small {
     color: #ccc;
 }
 
-#read-more-button {
+.read-more-button {
     color: white;
     text-transform: uppercase;
     transition: background 0.2s linear;
