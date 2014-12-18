@@ -636,6 +636,7 @@ blockquote {
     -webkit-transition: background 500ms, color 500ms;
     -moz-transition: background 500ms, color 500ms;
     color: white;
+    font-familty: 'azo-sans-web',sans-serif; 
 }
 #sub-footer ul li a:hover {
     background: #222;
