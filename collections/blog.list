@@ -16,6 +16,7 @@
 {.if authorFilter}
   <p>Filtering by Author: {author.displayName}</p>
 {.end}
+<div class="row main-body">
 
 <!--ITEM LOOP-->
 <div id="main-posts">
@@ -140,3 +141,4 @@
 
   </nav>
 {.end}
+</div>
