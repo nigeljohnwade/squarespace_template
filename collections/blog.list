@@ -47,7 +47,7 @@
               {.or}
                 <a class="post-title" href="{fullUrl}">{title}</a>
               {.end}
-            </h1>
+            </h3>
             <!--CATEGORIES-->
                 <p  class="single-post-category">A post about
                 {.repeated section categories}
