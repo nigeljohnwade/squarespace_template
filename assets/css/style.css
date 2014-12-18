@@ -35,7 +35,7 @@ ul, ol {
 #hero.block {
   background-image: url(../img/header.jpg);
   background-size: cover;
-  padding: 0 0 100px;
+  padding: 0 0 1000px;
   background-color: #444346;
   border-bottom: 10px solid #f2f2f2;
   text-align: center;
