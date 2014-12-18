@@ -18,102 +18,103 @@
 {.end}
 
 <!--ITEM LOOP-->
-
-{.repeated section items}
-
-  <!--WRAPPER-->
-  
-  <article id="post-{id}" class="{@|item-classes} row">
+<div class="main-posts">
+    {.repeated section items}
     
-    
-    <div class="large-3 columns">
-        <!--POST META-->
+      <!--WRAPPER-->
+      
+      <article id="post-{id}" class="{@|item-classes} row">
         
-        <div class="meta">
-          <a href="?author={author.id}"><p>{author.displayName}</p></a>
-          <a href="{fullUrl}"><p><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></p></a>.
-          {.section sourceUrl}
-            <a href="{@}" class="source" target="_blank">Source</a>.
-          {.end}
-        </div>   
-    </div>
-    <div class="large-9 columns">
-        <!--POST TILE-->
+        
+        <div class="large-3 columns">
+            <!--POST META-->
             
-        <h3 class="title">
-          {.passthrough?}
-            <a href="{sourceUrl}" target="_blank">{title}</a>
-          {.or}
-            <a href="{fullUrl}">{title}</a>
-          {.end}
-        </h1>
-        <!--CATEGORIES-->
-                <p  class="single-post-category">A post about
-                {.repeated section categories}
-                  <a class="single-post-category" href="?category={@|url-encode}">{@}</a>{.alternates with},
-                {.end}
-                </p>
+            <div class="meta">
+              <a href="?author={author.id}"><p>{author.displayName}</p></a>
+              <a href="{fullUrl}"><p><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></p></a>.
+              {.section sourceUrl}
+                <a href="{@}" class="source" target="_blank">Source</a>.
+              {.end}
+            </div>   
+        </div>
+        <div class="large-9 columns">
+            <!--POST TILE-->
                 
-        <!--MAIN IMAGE-->
-        <div class="large-6 columns">
-            {.main-image?}  
-              <a href="{fullUrl}" class="main-image content-fill">
-                <img {@|image-meta} src="{fullUrl}?format=200w"/>
-              </a>
-            {.end}
-        </div>
-        <!--EXCERPT OR BODY-->
-        <div class="large-6 columns">
-        {.if excerpt}
-          {excerpt}
-          <a class="link" href="{fullUrl}">Read More</a>
-        {.or}
-    
-        <!--MAIN CONTENT-->
-    
-          {body}
-          <a class="link" href="{fullUrl}">Permalink</a>
-    
-        {.end}
-        </div>
-        <!--BLOG INJECTION-->
-    
-        {postItemInjectCode}    
-    
+            <h3 class="title">
+              {.passthrough?}
+                <a href="{sourceUrl}" target="_blank">{title}</a>
+              {.or}
+                <a href="{fullUrl}">{title}</a>
+              {.end}
+            </h1>
+            <!--CATEGORIES-->
+                    <p  class="single-post-category">A post about
+                    {.repeated section categories}
+                      <a class="single-post-category" href="?category={@|url-encode}">{@}</a>{.alternates with},
+                    {.end}
+                    </p>
+                    
+            <!--MAIN IMAGE-->
+            <div class="large-6 columns">
+                {.main-image?}  
+                  <a href="{fullUrl}" class="main-image content-fill">
+                    <img {@|image-meta} src="{fullUrl}?format=200w"/>
+                  </a>
+                {.end}
+            </div>
+            <!--EXCERPT OR BODY-->
+            <div class="large-6 columns">
+            {.if excerpt}
+              {excerpt}
+              <a class="link" href="{fullUrl}">Read More</a>
+            {.or}
         
-        <!--TAGS
+            <!--MAIN CONTENT-->
+        
+              {body}
+              <a class="link" href="{fullUrl}">Permalink</a>
+        
+            {.end}
+            </div>
+            <!--BLOG INJECTION-->
+        
+            {postItemInjectCode}    
+        
+            
+            <!--TAGS
+        
+            {.repeated section tags}
+              <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with},
+            {.end}
+            -->
+             
+            <!--SHARE AND LIKE
+        
+            {@|like-button}
+            {@|social-button}
+            -->
+        
+            <!--LINK TO COMMENTS-->
+        
+            {@|comment-link}
+        
+            <!--LOCATION-->
+        
+            {.section location}
+              {.section addressTitle}
+                {addressTitle}
+                {addressLine1}
+                {addressLine2}
+                {addressCountry}
+              {.end}
+            {.end}
+            <hr/>
+          </div>
+      </article>
     
-        {.repeated section tags}
-          <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with},
-        {.end}
-        -->
-         
-        <!--SHARE AND LIKE
-    
-        {@|like-button}
-        {@|social-button}
-        -->
-    
-        <!--LINK TO COMMENTS-->
-    
-        {@|comment-link}
-    
-        <!--LOCATION-->
-    
-        {.section location}
-          {.section addressTitle}
-            {addressTitle}
-            {addressLine1}
-            {addressLine2}
-            {addressCountry}
-          {.end}
-        {.end}
-        <hr/>
-      </div>
-  </article>
-
-  {.or}
-    No blog posts yet.
+      {.or}
+        No blog posts yet.
+</div>
 {.end}
   
 <!--PAGINATION-->
