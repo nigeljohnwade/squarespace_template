@@ -40,13 +40,20 @@
     <div class="large-9 columns">
         <!--POST TILE-->
             
-        <h1 class="title">
+        <h3 class="title">
           {.passthrough?}
             <a href="{sourceUrl}" target="_blank">{title}</a>
           {.or}
             <a href="{fullUrl}">{title}</a>
           {.end}
         </h1>
+        <!--CATEGORIES
+                <p  class="single-post-category">A post about
+                {.repeated section categories}
+                  <a class="single-post-category" href="?category={@|url-encode}">{@}</a>{.alternates with},
+                {.end}
+                </p>
+                -->
         <!--MAIN IMAGE-->
         <div class="large-6 columns">
             {.main-image?}  
@@ -73,12 +80,7 @@
     
         {postItemInjectCode}    
     
-        <!--CATEGORIES
-    
-        {.repeated section categories}
-          <a class="category" href="?category={@|url-encode}">{@}</a>{.alternates with},
-        {.end}
-        -->
+        
         <!--TAGS
     
         {.repeated section tags}
