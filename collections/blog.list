@@ -109,7 +109,6 @@
                 {addressCountry}
               {.end}
             {.end}
-            <hr/>
           </div>
       </article>
     
