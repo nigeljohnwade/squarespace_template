@@ -422,7 +422,7 @@ blockquote {
 /* New */
 
 #hero.block {
-  background-image: url('/img/header.jpg');
+  background-image: url('../img/header.jpg');
   background-size: cover;
   padding: 0 0 100px;
   text-shadow: 0 0 5px black;
@@ -551,7 +551,7 @@ line-height:13px;
 }
 
 #footer {
-  background-image: url('/img/footer.png');
+  background-image: url('../img/footer.png');
   background-size: cover;
   text-shadow: 0 0 0 5px black;
   background-color: #444346; }
