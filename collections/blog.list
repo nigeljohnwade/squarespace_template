@@ -33,9 +33,6 @@
             <div class="meta-text">
               <a href="?author={author.id}"><p class="author">{author.displayName}</p></a>
               <a href="{fullUrl}"><p><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></p></a>.
-              {.section sourceUrl}
-                <a href="{@}" class="source" target="_blank">Source</a>.
-              {.end}
             </div>   
         </div>
         <div class="large-9 columns post">
