@@ -42,39 +42,40 @@
                 
             <h3 class="title">
               {.passthrough?}
-                <a href="{sourceUrl}" target="_blank">{title}</a>
+                <a class="post-title" href="{sourceUrl}" target="_blank">{title}</a>
               {.or}
-                <a href="{fullUrl}">{title}</a>
+                <a class="post-title" href="{fullUrl}">{title}</a>
               {.end}
             </h1>
             <!--CATEGORIES-->
-                    <p  class="single-post-category">A post about
-                    {.repeated section categories}
-                      <a class="single-post-category" href="?category={@|url-encode}">{@}</a>{.alternates with},
-                    {.end}
-                    </p>
-                    
-            <!--MAIN IMAGE-->
-            <div class="large-6 columns">
-                {.main-image?}  
-                  <a href="{fullUrl}" class="main-image content-fill">
-                    <img {@|image-meta} src="{fullUrl}?format=200w"/>
-                  </a>
+                <p  class="single-post-category">A post about
+                {.repeated section categories}
+                  <a class="single-post-category" href="?category={@|url-encode}">{@}</a>{.alternates with},
                 {.end}
-            </div>
-            <!--EXCERPT OR BODY-->
-            <div class="large-6 columns">
-            {.if excerpt}
-              {excerpt}
-              <a class="link" href="{fullUrl}">Read More</a>
-            {.or}
-        
-            <!--MAIN CONTENT-->
-        
-              {body}
-              <a class="link" href="{fullUrl}">Permalink</a>
-        
-            {.end}
+                </p>
+            <div class="post-content row">
+                <!--MAIN IMAGE-->
+                <div class="large-6 columns">
+                    {.main-image?}  
+                      <a href="{fullUrl}" class="main-image content-fill">
+                        <img {@|image-meta} src="{fullUrl}?format=200w"/>
+                      </a>
+                    {.end}
+                </div>
+                <!--EXCERPT OR BODY-->
+                <div class="large-6 columns">
+                {.if excerpt}
+                  {excerpt}
+                  <a class="link" href="{fullUrl}">Read More</a>
+                {.or}
+            
+                <!--MAIN CONTENT-->
+            
+                  {body}
+                  <a class="link" href="{fullUrl}">Permalink</a>
+            
+                {.end}
+                </div>
             </div>
             <!--BLOG INJECTION-->
         
