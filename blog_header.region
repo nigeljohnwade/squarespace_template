@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/assets/css/foundation.css">
     <script type="text/javascript" src="/assets/js/foundation.min.js"></script><meta class="foundation-mq-small"><meta class="foundation-mq-medium"><meta class="foundation-mq-large"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-xxlarge"><style></style>
     <link rel="stylesheet" href="/assets/css/typicons.min.css">
+    <link rel="stylesheet" href="/assets/css/blog_style.css">
     <link href="//fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
     <link href="/assets/img/favicon.ico" rel="shortcut icon">

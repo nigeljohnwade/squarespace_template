@@ -6,11 +6,11 @@ Description: Stipso's theme, based on Foundation.
 Version: 1.0
 */
 
-body { 
+body {
     font-family: "rooney-web",serif;
     line-height: 1.5;
     color: #444346;
-	font-size: 16px;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -18,10 +18,10 @@ h1, h2, h3, h4, h5 {
 }
 
 .top-bar h1 span {
-  font-weight: bold;
-  position: relative;
-  top: 2px;
-  left: 5px;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+    left: 5px;
 }
 
 strong {
@@ -41,10 +41,10 @@ small, sub, sup { font-size: .83em }
 
 a {
     -o-transition: color .3s linear;
-  -ms-transition:color .3s linear;
-  -moz-transition:color .3s linear;
-  -webkit-transition:color .3s linear;
-  transition:color .3s linear;
+    -ms-transition:color .3s linear;
+    -moz-transition:color .3s linear;
+    -webkit-transition:color .3s linear;
+    transition:color .3s linear;
 }
 
 .wp-caption-text {
@@ -167,71 +167,71 @@ small {
 
 
 
-input[type=text], input[type=email] { 
-        height: 36px;
-        padding: 0 5px;
-        display: block;
-        font-size: 16px;
-        border: 1px solid #e3e1dc;
+input[type=text], input[type=email] {
+    height: 36px;
+    padding: 0 5px;
+    display: block;
+    font-size: 16px;
+    border: 1px solid #e3e1dc;
 }
 
 textarea {
-        font-family: 'azo-sans-web', Arial, sans-serif;
-        font-size: 16px;
-        border: 1px solid #e3e1dc;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        border-radius: 5px;
+    font-family: 'azo-sans-web', Arial, sans-serif;
+    font-size: 16px;
+    border: 1px solid #e3e1dc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
 input[type=submit]:hover, #searchsubmit:hover {
-        cursor: pointer;
+    cursor: pointer;
 }
 
-#respond label { 
-        display: block;
+#respond label {
+    display: block;
 }
 
-textarea { 
-        width: 90%;
+textarea {
+    width: 90%;
 }
 
 #searchform #searchsubmit {
-        padding: 4px;
-        margin-top: 4px;
-        font-family: 'azo-sans-web', Arial, sans-serif;
+    padding: 4px;
+    margin-top: 4px;
+    font-family: 'azo-sans-web', Arial, sans-serif;
 }
 
 #respond #cancel-comment-reply {
-        margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-/* Meta */ 
+/* Meta */
 
 .meta {
-        overflow: hidden;
-        margin-bottom: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .meta-text p {
-        margin-bottom: 0;
-        font-size: 13px;
-        text-transform: uppercase;
-        color: #bfbdc2;
-        font-family: 'azo-sans-web', Arial, sans-serif;
+    margin-bottom: 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #bfbdc2;
+    font-family: 'azo-sans-web', Arial, sans-serif;
 }
 
 .meta-text p.author {
-        font-weight: 900;
-        font-family: 'azo-sans-web', Arial, sans-serif;
+    font-weight: 900;
+    font-family: 'azo-sans-web', Arial, sans-serif;
 }
 
 .meta-text p.author-bio {
-        margin-bottom: 20px;
-      font-family: "rooney-web", serif;
-      text-transform: none;
-      font-style: italic;
-      color: #777;
+    margin-bottom: 20px;
+    font-family: "rooney-web", serif;
+    text-transform: none;
+    font-style: italic;
+    color: #777;
 }
 
 .meta-text p.author-bio a {
@@ -239,21 +239,21 @@ textarea {
 }
 
 .meta-text a p.author{
-        color: #444346;
+    color: #444346;
 }
 
 .meta-text .comments a {
-        color: #ee7d0c;
+    color: #ee7d0c;
 }
 
 .meta-text .comments a:hover, article.comment .comment-reply-link:hover {
-        color: #d46f0b;
+    color: #d46f0b;
 }
 
 /* Archive Grids */
-        
+
 .archive-grid h3 {
-        font-size: 24px;
+    font-size: 24px;
 }
 
 /* Author */
@@ -266,67 +266,67 @@ textarea {
 }
 
 
-.avatar { 
-        float: left;
-        margin-right: 5px;
+.avatar {
+    float: left;
+    margin-right: 5px;
 }
 
 
 .author-header {
-        display: table;
-        margin: 0 auto 28px;
+    display: table;
+    margin: 0 auto 28px;
 }
 
 .archive-grid .single-post {
-        margin: 40px 0 5px;
-        border-bottom: 1px solid #dddce2;
+    margin: 40px 0 5px;
+    border-bottom: 1px solid #dddce2;
 
 }
 
 
-/* General Widgets */ 
+/* General Widgets */
 
-.widgettitle { 
-        margin-bottom: 10px;
-        font-size: 20px;
-        border-bottom: 1px solid #DDD;
-        line-height: 1.3;
+.widgettitle {
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #DDD;
+    line-height: 1.3;
 }
 
-.widget { 
-        margin-bottom: 20px;
+.widget {
+    margin-bottom: 20px;
 }
 
-#searchform label { 
-        display: none;
+#searchform label {
+    display: none;
 }
 
 .widget_recent_entries .post-date {
-        text-transform: uppercase;
-        font-size: 13px;
-        display: block;
-        margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
 }
 
 /* Archive */
 
 .archive-title  {
-        text-align: center;
-        font-weight: 700;
-        font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 .archive-title span {
-        color: #c8c7cb;
+    color: #c8c7cb;
 }
 
 blockquote {
-        color: #757378;
-        font-size: 18px;
-        font-style: italic;
-        border-left: 1px solid #ccc;
-        margin-left: 20px;
-        padding-left: 20px;
+    color: #757378;
+    font-size: 18px;
+    font-style: italic;
+    border-left: 1px solid #ccc;
+    margin-left: 20px;
+    padding-left: 20px;
 }
 
 /* MC FORM */
@@ -400,54 +400,54 @@ blockquote {
 /*Signup Modal?*/
 
 #signup-modal {
-  background: white;
-  width: 380px;
-  padding: 20px;
-  box-shadow: 0px 0px 15px black;
-  -webkit-box-shadow: 0px 0px 15px black;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px; }
-  #signup-modal h3 {
+    background: white;
+    width: 380px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px black;
+    -webkit-box-shadow: 0px 0px 15px black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px; }
+#signup-modal h3 {
     font-weight: normal;
     font-family: "azo-sans-web", sans-serif;
     text-transform: uppercase;
     margin-bottom: 0;
     letter-spacing: 1px; }
-  #signup-modal p {
+#signup-modal p {
     font-size: 14px;
     margin: 0 0 15px; }
-  #signup-modal input {
+#signup-modal input {
     width: 100%; }
 
 /* New */
 
 #hero.block {
-  background-image: url('../img/header.jpg');
-  background-size: cover;
-  padding: 0 0 100px;
-  text-shadow: 0 0 5px black;
-  background-color: #444346;
-  text-align: center;
-  color: white; }
-  #hero.block .name h1 {
-      font-size: 1.0625rem;
-  }
-  #hero.block h1 {
+    background-image: url('../assets/img/header.jpg');
+    background-size: cover;
+    padding: 0 0 100px;
+    text-shadow: 0 0 5px black;
+    background-color: #444346;
+    text-align: center;
+    color: white; }
+#hero.block .name h1 {
+    font-size: 1.0625rem;
+}
+#hero.block h1 {
     color: white;
     text-transform: uppercase;
     font-size: 44px; }
-  #hero.block p {
+#hero.block p {
     font-size: 28px;
     font-weight: 100;
     font-family: 'azo-sans-web',sans-serif; }
-    #hero.block p.single-post-category {
-        font-size: 18px;
-        text-transform: uppercase; }
-    #hero.block p.single-post-category a {
-        color: #eee;
-        border-bottom: 1px solid #1ea1d7;
-        }
+#hero.block p.single-post-category {
+    font-size: 18px;
+    text-transform: uppercase; }
+#hero.block p.single-post-category a {
+    color: #eee;
+    border-bottom: 1px solid #1ea1d7;
+}
 
 
 #nav-wrapper {
@@ -472,20 +472,20 @@ blockquote {
 
 
 .block {
-  padding: 80px 0; }
-  .block h2, .block h3 {
+    padding: 80px 0; }
+.block h2, .block h3 {
     text-transform: uppercase; }
-  .block h2 {
+.block h2 {
     font-size: 30px; }
-  .block h3 {
+.block h3 {
     font-size: 20px; }
-  .block .subtitle {
+.block .subtitle {
     font-size: 20px;
     margin-bottom: 50px; }
-  .block .button {
+.block .button {
     text-transform: uppercase;
     font-weight: bold; }
-  .block .top-bar .button {
+.block .top-bar .button {
     text-transform: none;
     font-weight: normal; }
 
@@ -537,8 +537,8 @@ blockquote {
 
 #search-blog .button {
     float: right;height: 36px;
-margin: 7px 0 0 5px;
-line-height:13px;
+    margin: 7px 0 0 5px;
+    line-height:13px;
 }
 
 #search-blog .button .typcn {
@@ -552,15 +552,15 @@ line-height:13px;
 }
 
 #footer {
-  background-image: url('../img/footer.png');
-  background-size: cover;
-  text-shadow: 0 0 0 5px black;
-  background-color: #444346; }
-  #footer img {
+    background-image: url('../assets/img/footer.png');
+    background-size: cover;
+    text-shadow: 0 0 0 5px black;
+    background-color: #444346; }
+#footer img {
     width: 33px;
     height: 32px;
-  }
-  #footer h5, #footer p {
+}
+#footer h5, #footer p {
     color: white;
     font-family: 'azo-sans-web',sans-serif;
     font-size: 14px; }
@@ -614,26 +614,51 @@ line-height:13px;
     font-size: 24px;
     font-family: 'azo-sans-web',sans-serif;
 }
+#sub-footer {
+    background: black;
+}
+#sub-footer ul {
+    list-style: none;
+    margin: 0 0;
+    padding: 0 0;
+    overflow: hidden;
+}
 
+#sub-footer ul li {
+    float: left;
+}
+
+#sub-footer ul li a {
+    padding: 20px;
+    font-size: 12px;
+    display: inline-block;
+    transition: background 500ms, color 500ms;
+    -webkit-transition: background 500ms, color 500ms;
+    -moz-transition: background 500ms, color 500ms;
+    color: white;
+}
+#sub-footer ul li a:hover {
+    background: #222;
+}
 /* Modals */
 
 #request-invite-modal h3, #request-invite-modal p {
-  text-align: center;
-  font-weight: 100;
-  font-family: 'azo-sans-web',sans-serif; }
+    text-align: center;
+    font-weight: 100;
+    font-family: 'azo-sans-web',sans-serif; }
 #request-invite-modal .typcn {
-  display: block;
-  margin: auto auto;
-  background: #f7f7f7;
-  font-size: 62px;
-  text-align: center;
-  line-height: 58px;
-  height: 76px;
-  width: 76px;
-  border-radius: 38px;
-  -webkit-border-radius: 38px;
-  -moz-border-radius: 38px;
-  color: #1ea1d7; }
+    display: block;
+    margin: auto auto;
+    background: #f7f7f7;
+    font-size: 62px;
+    text-align: center;
+    line-height: 58px;
+    height: 76px;
+    width: 76px;
+    border-radius: 38px;
+    -webkit-border-radius: 38px;
+    -moz-border-radius: 38px;
+    color: #1ea1d7; }
 
 #request-invite-modal #buttons, #login-modal #buttons {
     text-align: right;
@@ -659,10 +684,10 @@ line-height:13px;
 /* Pagination */
 
 .navigation {
-  text-align: center;
-  font-family: 'azo-sans-web', Arial, sans-serif;
-  font-size: 14px;
-  text-transform: uppercase;
+    text-align: center;
+    font-family: 'azo-sans-web', Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
 
@@ -690,53 +715,53 @@ line-height:13px;
         line-height: 8px;
     }
     .post-content img {
-      display: block;
-      max-width: 100%;
-      margin: auto auto;
+        display: block;
+        max-width: 100%;
+        margin: auto auto;
     }
     #nav-wrapper {
-      margin-bottom: 30px;
+        margin-bottom: 30px;
     }
     #hero.block {
-      padding: 0 0 30px
+        padding: 0 0 30px
     }
-     #hero.block h1 {
+    #hero.block h1 {
         font-size: 26px;
-      }
-      #hero.block p.single-post-category {
+    }
+    #hero.block p.single-post-category {
         font-size: 14px;
-      }
+    }
 
-      #hero.block p {
+    #hero.block p {
         font-size: 18px;
-      }
+    }
 
     #related-posts {
-      display: none;
+        display: none;
     }
     .block#footer {
-      padding: 30px 0;
+        padding: 30px 0;
     }
     .post-content #ssba img {
-      display: inline-block;
-      margin-right: 10px;
+        display: inline-block;
+        margin-right: 10px;
     }
     #main-posts .post img {
-      border: 5px solid #eee;
-      margin-bottom: 10px;
+        border: 5px solid #eee;
+        margin-bottom: 10px;
     }
     #main-posts #avatar {
-      display: none;
+        display: none;
     }
     #main-posts .post-title {
-      font-size: 20px;
+        font-size: 20px;
     }
     #main-posts p.single-post-category {
         font-size: 12px;
         margin-bottom: 10px;
-      }
-      img.alignright, div.alignright, img.alignleft, div.alignleft {
+    }
+    img.alignright, div.alignright, img.alignleft, div.alignleft {
         float: none;
         margin: 10px;
-      }
+    }
 }
