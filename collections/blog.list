@@ -66,13 +66,13 @@
                 <div class="large-6 columns">
                 {.if excerpt}
                   {excerpt}
-                  <a class="link" href="{fullUrl}">Read More</a>
+                  <a class="button round small" href="{fullUrl}">Read More</a>
                 {.or}
             
                 <!--MAIN CONTENT-->
             
                   {body}
-                  <a class="link" href="{fullUrl}">Permalink</a>
+                  <a class="button round small" href="{fullUrl}">Permalink</a>
             
                 {.end}
                 </div>
