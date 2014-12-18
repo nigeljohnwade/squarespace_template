@@ -47,13 +47,13 @@
             <a href="{fullUrl}">{title}</a>
           {.end}
         </h1>
-        <!--CATEGORIES
+        <!--CATEGORIES-->
                 <p  class="single-post-category">A post about
                 {.repeated section categories}
                   <a class="single-post-category" href="?category={@|url-encode}">{@}</a>{.alternates with},
                 {.end}
                 </p>
-                -->
+                
         <!--MAIN IMAGE-->
         <div class="large-6 columns">
             {.main-image?}  
