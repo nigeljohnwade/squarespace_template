@@ -50,7 +50,7 @@
             <!--CATEGORIES-->
                 <p  class="single-post-category">A post about
                 {.repeated section categories}
-                  <a class="single-post-category" href="?category={@|url-encode}">{@}</a>{.alternates with},
+                  <a href="?category={@|url-encode}">{@}</a>{.alternates with},
                 {.end}
                 </p>
             <div class="post-content row">
