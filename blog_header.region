@@ -17,8 +17,6 @@
     <link href="//fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
     <link href="/assets/img/favicon.ico" rel="shortcut icon">
-
-    <script type="text/javascript" src="//use.typekit.net/ven0qnx.js"></script>
     
     <script>
         $(document).ready(function() {
