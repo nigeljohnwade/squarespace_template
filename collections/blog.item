@@ -31,7 +31,7 @@
   
   <article id="post-{id}" class="{@|item-classes} large-9 columns post-content">
     
-    <!--POST TILE-->
+    <!--POST TILE
 
     <h1 class="title">
       {.passthrough?}
@@ -40,6 +40,7 @@
         <a href="{fullUrl}">{title}</a>
       {.end}
     </h1>
+    -->
 
     <!--MAIN CONTENT-->
 
