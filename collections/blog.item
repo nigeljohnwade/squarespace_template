@@ -16,7 +16,7 @@
       <div class="row">
           <div class="large-12 columns" id="related-posts">
               <h3>Related Posts:</h3>
-              <squarespace:query collection="stipso-blog" tag="{tags}" limit="10">
+              <squarespace:query collection="stipso-blog" tag="{tags}" category="{categories}" limit="5">
 
                   <ol>
                       {.repeated section items}
