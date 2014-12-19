@@ -6,7 +6,7 @@
   <div class="large-3 columns">
       <div class="row">
           <div class="large-4 columns" id="avatar">
-              <img alt="{author.displayName}" src="http://stipso-wp-media.s3.amazonaws.com/2013/07/Marcus-Kernohan_avatar_1374242589.jpg" class="avatar avatar-95 photo" height="95" width="95">            </div>
+              <img alt="{author.displayName}" src="/global/{author.avatarId}?format=100w" class="avatar avatar-95 photo" height="95" width="95">            </div>
           <div class="large-8 columns meta-text">
               <p class="author"><a href="http://blog.stipso.com/author/marcus/" title="Posts by {author.displayName}" rel="author">{author.displayName}</a></p>
               <p><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></p>
