@@ -18,11 +18,9 @@
               <h3>Related Posts:</h3>
               <squarespace:query collection="stipso-blog" tag="{tags}" category="{categories}" limit="5">
 
-                  <ol>
-                      {.repeated section items}
-                      <li><a href="{fullUrl}">{title}</a></li>
-                      {.end}
-                  </ol>
+                  {.repeated section items}
+                  <p><a href="{fullUrl}">{title}</a></p>
+                  {.end}
 
               </squarespace:query>
               
