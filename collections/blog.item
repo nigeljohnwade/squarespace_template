@@ -58,19 +58,15 @@
       <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with},
     {.end}
 
-    <!--SHARE AND LIKE-->
+    <!--SHARE AND LIKE
 
     {@|like-button}
     {@|social-button}
+    
+    -->
 
     <!--AUTHOR AND DATE-->
-    
-    <p class="meta">
-      Published on <a href="{fullUrl}"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a>.
-      {.section sourceUrl}
-        <a href="{@}" class="source" target="_blank">Source</a>.
-      {.end}
-    </p>        
+          
 
     <!--LOCATION-->
 
