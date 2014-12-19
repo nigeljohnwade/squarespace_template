@@ -1,23 +1,23 @@
 
-<!-- CATEGORY FILTER RESULTS ex: http://base-template.squarespace.com/blog/?category=category1 -->
-
-{.section categoryFilter}
-  <p>Filtering by Category: {@}</p>
-{.end}
-
-<!-- TAG FILTER RESULTS ex: http://base-template.squarespace.com/blog/?tag=tag2 -->
-
-{.section tagFilter}
-  <p>Filtering by Tag: {@}</p>
-{.end}
-
-<!-- AUTHOR FILTER RESULTS ex: http://www.base-template.com/blog?author=4f046df4d09ae2cf23d1aaa2 -->
-
-{.if authorFilter}
-  <p>Filtering by Author: {author.displayName}</p>
-{.end}
 <div class="row main-body">
 
+    <!-- CATEGORY FILTER RESULTS ex: http://base-template.squarespace.com/blog/?category=category1 -->
+
+    {.section categoryFilter}
+    <p>Filtering by Category: {@}</p>
+    {.end}
+
+    <!-- TAG FILTER RESULTS ex: http://base-template.squarespace.com/blog/?tag=tag2 -->
+
+    {.section tagFilter}
+    <p>Filtering by Tag: {@}</p>
+    {.end}
+
+    <!-- AUTHOR FILTER RESULTS ex: http://www.base-template.com/blog?author=4f046df4d09ae2cf23d1aaa2 -->
+
+    {.if authorFilter}
+    <p>Filtering by Author: {author.displayName}</p>
+    {.end}
 <!--ITEM LOOP-->
 <div id="main-posts">
     {.repeated section items}
