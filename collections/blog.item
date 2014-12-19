@@ -51,18 +51,18 @@
 
     {postItemInjectCode}    
 
-    <!--CATEGORIES-->
+    <!--CATEGORIES
 
     {.repeated section categories}
       <a class="category" href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with},
     {.end}
-
-    <!--TAGS-->
+    -->
+    <!--TAGS
 
     {.repeated section tags}
       <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with},
     {.end}
-
+    -->
     <!--SHARE AND LIKE
 
     {@|like-button}
@@ -73,7 +73,7 @@
     <!--AUTHOR AND DATE-->
           
 
-    <!--LOCATION-->
+    <!--LOCATION
 
     {.section location}
       {.section addressTitle}
@@ -83,7 +83,7 @@
         {addressCountry}
       {.end}
     {.end}
-
+    -->
     <!--COMMENTS-->
 
     {@|comments}
@@ -93,20 +93,16 @@
 {.end}
     
 
-<!--PAGINATION-->
+<!--PAGINATION
   
 {.section pagination}
   <nav>
-
-    <!--NEWER PAGE-->
 
     {.section prevItem}
       <a href="{fullUrl}">Newer</a>
     {.or}
       <a class="disabled">Newer</a>
     {.end}
-    
-    <!--OLDER PAGE-->
 
     {.section nextItem}
       <a href="{fullUrl}">Older</a>
@@ -116,4 +112,5 @@
 
   </nav>
 {.end}
+    -->
 </div>
