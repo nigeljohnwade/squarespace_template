@@ -20,8 +20,8 @@
     <div class="row">
         <div class="large-12 columns">
             <div>
-                <h1>create People-Powered Infographics.</h1>
-                <p>Create social, interactive infographics which ask questions and visualise data — for visual content marketing that converts.</p>
+                <h1><squarespace:block-field id="blockName" columns="1" /></h1>
+                <p><squarespace:block-field id="blockName" columns="12" /></p>
             </div>
             <a href="#" data-reveal-id="request-invite-modal" class="button round">Start my 30-day free trial</a>
         </div>
