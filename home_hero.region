@@ -21,7 +21,7 @@
         <div class="large-12 columns">
             <div>
                 <squarespace:block-field id="H1" columns="1" />
-                <squarespace:block-field id="Paragrpah" columns="1" />
+                <squarespace:block-field id="Paragraph" columns="1" />
             </div>
             <a href="#" data-reveal-id="request-invite-modal" class="button round">Start my 30-day free trial</a>
         </div>
