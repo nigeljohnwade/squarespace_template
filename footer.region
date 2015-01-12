@@ -23,9 +23,9 @@
     <div class="row">
         <div class="large-12 columns">
             <ul class="sub-navigation">
-                <li><a href="/privacy-policy.html">Privacy Policy</a></li>
-                <li><a href="/faq.html">FAQ</a></li>
-                <li><a href="/terms-and-conditions.html">Terms and Conditions</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/terms-and-conditions">Terms and Conditions</a></li>
             </ul>
         </div>
     </div>
