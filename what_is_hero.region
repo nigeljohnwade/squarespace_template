@@ -17,8 +17,8 @@
     <div class="row">
         <div class="large-12 columns">
             <div>
-                <h1>stipso is visual content marketing.</h1>
-                <p>Introducing Living Infographics: making infographics work harder and surveys invisible.</p>
+                <<h1><squarespace:block-field id="TermsH1" columns="1" lock-layout="true" /></h1>
+                <p><squarespace:block-field id="TermsParagraph" columns="1" lock-layout="true" /></p>
             </div>
         </div>
     </div>
