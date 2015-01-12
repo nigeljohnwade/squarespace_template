@@ -15,7 +15,10 @@
     </div>
     <div class="row">
         <div class="large-12 columns">
-            <div><h1>Contact us</h1><p>We're here for you.</p></div>
+            <div>
+                <h1><squarespace:block-field id="ContactH1" columns="1" lock-layout="true" /></h1>
+                <p><squarespace:block-field id="ContactParagraph" columns="1" lock-layout="true" /></p>
+            </div>
         </div>
     </div>
 </div>
