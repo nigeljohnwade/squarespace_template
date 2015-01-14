@@ -42,7 +42,8 @@
                         </div>
                     </div>
                 </div>
-            {.or}
+            {.end}
+            {.even?}
                 {.main-image?}
                 <div class="large-6 columns text">
                 {.or}
