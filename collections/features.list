@@ -93,7 +93,7 @@
         </article>
 
         {.or}
-        No blog posts yet.
+        No features defined.
     </div>
     {.end}
 
