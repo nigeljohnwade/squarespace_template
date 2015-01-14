@@ -24,7 +24,7 @@
                         {.or}
                         {title}
                         {.end}
-                        (odd)
+                        (odd) {@index}
                     </h3>
                     <div class="post-content row">
 
@@ -55,7 +55,7 @@
                         {.or}
                         {title}
                         {.end}
-                        (even)
+                        (even {@index})
                     </h3>
                     <div class="post-content row">
 
