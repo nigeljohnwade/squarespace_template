@@ -55,6 +55,7 @@
                         {.or}
                         {title}
                         {.end}
+                        (even)
                     </h3>
                     <div class="post-content row">
 
