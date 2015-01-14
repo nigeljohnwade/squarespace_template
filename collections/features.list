@@ -8,14 +8,13 @@
 
         <article id="post-{id}" class="{@|item-classes} row">
 
-
+            <!--Feature Image-->
+            {.main-image?}
             <div class="large-6 columns image">
-                <!--Feature Image-->
-                {.main-image?}
-                <a href="{fullUrl}" class="main-image content-fill">
-                    <img {@|image-meta} src="{fullUrl}?format=200w" />
+                
+                <a href="{fullUrl}" class="main-image content-fill" style="width:100%">
+                    <img {@|image-meta} src="{fullUrl}" />
                 </a>
-                {.end}
             </div>
             <div class="large-6 columns text">
                 <!--Feature title -->
@@ -28,7 +27,7 @@
                     {.end}
                 </h3>
                 <div class="post-content row">
-                    
+
                     <!--EXCERPT OR BODY-->
                     <div>
                         {.if excerpt}
@@ -42,39 +41,8 @@
                         {.end}
                     </div>
                 </div>
-                <!--BLOG INJECTION-->
-
-                {postItemInjectCode}
-
-
-                <!--TAGS
-            
-                {.repeated section tags}
-                  <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with},
-                {.end}
-                -->
-
-                <!--SHARE AND LIKE
-            
-                {@|like-button}
-                {@|social-button}
-                -->
-
-                <!--LINK TO COMMENTS-->
-
-                {@|comment-link}
-
-                <!--LOCATION-->
-
-                {.section location}
-                {.section addressTitle}
-                {addressTitle}
-                {addressLine1}
-                {addressLine2}
-                {addressCountry}
-                {.end}
-                {.end}
             </div>
+            {.end}
         </article>
 
         {.or}
