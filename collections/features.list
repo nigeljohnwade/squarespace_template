@@ -42,7 +42,7 @@
                         </div>
                     </div>
                 </div>
-            {.or?}
+            {.or}
                 {.main-image?}
                 <div class="large-6 columns text">
                 {.or}
