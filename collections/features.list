@@ -14,8 +14,9 @@
                 <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:100%" />
             </div>
             <div class="large-6 columns text">
+            {.or}
+            <div class="large-6 columns text">
                 <!--Feature title -->
-
                 <h3 class="title">
                     {.passthrough?}
                         {title}
