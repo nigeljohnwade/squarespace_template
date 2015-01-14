@@ -1,7 +1,7 @@
 
 <div class="row main-body">
 
-    <div id="main-posts">
+    <div id="features-list">
         {.repeated section items}
 
         <!--WRAPPER-->
