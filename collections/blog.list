@@ -23,7 +23,9 @@
     {.repeated section items}
     
       <!--WRAPPER-->
-      
+      {.odd?}
+            <p>Odd {@index}</p>
+      {.end}
       <article id="post-{id}" class="{@|item-classes} row">
         
         
