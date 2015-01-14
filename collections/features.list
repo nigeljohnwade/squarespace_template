@@ -1,0 +1,101 @@
+
+<div class="row main-body">
+
+    <div id="main-posts">
+        {.repeated section items}
+
+        <!--WRAPPER-->
+
+        <article id="post-{id}" class="{@|item-classes} row">
+
+
+            <div class="large-3 columns">
+                <!--POST META-->
+
+                <div class="meta-text">
+                    <a href="?author={author.id}"><p class="author">{author.displayName}</p></a>
+                    <a href="{fullUrl}"><p><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></p></a>
+                </div>
+            </div>
+            <div class="large-9 columns post">
+                <!--POST TILE-->
+
+                <h3 class="title">
+                    {.passthrough?}
+                    <a class="post-title" href="{sourceUrl}" target="_blank">{title}</a>
+                    {.or}
+                    <a class="post-title" href="{fullUrl}">{title}</a>
+                    {.end}
+                </h3>
+                <!--CATEGORIES-->
+                <p  class="single-post-category">A post about
+                    {.repeated section categories}
+                    <a href="?category={@|url-encode}">{@}</a>{.alternates with},
+                    {.end}
+                </p>
+                <div class="post-content row">
+                    <!--MAIN IMAGE-->
+                    <div class="large-6 columns">
+                        {.main-image?}
+                        <a href="{fullUrl}" class="main-image content-fill">
+                            <img {@|image-meta} src="{fullUrl}?format=200w" />
+                        </a>
+                        {.end}
+                    </div>
+                    <!--EXCERPT OR BODY-->
+                    <div class="large-6 columns">
+                        {.if excerpt}
+                        {excerpt}
+                        <a class="button round small read-more-button" href="{fullUrl}">Read More</a>
+                        {.or}
+
+                        <!--MAIN CONTENT-->
+
+                        {body}
+                        <a class="button round small read-more-button" href="{fullUrl}">Permalink</a>
+
+                        {.end}
+                    </div>
+                </div>
+                <!--BLOG INJECTION-->
+
+                {postItemInjectCode}
+
+
+                <!--TAGS
+            
+                {.repeated section tags}
+                  <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with},
+                {.end}
+                -->
+
+                <!--SHARE AND LIKE
+            
+                {@|like-button}
+                {@|social-button}
+                -->
+
+                <!--LINK TO COMMENTS-->
+
+                {@|comment-link}
+
+                <!--LOCATION-->
+
+                {.section location}
+                {.section addressTitle}
+                {addressTitle}
+                {addressLine1}
+                {addressLine2}
+                {addressCountry}
+                {.end}
+                {.end}
+            </div>
+        </article>
+
+        {.or}
+        No blog posts yet.
+    </div>
+    {.end}
+
+</div>
+</div>
