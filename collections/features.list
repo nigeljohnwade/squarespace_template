@@ -15,7 +15,8 @@
             </div>
             <div class="large-6 columns text">
             {.or}
-            <div class="large-6 columns text">
+            <div class="large-12 columns text">
+            {.end}
                 <!--Feature title -->
                 <h3 class="title">
                     {.passthrough?}
@@ -40,7 +41,6 @@
                     </div>
                 </div>
             </div>
-            {.end}
         </article>
 
         {.or}
