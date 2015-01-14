@@ -9,7 +9,7 @@
         <article id="post-{id}" class="{@|item-classes} {@index} row">
 
             <!--Feature Image-->
-            {.equal? {@index} 1}
+            {.odd?}
                 {.main-image?}
                 <div class="large-6 columns image">
                     <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:100%" />
