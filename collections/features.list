@@ -30,7 +30,7 @@
                 <div class="post-content row">
                     
                     <!--EXCERPT OR BODY-->
-                    <div class="large-6 columns">
+                    <div>
                         {.if excerpt}
                         {excerpt}
                         {.or}
