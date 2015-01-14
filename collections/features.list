@@ -5,7 +5,6 @@
         {.repeated section items}
 
         <!--WRAPPER-->
-        {.section item}
         <article id="post-{id}" class="{@|item-classes} {@index} row">
 
             <!--Feature Image-->
@@ -82,7 +81,6 @@
     
             </div>
         </article>
-        {.end}
         {.or}
         No features defined.
     </div>
