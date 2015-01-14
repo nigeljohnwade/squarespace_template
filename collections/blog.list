@@ -23,15 +23,16 @@
     {.repeated section items}
     
       <!--WRAPPER-->
-      {.odd?}
-            <p>Odd {@index}</p>
-      {.end}
+    
+      
       <article id="post-{id}" class="{@|item-classes} row">
         
         
         <div class="large-3 columns">
             <!--POST META-->
-            
+            <p>
+                {.odd?}
+                Odd{.end} {@index}</p>
             <div class="meta-text">
               <a href="?author={author.id}"><p class="author">{author.displayName}</p></a>
               <a href="{fullUrl}"><p><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></p></a>
