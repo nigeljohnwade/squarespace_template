@@ -9,50 +9,35 @@
         <article id="post-{id}" class="{@|item-classes} row">
 
 
-            <div class="large-3 columns">
-                <!--POST META-->
-
-                <div class="meta-text">
-                    <a href="?author={author.id}"><p class="author">{author.displayName}</p></a>
-                    <a href="{fullUrl}"><p><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></p></a>
-                </div>
+            <div class="large-6 columns image">
+                <!--Feature Image-->
+                {.main-image?}
+                <a href="{fullUrl}" class="main-image content-fill">
+                    <img {@|image-meta} src="{fullUrl}?format=200w" />
+                </a>
+                {.end}
             </div>
-            <div class="large-9 columns post">
-                <!--POST TILE-->
+            <div class="large-6 columns text">
+                <!--Feature title -->
 
                 <h3 class="title">
                     {.passthrough?}
-                    <a class="post-title" href="{sourceUrl}" target="_blank">{title}</a>
+                    <a class="post-title">{title}</a>
                     {.or}
-                    <a class="post-title" href="{fullUrl}">{title}</a>
+                    <a class="post-title">{title}</a>
                     {.end}
                 </h3>
-                <!--CATEGORIES-->
-                <p  class="single-post-category">A post about
-                    {.repeated section categories}
-                    <a href="?category={@|url-encode}">{@}</a>{.alternates with},
-                    {.end}
-                </p>
                 <div class="post-content row">
-                    <!--MAIN IMAGE-->
-                    <div class="large-6 columns">
-                        {.main-image?}
-                        <a href="{fullUrl}" class="main-image content-fill">
-                            <img {@|image-meta} src="{fullUrl}?format=200w" />
-                        </a>
-                        {.end}
-                    </div>
+                    
                     <!--EXCERPT OR BODY-->
                     <div class="large-6 columns">
                         {.if excerpt}
                         {excerpt}
-                        <a class="button round small read-more-button" href="{fullUrl}">Read More</a>
                         {.or}
 
                         <!--MAIN CONTENT-->
 
                         {body}
-                        <a class="button round small read-more-button" href="{fullUrl}">Permalink</a>
 
                         {.end}
                     </div>
