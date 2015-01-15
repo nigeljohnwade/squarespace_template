@@ -8,7 +8,6 @@
         <article id="post-{id}" class="{@|item-classes} {@index} row">
 
             <!--Feature Image-->
-            {.odd?}
                 {.main-image?}
                 <div class="large-6 columns image">
                     <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:100%" />
@@ -41,45 +40,7 @@
                         </div>
                     </div>
                 </div>
-            {.or}
-                {.main-image?}
-                <div class="large-6 columns text">
-                {.or}
-                <div class="large-12 columns text">
-                {.end}
-                    <!--Feature title -->
-                    <h3 class="title">
-                        {.passthrough?}
-                        {title}
-                        {.or}
-                        {title}
-                        {.end}
-                        (even {@index})
-                    </h3>
-                    <div class="post-content row">
-
-                        <!--EXCERPT OR BODY-->
-                        <div>
-                            {.if excerpt}
-                            {excerpt}
-                            {.or}
-
-                            <!--MAIN CONTENT-->
-
-                            {body}
-
-                            {.end}
-                        </div>
-                    </div>
-                    </div>
-                    {.main-image?}
-                    <div class="large-6 columns image">
-                        <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:100%" />
-                    </div>
-                    {.end}
             {.end}
-    
-            </div>
         </article>
         {.or}
         No features defined.
