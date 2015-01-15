@@ -627,7 +627,10 @@ input#company-name {
 #sub-footer ul li a:hover {
     background: #222;
 }
-
+#features-page article{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 #features-page article div.image{
     float:left;
 }
