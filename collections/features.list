@@ -1,11 +1,11 @@
 
 <div class="row main-body">
 
-    <div id="features-list">
+    <div id="features-page">
         {.repeated section items}
 
         <!--WRAPPER-->
-        <article id="post-{id}" class="{@|item-classes} {@index} row">
+        <article id="post-{id}" class="block {@|item-classes} {@index} row">
 
             <!--Feature Image-->
                 {.main-image?}
