@@ -154,18 +154,19 @@ h1 {
       left: 12px;
       margin-top: -25px; }
 
-.block.orange {
+.block.orange, #features-list .block:nth-child(4n+1) {
   background: #ef7d00;
   color: white; }
-  .block.orange h2, .block.orange .subtitle, .block.orange p.center {
+  .block.orange h2, .block.orange .subtitle, .block.orange p.center,
+, #features-list .block:nth-child(4n+1) h2, , #features-list .block:nth-child(4n+1) .subtitle, , #features-list .block:nth-child(4n+1) p.center{
     text-align: center; }
-  .block.orange a {
+  .block.orange a, , #features-list .block:nth-child(4n+1) a {
     color: #a35400; }
-    .block.orange a.button {
+    .block.orange a.button, #features-list .block:nth-child(4n+1) a.button{
       color: white; }
-  .block.orange h2 {
+  .block.orange h2, #features-list .block:nth-child(4n+1) h2{
     color: white; }
-  .block.orange h3 {
+  .block.orange h3, #features-list .block:nth-child(4n+1) h3 {
     color: #a35400; }
 
 .block.blue {
