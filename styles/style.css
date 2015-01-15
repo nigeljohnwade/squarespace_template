@@ -154,27 +154,27 @@ h1 {
       left: 12px;
       margin-top: -25px; }
 
-.block.orange, #featrues-page .block:nth-child(4n+1) {
+.block.orange, #features-page .block:nth-child(4n+1) {
   background: #ef7d00;
   color: white; }
   .block.orange h2, .block.orange .subtitle, .block.orange p.center,
-  #featrues-page .block:nth-child(4n+1) h2, #featrues-page .block:nth-child(4n+1) .subtitle, #featrues-page .block:nth-child(4n+1) p.center{
+  #features-page .block:nth-child(4n+1) h2, #features-page .block:nth-child(4n+1) .subtitle, #features-page .block:nth-child(4n+1) p.center{
     text-align: center; }
-  .block.orange a, #featrues-page .block:nth-child(4n+1) a {
+  .block.orange a, #features-page .block:nth-child(4n+1) a {
     color: #a35400; }
-    .block.orange a.button, #featrues-page .block:nth-child(4n+1) a.button{
+    .block.orange a.button, #features-page .block:nth-child(4n+1) a.button{
       color: white; }
-  .block.orange h2, #featrues-page .block:nth-child(4n+1) h2{
+  .block.orange h2, #features-page .block:nth-child(4n+1) h2{
     color: white; }
-  .block.orange h3, #featrues-page .block:nth-child(4n+1) h3 {
+  .block.orange h3, #features-page .block:nth-child(4n+1) h3 {
     color: #a35400; }
 
-.block.blue, #featrues-page .block:nth-child(odd) {
+.block.blue, #features-page .block:nth-child(odd) {
   color: white;
   background: #1ea1d7; }
-  .block.blue h2, #featrues-page .block:nth-child(odd) h2 {
+  .block.blue h2, #features-page .block:nth-child(odd) h2 {
     color: #1779a3; }
-  .block.blue h3, #featrues-page .block:nth-child(odd) h3 {
+  .block.blue h3, #features-page .block:nth-child(odd) h3 {
     color: #13668a; }
   .block.blue h4, #features-list .block:nth-child(odd) h4{
     font-size: 48px; }
