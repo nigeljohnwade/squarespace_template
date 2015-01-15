@@ -119,11 +119,13 @@ h1 {
 
   #features-page img, #whatis-page img {
     margin-bottom: 15px; } }
-.block.gray {
+
+.block.gray, #features-page .block:nth-child(4n+3) {
   background: #efefef; }
-  .block.gray h2, .block.gray h3 {
+  .block.gray h2, .block.gray h3,
+  #features-page .block:nth-child(4n+3) h2, #features-page .block:nth-child(4n+3) h3{
     color: #a6a4ab; }
-  .block.gray h4 {
+  .block.gray h4 , #features-page .block:nth-child(4n+3) h4{
     font-size: 48px; }
 
 .block.dark-gray {
