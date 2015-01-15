@@ -15,6 +15,8 @@
                 {.or}
                 <div class="large-12 columns text">
                 {.end}
+                    
+                <div class="post-content row">
                     <!--Feature title -->
                     <h3 class="title">
                         {.passthrough?}
@@ -23,22 +25,20 @@
                         {title}
                         {.end}
                     </h3>
-                    <div class="post-content row">
+                    <!--EXCERPT OR BODY-->
+                    <div>
+                        {.if excerpt}
+                        {excerpt}
+                        {.or}
 
-                        <!--EXCERPT OR BODY-->
-                        <div>
-                            {.if excerpt}
-                            {excerpt}
-                            {.or}
+                        <!--MAIN CONTENT-->
 
-                            <!--MAIN CONTENT-->
+                        {body}
 
-                            {body}
-
-                            {.end}
-                        </div>
+                        {.end}
                     </div>
                 </div>
+            </div>
         </article>
         {.or}
         No features defined.
