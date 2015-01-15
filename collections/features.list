@@ -4,7 +4,7 @@
         {.repeated section items}
 
         <!--WRAPPER-->
-        <article id="post-{id}" class="block {@|item-classes} {@index} row">
+        <article id="post-{id}" class="block {@|item-classes} row">
 
             <!--Feature Image-->
                 {.main-image?}
@@ -22,7 +22,6 @@
                         {.or}
                         {title}
                         {.end}
-                        (odd) {@index}
                     </h3>
                     <div class="post-content row">
 
