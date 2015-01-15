@@ -8,7 +8,7 @@
 
     <link rel='stylesheet' href='/assets/css/normalize.css'>
     <link rel='stylesheet' href='/assets/css/foundation.css'>
-    <link rel='stylesheet' href='/assets/css/style.css'>
+    <!--<link rel='stylesheet' href='/assets/css/style.css'>-->
     <link rel='stylesheet' href='/assets/css/typicons.min.css'>
 
     <link href="/assets/favicon.ico" rel="shortcut icon">
