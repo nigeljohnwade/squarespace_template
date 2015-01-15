@@ -169,14 +169,14 @@ h1 {
   .block.orange h3, #features-list .block:nth-child(4n+1) h3 {
     color: #a35400; }
 
-.block.blue {
+.block.blue, #features-list .block:nth-child(4n) {
   color: white;
   background: #1ea1d7; }
-  .block.blue h2 {
+  .block.blue h2, #features-list .block:nth-child(4n) h2 {
     color: #1779a3; }
-  .block.blue h3 {
+  .block.blue h3, #features-list .block:nth-child(4n) h3 {
     color: #13668a; }
-  .block.blue h4 {
+  .block.blue h4, #features-list .block:nth-child(4n) h4{
     font-size: 48px; }
 
 #pricing .large-6 {
