@@ -1347,7 +1347,7 @@ meta.foundation-mq-topbar {
 .js-generated {
   display: block; }
 
-@media only screen and (min-width: /* 40.063em */1024px) {
+@media only screen and (min-width: 1024px) {
   .top-bar {
     background: #333333;
     *zoom: 1;
