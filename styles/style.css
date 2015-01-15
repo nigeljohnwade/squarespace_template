@@ -627,16 +627,16 @@ input#company-name {
     background: #222;
 }
 
-#features-list article div.image{
+#features-page article div.image{
     float:left;
 }
-#features-list article div.text{
+#features-page article div.text{
     float:right;
 }
 
-#features-list article:nth-child(2n+1) div.image{
+#features-page article:nth-child(2n+1) div.image{
     float:right;
 }
-#features-list article:nth-child(2n+1) div.text{
+#features-page article:nth-child(2n+1) div.text{
     float:left;
 }
