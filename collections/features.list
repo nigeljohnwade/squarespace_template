@@ -1,5 +1,4 @@
 
-<div class="row main-body">
 
     <div id="features-page">
         {.repeated section items}
@@ -46,6 +45,3 @@
         No features defined.
     </div>
     {.end}
-
-</div>
-</div>
