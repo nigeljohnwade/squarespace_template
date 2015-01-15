@@ -636,9 +636,9 @@ input#company-name {
     float:right;
 }
 
-#features-page article:nth-child(2n+1) div.image{
+#features-page .block:nth-child(2n+1) div.image{
     float:right;
 }
-#features-page article:nth-child(2n+1) div.text{
+#features-page .block:nth-child(2n+1) div.text{
     float:left;
 }
