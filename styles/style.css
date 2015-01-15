@@ -158,9 +158,9 @@ h1 {
   background: #ef7d00;
   color: white; }
   .block.orange h2, .block.orange .subtitle, .block.orange p.center,
-, #features-list .block:nth-child(4n+1) h2, , #features-list .block:nth-child(4n+1) .subtitle, , #features-list .block:nth-child(4n+1) p.center{
+  #features-list .block:nth-child(4n+1) h2, #features-list .block:nth-child(4n+1) .subtitle, #features-list .block:nth-child(4n+1) p.center{
     text-align: center; }
-  .block.orange a, , #features-list .block:nth-child(4n+1) a {
+  .block.orange a, #features-list .block:nth-child(4n+1) a {
     color: #a35400; }
     .block.orange a.button, #features-list .block:nth-child(4n+1) a.button{
       color: white; }
