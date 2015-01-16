@@ -75,15 +75,4 @@
         </div>
     </div>
 
-    <div class="block gray" id="pre-footer-cta">
-        <div class="row">
-            <div class="large-12 columns">
-                <div>
-                    <h3>ready to bring your infographics to life?</h3>
-                    <p>Let’s do it! Hit the button below to request an invite — we’ll let you know as soon as Stipso is ready for you.</p>
-                </div>
-                <a href="#" data-reveal-id="request-invite-modal" class="button round">Request an invitation</a>
-            </div>
-        </div>
-    </div>
 </div>
