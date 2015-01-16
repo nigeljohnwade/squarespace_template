@@ -1347,7 +1347,6 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 1024px) {
   .top-bar {
-    background: #333333;
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
