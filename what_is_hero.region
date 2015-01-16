@@ -17,8 +17,8 @@
     <div class="row">
         <div class="large-12 columns">
             <div>
-                <<h1><squarespace:block-field id="TermsH1" columns="1" lock-layout="true" /></h1>
-                <p><squarespace:block-field id="TermsParagraph" columns="1" lock-layout="true" /></p>
+                <h1><squarespace:block-field id="WhatIsH1" columns="1" lock-layout="true" /></h1>
+                <p><squarespace:block-field id="WhatIsParagraph" columns="1" lock-layout="true" /></p>
             </div>
         </div>
     </div>
