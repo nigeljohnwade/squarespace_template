@@ -2,12 +2,12 @@
     <div class="row">
         <div class="large-6 columns">
             <div>
-                <squarespace:block-field id="ContactLeft" columns="1" lock-layout="true" />
+                <squarespace:block-field id="ContactLeft" columns="1" />
             </div>
         </div>
         <div class="large-6 columns">
             <div>
-                <squarespace:block-field id="ContactRight" columns="1" lock-layout="true" />
+                <squarespace:block-field id="ContactRight" columns="1" />
             </div>
         </div>
     </div>
