@@ -644,4 +644,5 @@ input#company-name {
 }
 .top-bar-section ul li > a.button #CTAButtonText p{
     font-size: inherit;
+    line-height: normal;
 }
