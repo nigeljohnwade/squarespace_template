@@ -70,11 +70,11 @@
                         </p>
                     </div>
                     {.section author}
-                    {.repeated section socialOptions}
-                    <a href="https://twitter.com/{username}">
-                        <span class="typcn typcn-social-twitter"></span>
-                    </a>
-                    {.end}
+                        {.repeated section socialOptions}
+                            <a href="https://twitter.com/{username}">
+                                <span class="typcn typcn-social-twitter"></span>
+                            </a>
+                        {.end}
                     {.end}
                 </div>
                 {.end}
@@ -103,11 +103,11 @@
                         </p>
                     </div>
                     {.section author}
-                    {.repeated section socialOptions}
-                    <a href="https://twitter.com/{username}">
-                        <span class="typcn typcn-social-twitter"></span>
-                    </a>
-                    {.end}
+                        {.repeated section socialOptions}
+                            <a href="https://twitter.com/{username}">
+                                <span class="typcn typcn-social-twitter"></span>
+                            </a>
+                        {.end}
                     {.end}
                 </div>
                 {.end}
