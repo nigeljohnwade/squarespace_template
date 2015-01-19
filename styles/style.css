@@ -280,7 +280,8 @@ h1 {
   color: #a6a4ab; }
 #vision h3 {
   color: #a5a5a5; 
-    text-transform: none;}
+    text-transform: none;
+font-weight: normal;}
 
 @media screen and (min-width: 1025px) {
   #tech .team-single {
