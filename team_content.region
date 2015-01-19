@@ -35,6 +35,18 @@
                         {body}
                     </p>
                 </div>
+                {.section author}
+                {.repeated section socialOptions}
+                {.if type=='twitter'}
+                <a href="https://twitter.com/{username}">
+                    <span class="typcn typcn-social-twitter"></span>
+                    {username}
+                </a>
+                {.or}
+                <p>not on twitter</p>
+                {.end}
+                {.end}
+                {.end}
                 <a href="http://twitter.com/drostyboy" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
                 <a href="http://uk.linkedin.com/in/stevendrost" target="_blank" class="linked-in"><span class="typcn typcn-social-linkedin-circular"></span></a>
             </div>
