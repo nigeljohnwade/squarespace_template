@@ -21,8 +21,8 @@
             <squarespace:query collection="team-1" category="Vision">
                 {.repeated section items}
                 <div class="large-6 columns team-single">
-                    {.if author.avatarAssetUrl}
-                    <img {@|image-meta} src="{avatarAssetUrl}">
+                    {.if author.avatarId}
+                    <img {@|image-meta} src="/global/{author.avatarId}?format=100w">
                     {.or}
                     <img {@|image-meta} src="{fullUrl}?format=original">
                     {.end}
