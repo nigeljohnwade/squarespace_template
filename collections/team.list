@@ -1,0 +1,18 @@
+<div id="vision" class="block gray">
+    <div class="row">
+        <h3>Vision</h3>
+        <div class="row">
+            <div class="large-4 large-offset-2 columns team-single">
+                <img src="/assets/img/steven.png" alt=""><div><br><h4>Steven drost</h4><p class="job-title">Co-founder &amp; Chief Executive Officer</p><p>An improving bread baker, voracious reader and recovering market researcher, Steven oversees product development and strategy. He spends a lot of time thinking about making products, the web and Sherlock Holmes.</p></div>
+                <a href="http://twitter.com/drostyboy" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+                <a href="http://uk.linkedin.com/in/stevendrost" target="_blank" class="linked-in"><span class="typcn typcn-social-linkedin-circular"></span></a>
+            </div>
+            <div class="large-4 columns team-single">
+                <img src="/assets/img/brian.png" alt=""><div><br><h4>Brian corcoran</h4><p class="job-title">Co-founder &amp; Chief Customer Officer</p><p>A Dubliner transplanted to Edinburgh, Brian leads Stipso’s customer acquisition and inbound marketing activities, and in his spare time enjoys relaxing activities such as rock climbing and long-distance cycling.</p></div>
+                <a href="http://twitter.com/brianc13" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+                <a href="http://uk.linkedin.com/in/briandcorcoran" target="_blank" class="linked-in"><span class="typcn typcn-social-linkedin-circular"></span></a>
+            </div>
+            <div class="large-2 columns"></div>
+        </div>
+    </div>
+</div>
