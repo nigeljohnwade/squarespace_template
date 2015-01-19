@@ -274,8 +274,8 @@ h1 {
     font-size: 20px; }
 
 @media screen and (min-width: 1025px) {
-  #vision .team-single {
-    border-top: 1px solid #d6d6d6; } }
+  #vision h2 {
+    border-bottom: 1px solid #d6d6d6; } }
 #vision .twitter, #vision .linked-in {
   color: #a6a4ab; }
 #vision h3 {
@@ -284,16 +284,16 @@ h1 {
 font-weight: normal;}
 
 @media screen and (min-width: 1025px) {
-  #tech .team-single {
-    border-top: 1px solid #1a8cbd; } }
+  #tech h2 {
+    border-bottom: 1px solid #1a8cbd; } }
 #tech .twitter, #tech .linked-in {
   color: #69c7f0; }
 #tech .job-title {
   color: #13668a; }
 
 @media screen and (min-width: 1025px) {
-  #marketing .team-single {
-    border-top: 1px solid #d66f00; } }
+  #marketing h2 {
+    border-bottom: 1px solid #d66f00; } }
 #marketing .twitter, #marketing .linked-in {
   color: #a35400; }
 #marketing .job-title {
