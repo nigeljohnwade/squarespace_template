@@ -85,12 +85,33 @@
     <div id="marketing" class="block orange">
         <div class="row">
             <h3>Marketing</h3>
-            <div class="row">
-                <div class="large-4 columns large-offset-4 team-single">
-                    <img src="/assets/img/marcus.png" alt=""><div><br><h4>Marcus kernohan</h4><p class="job-title">Content Strategist</p><p>A reformed journalist, Marcus is our resident writer, editor and marketing strategist. He spends his days writing about digital marketing, product design and data visualisation.</p></div>
-                    <a href="http://twitter.com/mkernohan" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+            <squarespace:query collection="team-1" category="Marketing">
+                {.repeated section items}
+                <div class="large-6 columns team-single">
+                    <img {@|image-meta} src="{fullUrl}?format=100w">
+                    <div>
+                        <br>
+                        <h2>
+                            {.passthrough?}
+                            {title}
+                            {.or}
+                            {title}
+                            {.end}
+                        </h2>
+                        <p>
+                            {body}
+                        </p>
+                    </div>
+                    {.section author}
+                    {.repeated section socialOptions}
+                    <a href="https://twitter.com/{username}">
+                        <span class="typcn typcn-social-twitter"></span>
+                    </a>
+                    {.end}
+                    {.end}
                 </div>
-            </div>
+                {.end}
+            </squarespace:query>
         </div>
     </div>
 </div>
