@@ -51,7 +51,7 @@
 
     <div id="tech" class="block blue">
         <div class="row">
-            <h3>Tech</h3>
+            <h2>Tech</h2>
             <squarespace:query collection="team-1" category="Tech">
                 {.repeated section items}
                 <div class="large-6 columns team-single">
@@ -84,7 +84,7 @@
 
     <div id="marketing" class="block orange">
         <div class="row">
-            <h3>Marketing</h3>
+            <h2>Marketing</h2>
             <squarespace:query collection="team-1" category="Marketing">
                 {.repeated section items}
                 <div class="large-6 columns team-single">
