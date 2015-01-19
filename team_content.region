@@ -37,11 +37,9 @@
                 </div>
                 {.section author}
                     {.repeated section socialOptions}
-                        {.if type=='twitter'}
                         <a href="https://twitter.com/{username}">
                             <span class="typcn typcn-social-twitter"></span>
                         </a>
-                        {.end}
                     {.end}
                 {.end}
                 <a href="http://twitter.com/drostyboy" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
