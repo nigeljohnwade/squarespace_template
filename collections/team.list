@@ -5,6 +5,7 @@
             <h3>Vision</h3>
             <div class="row">
                 <div class="large-8 large-offset-2 columns team-single">
+                    <squarespace:query collection="team" category="Vision">
                     {.repeated section items}
                     <div class="large-6 columns">
                         <img {@|image-meta} src="{fullUrl}?format=original">
