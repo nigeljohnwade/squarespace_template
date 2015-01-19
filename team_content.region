@@ -15,7 +15,7 @@
         </div>
     </div>
 
-    <squarespace:query collection="team" category="vision">
+    <squarespace:query collection="team-1" category="vision">
         {.repeated section items}
         <div class="large-6 columns">
             <img {@|image-meta} src="{fullUrl}?format=original">
