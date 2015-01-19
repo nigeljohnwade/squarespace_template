@@ -258,7 +258,7 @@ h1 {
   #team .team-single {
     padding-top: 20px; 
   height: 400px;}
-  #team .team-single .columns:last-child{
+  #team .team-single.columns:last-child{
       float:left;
   }
   #team img {
