@@ -36,6 +36,7 @@
             <a href="http://uk.linkedin.com/in/stevendrost" target="_blank" class="linked-in"><span class="typcn typcn-social-linkedin-circular"></span></a>
         </div>
         {.end}
+        </squarespace:query>
 
 
     <div id="tech" class="block blue">
