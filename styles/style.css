@@ -274,7 +274,7 @@ h1 {
     font-size: 20px; }
 
 @media screen and (min-width: 1025px) {
-  #vision > h2 {
+  #vision > .row > h2 {
     border-bottom: 1px solid #d6d6d6; } }
 #vision .twitter, #vision .linked-in {
   color: #a6a4ab; }
@@ -284,7 +284,7 @@ h1 {
 font-weight: normal;}
 
 @media screen and (min-width: 1025px) {
-  #tech > h2 {
+  #tech > .row > h2 {
     border-bottom: 1px solid #1a8cbd; } }
 #tech .twitter, #tech .linked-in {
   color: #69c7f0; }
@@ -292,7 +292,7 @@ font-weight: normal;}
   color: #13668a; }
 
 @media screen and (min-width: 1025px) {
-  #marketing > h2 {
+  #marketing > .row > h2 {
     border-bottom: 1px solid #d66f00; } }
 #marketing .twitter, #marketing .linked-in {
   color: #a35400; }
