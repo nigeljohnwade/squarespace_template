@@ -5,7 +5,7 @@
             <h3>Vision</h3>
             <div class="row">
                 <div class="large-4 large-offset-2 columns team-single">
-                    <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:100%" >
+                    <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:50%" >
                     <div>
                         <br>
                         <h4>{.passthrough?}
