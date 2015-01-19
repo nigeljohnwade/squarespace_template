@@ -15,28 +15,30 @@
         </div>
     </div>
 
-    <squarespace:query collection="team-1" category="Vision">
-        {.repeated section items}
-        <div class="large-6 columns">
-            <img {@|image-meta} src="{fullUrl}?format=original">
-            <div>
-                <br>
-                <h2>
-                    {.passthrough?}
-                    {title}
-                    {.or}
-                    {title}
-                    {.end}
-                </h2>
-                <p>
-                    {body}
-                </p>
+    <div id="vision" class="block gray">
+        <squarespace:query collection="team-1" category="Vision">
+            {.repeated section items}
+            <div class="large-6 columns">
+                <img {@|image-meta} src="{fullUrl}?format=original">
+                <div>
+                    <br>
+                    <h2>
+                        {.passthrough?}
+                        {title}
+                        {.or}
+                        {title}
+                        {.end}
+                    </h2>
+                    <p>
+                        {body}
+                    </p>
+                </div>
+                <a href="http://twitter.com/drostyboy" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+                <a href="http://uk.linkedin.com/in/stevendrost" target="_blank" class="linked-in"><span class="typcn typcn-social-linkedin-circular"></span></a>
             </div>
-            <a href="http://twitter.com/drostyboy" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
-            <a href="http://uk.linkedin.com/in/stevendrost" target="_blank" class="linked-in"><span class="typcn typcn-social-linkedin-circular"></span></a>
-        </div>
-        {.end}
+            {.end}
         </squarespace:query>
+    </div>
 
 
     <div id="tech" class="block blue">
