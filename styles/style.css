@@ -256,7 +256,8 @@ h1 {
 #team {
   text-align: center; }
   #team .team-single {
-    padding-top: 20px; }
+    padding-top: 20px; 
+  height: 400px;}
   #team img {
     display: block;
     margin: auto auto 15px; }
