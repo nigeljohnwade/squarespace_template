@@ -8,13 +8,13 @@
                     <img {@|image-meta} src="{fullUrl}?format=original">
                     <div>
                         <br>
-                        <h4>
+                        <h2>
                             {.passthrough?}
                             {title}
                             {.or}
                             {title}
                             {.end}
-                        </h4>
+                        </h2>
                         <p>
                             {body}
                         </p>
