@@ -11,13 +11,13 @@
                         <img {@|image-meta} src="{fullUrl}?format=original">
                         <div>
                             <br>
-                            <h2>
+                            <h3>
                                 {.passthrough?}
                                 {title}
                                 {.or}
                                 {title}
                                 {.end}
-                            </h2>
+                            </h3>
                             <p>
                                 {body}
                             </p>
