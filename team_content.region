@@ -17,7 +17,7 @@
 
     <div id="vision" class="block gray">
         <div class="row">
-            <h3>Vision</h3>
+            <h2>Vision</h2>
         <squarespace:query collection="team-1" category="Vision">
             {.repeated section items}
             <div class="large-6 columns">
