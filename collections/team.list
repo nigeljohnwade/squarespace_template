@@ -6,23 +6,28 @@
             <div class="row">
                 <div class="large-8 large-offset-2 columns team-single">
                     {.repeated section items}
-                    <div class="large-6 columns">
-                        <img {@|image-meta} src="{fullUrl}?format=original">
+                    <div class="large-6 columns team-single">
+                        <img {@|image-meta} src="{fullUrl}?format=100w">
                         <div>
                             <br>
-                            <h3>
+                            <h2>
                                 {.passthrough?}
                                 {title}
                                 {.or}
                                 {title}
                                 {.end}
-                            </h3>
+                            </h2>
                             <p>
                                 {body}
                             </p>
                         </div>
-                        <a href="http://twitter.com/drostyboy" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
-                        <a href="http://uk.linkedin.com/in/stevendrost" target="_blank" class="linked-in"><span class="typcn typcn-social-linkedin-circular"></span></a>
+                        {.section author}
+                        {.repeated section socialOptions}
+                        <a href="https://twitter.com/{username}">
+                            <span class="typcn typcn-social-twitter"></span>
+                        </a>
+                        {.end}
+                        {.end}
                     </div>
                     {.end}
                 </div>
