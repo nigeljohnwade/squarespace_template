@@ -278,8 +278,9 @@ h1 {
     border-top: 1px solid #d6d6d6; } }
 #vision .twitter, #vision .linked-in {
   color: #a6a4ab; }
-#vision .job-title {
-  color: #a5a5a5; }
+#vision h3 {
+  color: #a5a5a5; 
+    text-transform: none;}
 
 @media screen and (min-width: 1025px) {
   #tech .team-single {
