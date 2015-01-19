@@ -52,34 +52,33 @@
     <div id="tech" class="block blue">
         <div class="row">
             <h3>Tech</h3>
-            <div class="row">
-                <div class="large-4 large-offset-2 columns team-single">
-                    <img src="/assets/img/iain.png" alt=""><div><h4>Iain broadfoot</h4><p class="job-title">Lead Developer</p><p>Iain is Stipso’s lead software engineer. He keeps trying to escape software development, but no extreme sport                compares to the thrill of deploying untested code to unstable cloud platforms.</p></div>
-                    <a href="http://twitter.com/ibroadfo" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
+            <squarespace:query collection="team-1" category="Tech">
+                {.repeated section items}
+                <div class="large-6 columns team-single">
+                    <img {@|image-meta} src="{fullUrl}?format=original">
+                    <div>
+                        <br>
+                        <h2>
+                            {.passthrough?}
+                            {title}
+                            {.or}
+                            {title}
+                            {.end}
+                        </h2>
+                        <p>
+                            {body}
+                        </p>
+                    </div>
+                    {.section author}
+                    {.repeated section socialOptions}
+                    <a href="https://twitter.com/{username}">
+                        <span class="typcn typcn-social-twitter"></span>
+                    </a>
+                    {.end}
+                    {.end}
                 </div>
-                <div class="large-4 columns team-single">
-                    <img src="/assets/img/ivana.png" alt=""><div><h4>Ivana mcconnell</h4><p class="job-title">Lead Designer</p><p>Hailing from Sarajevo via Vancouver, Stipso’s&nbsp;front-end/UX designer Ivana spends her days pushing pixels and obsessing over typography. She is a keen boulderer, and is usually waiting for it to be lunchtime.</p></div>
-                    <a href="http://twitter.com/ivanamcconnell" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
-                </div>
-                <div class="large-2 columns"></div>
-            </div>
-        </div>
-        <div class="row second">
-            <div class="large-4 large-offset-2 columns team-single">
-                <img src="/assets/img/donald.png" alt=""><div><h4>Donald anderson</h4><p class="job-title">Developer</p><p>Formerly our fresh-faced new kid, Donald spends his days buried in code developing new features. He can generally be found with doughnuts that he tries in increasingly devious ways to hide from the rest of us.</p></div>
-                <a href="http://twitter.com/____Donald____" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
-            </div>
-            <div class="large-4 columns team-single">
-                <img src="/assets/img/donaldm.png" alt=""><div><h4>Donald Mackintosh</h4><p class="job-title">Graduate Developer</p><p>Because one Donald just wasn't enough. New Donald is Stipso's graduate developer and resident cartographer. He wrangles APIs, builds new features and may or may not be developing SkyNet in his 20% time.</p></div>
-                <a href="http://twitter.com/Donald_I_M" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
-            </div>
-            <div class="large-2 columns"></div>
-        </div>
-        <div class="row second">
-            <div class="large-4 large-offset-4 columns team-single">
-                <img src="/assets/img/alex.png" alt=""><div><h4>Alex Mantzaris</h4><p class="job-title">Data Scientist</p><p>Originally hailing from Greece via the US, Alex is a post-doctoral researcher in maths at the University of Strathclyde. He specialises in temporal networks and social data, and works with Stipso's product team on data analysis and insights. </p></div>
-                <a href="http://twitter.com/v4ss" target="_blank" class="twitter"><span class="typcn typcn-social-twitter"></span></a>
-            </div>
+                {.end}
+            </squarespace:query>
         </div>
     </div>
 
