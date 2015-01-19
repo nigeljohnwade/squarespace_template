@@ -5,10 +5,11 @@
             <h3>Vision</h3>
             <div class="row">
                 <div class="large-4 large-offset-2 columns team-single">
-                    <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:50%" >
+                    <img {@|image-meta} src="{fullUrl}?format=original">
                     <div>
                         <br>
-                        <h4>{.passthrough?}
+                        <h4>
+                            {.passthrough?}
                             {title}
                             {.or}
                             {title}
