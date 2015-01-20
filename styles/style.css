@@ -261,7 +261,8 @@ h1 {
   #team .team-single {
     padding-top: 20px; 
   height: 400px;
- float: none;}
+ float: none;
+  display: inline-block;}
 
   #team img {
     display: block;
