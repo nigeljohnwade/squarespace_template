@@ -1976,8 +1976,7 @@ button, .button {
   }
   .pricing-table ul li:nth-child(1n+4) p{
     font-size: 0.875rem;
-    font-weight: normal;
-    border-bottom: dotted 1px #dddddd; }
+    font-weight: normal;}
   .pricing-table ul li:last-child{
     background-color: white;
     text-align: center;
