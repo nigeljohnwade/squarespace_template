@@ -260,9 +260,10 @@ h1 {
 }
   #team .team-single {
     padding-top: 20px; 
-  height: 400px;
- float: none;
-  display: inline-block;}
+    height: 400px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;}
 
   #team img {
     display: block;
