@@ -1959,12 +1959,13 @@ button, .button {
     padding: 0.9375rem;
     text-align: center;
     color: #777777;
+    border-bottom: dotted 1px #dddddd;
   }
   .pricing-table ul li:nth-child(3) p{
   font-size: 0.75rem;
     font-weight: normal;
     line-height: 1.4;
-    border-bottom: dotted 1px #dddddd; }
+  }
   .pricing-table ul li:nth-child(1n+4){
     background-color: white;
     padding: 0.9375rem;
