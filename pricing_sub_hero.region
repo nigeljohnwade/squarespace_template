@@ -7,8 +7,7 @@
             </div>
             <a href="#" data-reveal-id="request-invite-modal" class="button round">Get started</a>
             <div>
-                <p class="plan-intro">Each plan offers full access to Stipso, enabling you to create, preview and publish Living Infographics. All plans come with a 
-                    <strong>30-day free trial</strong> — no credit card required.</p>
+                <p class="plan-intro"><squarespace:block-field id="PricingIntro" columns="1" lock-layout="true" /></p>
             </div>
         </div>
     </div>
