@@ -1934,7 +1934,7 @@ button, .button {
   .pricing-table * {
     list-style: none;
     line-height: 1; }
-  .pricing-table .title {
+  .pricing-table ul li:first-child {
     background-color: #444346;
     padding: 0.9375rem 1.25rem;
     text-align: center;
