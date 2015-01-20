@@ -1957,7 +1957,9 @@ button, .button {
     padding: 0.9375rem;
     text-align: center;
     color: #777777;
-    font-size: 0.75rem;
+  }
+  .pricing-table ul li:nth-child(3) p{
+  font-size: 0.75rem;
     font-weight: normal;
     line-height: 1.4;
     border-bottom: dotted 1px #dddddd; }
@@ -1966,6 +1968,8 @@ button, .button {
     padding: 0.9375rem;
     text-align: center;
     color: #333333;
+  }
+  .pricing-table ul li:nth-child(1n+3) p{
     font-size: 0.875rem;
     font-weight: normal;
     border-bottom: dotted 1px #dddddd; }
