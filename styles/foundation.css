@@ -1927,7 +1927,7 @@ button, .button {
     border-radius: 3px; }
 
 /* Pricing Tables */
-.pricing-table {
+.pricing-table ul{
   border: solid 1px #dddddd;
   margin-left: 0;
   margin-bottom: 1.25rem; }
@@ -1942,7 +1942,7 @@ button, .button {
     font-weight: normal;
     font-size: 1rem;
     font-family: "azo-sans-web", "Helvetica", Helvetica, Arial, sans-serif; }
-  .pricing-table .price {
+  .pricing-table ul li:nth-child(2) {
     background-color: #f6f6f6;
     padding: 0.9375rem 1.25rem;
     text-align: center;
@@ -1950,7 +1950,7 @@ button, .button {
     font-weight: normal;
     font-size: 2rem;
     font-family: "azo-sans-web", "Helvetica", Helvetica, Arial, sans-serif; }
-  .pricing-table .description {
+  .pricing-table ul li:nth-child(3) {
     background-color: white;
     padding: 0.9375rem;
     text-align: center;
@@ -1959,7 +1959,7 @@ button, .button {
     font-weight: normal;
     line-height: 1.4;
     border-bottom: dotted 1px #dddddd; }
-  .pricing-table .bullet-item {
+  .pricing-table ul li:nth-child(1n+3){
     background-color: white;
     padding: 0.9375rem;
     text-align: center;
@@ -1967,7 +1967,7 @@ button, .button {
     font-size: 0.875rem;
     font-weight: normal;
     border-bottom: dotted 1px #dddddd; }
-  .pricing-table .cta-button {
+  .pricing-table ul li:last-child{
     background-color: white;
     text-align: center;
     padding: 1.25rem 1.25rem 0; }
