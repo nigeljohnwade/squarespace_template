@@ -2,7 +2,6 @@
     
     <div class="block gray">
         <div class="row">
-            <h2>Vision</h2>
             <div class="row">
                 <div class="large-8 large-offset-2 columns team-single">
                     {.repeated section items}
