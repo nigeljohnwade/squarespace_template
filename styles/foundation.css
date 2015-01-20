@@ -1937,6 +1937,9 @@ button, .button {
   .pricing-table ul li{
       border-bottom: dotted 1px #dddddd;
   }
+.pricing-table ul li P{
+    padding-bottom: 0px;
+}
   .pricing-table ul li:first-child {
     background-color: #444346;
     padding: 0.9375rem 1.25rem;
