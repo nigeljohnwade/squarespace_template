@@ -1984,7 +1984,7 @@ button, .button {
     background-color: white;
     text-align: center;
     padding: 1.25rem 1.25rem 0; }
-    .pricing-table ul li:last-child p{
+    .pricing-table ul li:last-child a{
         background-color: #1ea1d7;
         border-color: #1881ac;
         color: white;
