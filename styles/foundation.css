@@ -1939,7 +1939,9 @@ button, .button {
     padding: 0.9375rem 1.25rem;
     text-align: center;
     color: #eeeeee;
-    font-weight: normal;
+  }
+  .pricing-table ul li:first-child{
+  font-weight: normal;
     font-size: 1rem;
     font-family: "azo-sans-web", "Helvetica", Helvetica, Arial, sans-serif; }
   .pricing-table ul li:nth-child(2) {
@@ -1963,13 +1965,13 @@ button, .button {
     font-weight: normal;
     line-height: 1.4;
     border-bottom: dotted 1px #dddddd; }
-  .pricing-table ul li:nth-child(1n+3){
+  .pricing-table ul li:nth-child(1n+4){
     background-color: white;
     padding: 0.9375rem;
     text-align: center;
     color: #333333;
   }
-  .pricing-table ul li:nth-child(1n+3) p{
+  .pricing-table ul li:nth-child(1n+4) p{
     font-size: 0.875rem;
     font-weight: normal;
     border-bottom: dotted 1px #dddddd; }
