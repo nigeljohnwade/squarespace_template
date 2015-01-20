@@ -19,7 +19,7 @@
     <div class="row" id="pricing-tables-all">
         
         <div class="large-4 columns" class="pricing-table">
-        <squarespace:block-field id="PricingSmall" columns="1" lock-layout="true" />
+            <squarespace:block-field id="PricingSmall" columns="1" lock-layout="true" />
             <!--<ul class="pricing-table"><li class="title"><div>Bonsai</div></li>-->
                 <!--<li class="price">-->
                     <!--<div class="pounds">£9/month<span class="vat-note">+ VAT</span></div>-->
