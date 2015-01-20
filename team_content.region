@@ -104,8 +104,8 @@
                     </div>
                     {.section author}
                         {.repeated section socialOptions}
-                            <a href="https://twitter.com/{username}" class="{type}">
-                                <span class="typcn typcn-social-twitter"></span>
+                            <a data-social-type="{type}" data-social-username="{username}" class="{type}">
+                                <span class="typcn typcn-social-{type}"></span>
                             </a>
                         {.end}
                     {.end}
