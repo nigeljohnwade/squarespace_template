@@ -2,8 +2,6 @@
     
     <div class="block gray">
         <div class="row">
-            <div class="row">
-                <div class="large-8 large-offset-2 columns team-single">
                     {.repeated section items}
                     <div class="large-6 columns team-single">
                         <img {@|image-meta} src="{fullUrl}?format=100w">
@@ -29,9 +27,6 @@
                         {.end}
                     </div>
                     {.end}
-                </div>
-                <div class="large-2 columns"></div>
-            </div>
         </div>
     </div>
 </div>
