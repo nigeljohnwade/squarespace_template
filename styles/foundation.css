@@ -1947,6 +1947,8 @@ button, .button {
     padding: 0.9375rem 1.25rem;
     text-align: center;
     color: #333333;
+  }
+  .pricing-table ul li:nth-child(2) p{
     font-weight: normal;
     font-size: 2rem;
     font-family: "azo-sans-web", "Helvetica", Helvetica, Arial, sans-serif; }
