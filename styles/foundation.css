@@ -1993,8 +1993,8 @@ button, .button {
         -webkit-box-shadow: none;
         box-shadow: none;
         padding:17px;
-        -webkit-border-radius: 100%;
-        border-radius: 100%;
+        -webkit-border-radius: 1000px;
+        border-radius: 1000px;
     }
 
 .tabs {
