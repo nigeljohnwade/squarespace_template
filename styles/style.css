@@ -255,12 +255,14 @@ h1 {
 
 #team {
   text-align: center; }
+#team .row{
+    text-align: center;
+}
   #team .team-single {
     padding-top: 20px; 
-  height: 400px;}
-  #team .team-single.columns:last-child{
-      float:left;
-  }
+  height: 400px;
+ float: none;}
+
   #team img {
     display: block;
     margin: auto auto 15px; }
