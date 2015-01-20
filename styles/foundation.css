@@ -1934,6 +1934,9 @@ button, .button {
   .pricing-table * {
     list-style: none;
     line-height: 1; }
+  .pricing-table ul li{
+      border-bottom: dotted 1px #dddddd;
+  }
   .pricing-table ul li:first-child {
     background-color: #444346;
     padding: 0.9375rem 1.25rem;
@@ -1959,7 +1962,6 @@ button, .button {
     padding: 0.9375rem;
     text-align: center;
     color: #777777;
-    border-bottom: dotted 1px #dddddd;
   }
   .pricing-table ul li:nth-child(3) p{
   font-size: 0.75rem;
