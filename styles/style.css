@@ -280,7 +280,11 @@ h1 {
     margin-bottom: 0; }
   #team .twitter {
     font-size: 20px; }
-
+@media only screen and (min-width: 64.063em){
+    .large-6.team-single{
+        width:49.8%;
+    }
+}
 @media screen and (min-width: 1025px) {
   #vision > .row > h2 {
     border-bottom: 1px solid #d6d6d6; } }
