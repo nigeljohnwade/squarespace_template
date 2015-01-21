@@ -34,19 +34,19 @@
             <!--</ul>-->
         </div>
         <div class="large-4 columns pricing-table" id="pricing-table-medium">
-            <squarespace:block-field id="PricingLarge" columns="1" lock-layout="true" />
-            <!--<ul><li class="title"><div>Maple</div></li>-->
-                <!--<li class="price">-->
-                    <!--<div class="pounds">£29/month<span class="vat-note">+ VAT</span></div>-->
-                    <!--<div class="euros" style="display: none;">€29/month</div>-->
-                    <!--<div class="dollars" style="display: none;">$49/month</div>-->
-                <!--</li>-->
-                <!--<li class="description"><div>Ready to kick your visual content marketing up a notch? Publish four new Living Infographics a month, with a significantly increased visitor cap.</div></li>-->
-                <!--<li class="bullet-item"><div>Access to all features</div></li>-->
-                <!--<li class="bullet-item"><div>4 new Living Infographics</div></li>-->
-                <!--<li class="bullet-item"><div>25,000 unique visitors</div></li>-->
-                <!--<li class="cta-button"><a class="button round secondary disabled" data-reveal-id="request-invite-modal" href="#">Start my Free Trial</a></li>-->
-            <!--</ul>-->
+            <!--<squarespace:block-field id="PricingLarge" columns="1" lock-layout="true" />-->
+            <ul><li class="title"><div><squarespace:block-field id="PricingMediumTitle" columns="1" lock-layout="true" /></div></li>
+                <li class="price">
+                    <div class="pounds">£29/month<span class="vat-note">+ VAT</span></div>
+                    <div class="euros" style="display: none;">€29/month</div>
+                    <div class="dollars" style="display: none;">$49/month</div>
+                </li>
+                <li class="description"><div>Ready to kick your visual content marketing up a notch? Publish four new Living Infographics a month, with a significantly increased visitor cap.</div></li>
+                <li class="bullet-item"><div>Access to all features</div></li>
+                <li class="bullet-item"><div>4 new Living Infographics</div></li>
+                <li class="bullet-item"><div>25,000 unique visitors</div></li>
+                <li class="cta-button"><a class="button round secondary disabled" data-reveal-id="request-invite-modal" href="#">Start my Free Trial</a></li>
+            </ul>
         </div>
         <div class="large-4 columns pricing-table">
             <squarespace:block-field id="PricingMedium" columns="1" lock-layout="true" />
