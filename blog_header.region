@@ -14,9 +14,8 @@
     <meta class="foundation-mq-medium">
     <meta class="foundation-mq-large">
     <meta class="foundation-mq-xlarge">
-    <meta class="foundation-mq-xxlarge"><style></style>
-    <link rel="stylesheet" href="/assets/css/typicons.min.css">
-    <link rel="stylesheet" href="/assets/css/blog_style.css">
+    <meta class="foundation-mq-xxlarge">
+    
     <link href="//fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="/assets/img/favicon.png">
     <link href="/assets/img/favicon.ico" rel="shortcut icon">
@@ -45,6 +44,7 @@
 
     </script>
     {squarespace-headers}
+    <link rel="stylesheet" href="/assets/css/blog_style.css">
 </head>
 
 <body>
