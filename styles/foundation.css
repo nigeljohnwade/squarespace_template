@@ -1942,7 +1942,7 @@ button, .button {
     font-weight: normal;
     font-size: 1rem;
     font-family: "azo-sans-web", "Helvetica", Helvetica, Arial, sans-serif; }
-  .pricing-table .price {
+  .pricing-table .price, .pricing-table .price p{
     background-color: #f6f6f6;
     padding: 0.9375rem 1.25rem;
     text-align: center;
