@@ -1953,7 +1953,7 @@ button, .button {
 .pricing-table .price p{
     display: inline;
 }
-  .pricing-table .description {
+  .pricing-table .description, .pricing-table .description p {
     background-color: white;
     padding: 0.9375rem;
     text-align: center;
