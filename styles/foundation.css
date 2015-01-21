@@ -1950,6 +1950,9 @@ button, .button {
     font-weight: normal;
     font-size: 2rem;
     font-family: "azo-sans-web", "Helvetica", Helvetica, Arial, sans-serif; }
+.pricing-table .price p{
+    display: inline;
+}
   .pricing-table .description {
     background-color: white;
     padding: 0.9375rem;

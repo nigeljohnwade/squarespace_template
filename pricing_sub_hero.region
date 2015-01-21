@@ -42,7 +42,7 @@
                 </li>
                 <li class="price">
                     <div class="pounds">
-                        <squarespace:block-field id="PricingMediumPounds" columns="1" lock-layout="true" />/month<span class="vat-note">+ VAT</span></div>
+                        <squarespace:block-field id="PricingMediumPounds" columns="1" lock-layout="true" /><span class="vat-note">+ VAT</span></div>
                     <div class="euros" style="display: none;"><squarespace:block-field id="PricingMediumEuros" columns="1" lock-layout="true" />/month</div>
                     <div class="dollars" style="display: none;"><squarespace:block-field id="PricingMediumDollars" columns="1" lock-layout="true" />/month</div>
                 </li>
