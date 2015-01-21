@@ -1953,11 +1953,13 @@ button, .button {
 .pricing-table .price p{
     display: inline;
 }
-  .pricing-table .description, .pricing-table .description p {
+  .pricing-table .description {
     background-color: white;
     padding: 0.9375rem;
     text-align: center;
     color: #777777;
+  }
+  .pricing-table .description p{
     font-size: 0.75rem;
     font-weight: normal;
     line-height: 1.4;
