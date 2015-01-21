@@ -1927,75 +1927,50 @@ button, .button {
     border-radius: 3px; }
 
 /* Pricing Tables */
-.pricing-table ul{
+.pricing-table {
   border: solid 1px #dddddd;
   margin-left: 0;
   margin-bottom: 1.25rem; }
   .pricing-table * {
     list-style: none;
     line-height: 1; }
-  .pricing-table ul li{
-      border-bottom: dotted 1px #dddddd;
-  }
-.pricing-table ul li P{
-    margin-bottom: 0px;
-}
-  .pricing-table ul li:first-child {
+  .pricing-table .title {
     background-color: #444346;
     padding: 0.9375rem 1.25rem;
     text-align: center;
     color: #eeeeee;
-  }
-  .pricing-table ul li:first-child{
-  font-weight: normal;
+    font-weight: normal;
     font-size: 1rem;
     font-family: "azo-sans-web", "Helvetica", Helvetica, Arial, sans-serif; }
-  .pricing-table ul li:nth-child(2) {
+  .pricing-table .price {
     background-color: #f6f6f6;
     padding: 0.9375rem 1.25rem;
     text-align: center;
     color: #333333;
-  }
-  .pricing-table ul li:nth-child(2) p{
     font-weight: normal;
     font-size: 2rem;
     font-family: "azo-sans-web", "Helvetica", Helvetica, Arial, sans-serif; }
-  .pricing-table ul li:nth-child(3) {
+  .pricing-table .description {
     background-color: white;
     padding: 0.9375rem;
     text-align: center;
     color: #777777;
-  }
-  .pricing-table ul li:nth-child(3) p{
-  font-size: 0.75rem;
+    font-size: 0.75rem;
     font-weight: normal;
     line-height: 1.4;
-  }
-  .pricing-table ul li:nth-child(1n+4){
+    border-bottom: dotted 1px #dddddd; }
+  .pricing-table .bullet-item {
     background-color: white;
     padding: 0.9375rem;
     text-align: center;
     color: #333333;
-  }
-  .pricing-table ul li:nth-child(1n+4) p{
     font-size: 0.875rem;
-    font-weight: normal;}
-  .pricing-table ul li:last-child{
+    font-weight: normal;
+    border-bottom: dotted 1px #dddddd; }
+  .pricing-table .cta-button {
     background-color: white;
     text-align: center;
-    padding: 2.25rem 2.25rem; }
-    .pricing-table ul li:last-child a{
-        background-color: #1ea1d7;
-        border-color: #1881ac;
-        color: white;
-        cursor: default;
-        opacity: 0.7;
-        -webkit-box-shadow: none;
-        box-shadow: none;
-        padding:17px;
-        -webkit-border-radius: 1000px;
-        border-radius: 1000px;
-    }
+    padding: 1.25rem 1.25rem 0; }
 
 .tabs {
   *zoom: 1;
