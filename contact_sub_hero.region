@@ -2,9 +2,8 @@
     <div class="row">
         <div class="large-12 columns">
             <div>
-                <h2>How can we help?</h2>
-                <p class="subtitle">Please pick one of the options below, or <a href="http://twitter.com/Stipso">tweet us</a>. 
-                    You can also find us on <a href="https://plus.google.com/+Stipso">Google+ </a>or <a href="https://www.facebook.com/stipso">Facebook</a>, or come to our office and shout at us.</p>
+                <h2><squarespace:block-field id="ContactH2" columns="1" lock-layout="true" /></h1>
+                <p><squarespace:block-field id="ContactSubHeroParagraph" columns="1" lock-layout="true" /></p>
             </div>
         </div>
     </div>
