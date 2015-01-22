@@ -2,9 +2,8 @@
     <div class="row">
         <div class="large-12 columns">
             <div>
-                <h2>Features</h2>
-                <p class="subtitle">Stipso was built for the creative marketer. 
-                    From design and copy to promotion, reporting and analytics, we’ve got it covered — and if we don’t, Stipso will integrate with the tools that do.</p>
+                <h2><squarespace:block-field id="FeaturesH2" columns="1" lock-layout="true" /></h1>
+                <div class="subtitle"><squarespace:block-field id="FeaturesSubHeroParagraph" columns="1" lock-layout="true" /></div>
             </div>
         </div>
     </div>
