@@ -1968,7 +1968,8 @@ button, .button {
     background-color: white;
     padding: 0.9375rem;
     text-align: center;
-    color: #333333;
+    color: #333333;}
+  .pricing-table .bullet-item p{
     font-size: 0.875rem;
     font-weight: normal;
     border-bottom: dotted 1px #dddddd; }
