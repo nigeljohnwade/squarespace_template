@@ -2634,12 +2634,14 @@ button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert
     font-family: "azo-sans-web", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
-.pricing-table .price, .pricing-table .price p {
+.pricing-table .price{
     background-color: #f6f6f6;
     padding: 0.9375rem 1.25rem;
     text-align: center;
     color: #333333;
-    font-weight: normal;
+}
+.pricing-table .price p{
+font-weight: normal;
     font-size: 2rem;
     font-family: "azo-sans-web", "Helvetica", Helvetica, Arial, sans-serif;
 }
