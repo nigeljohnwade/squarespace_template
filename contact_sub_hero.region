@@ -3,7 +3,7 @@
         <div class="large-12 columns">
             <div>
                 <h2><squarespace:block-field id="ContactH2" columns="1" lock-layout="true" /></h1>
-                <p><squarespace:block-field id="ContactSubHeroParagraph" columns="1" lock-layout="true" /></p>
+                <p class="subtitle"><squarespace:block-field id="ContactSubHeroParagraph" columns="1" lock-layout="true" /></p>
             </div>
         </div>
     </div>
