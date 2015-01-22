@@ -51,7 +51,7 @@
                     </div>
                 </li>
                 <li class="cta-button">
-                    <a class="button round secondary disabled" data-reveal-id="request-invite-modal" href="#">
+                    <a class="button round disabled" data-reveal-id="request-invite-modal" href="#">
                         <squarespace:block-field id="PricingMediumCTA" columns="1" lock-layout="true" />
                     </a>
                 </li>
@@ -129,7 +129,7 @@
                     </div>
                 </li>
                 <li class="cta-button">
-                    <a class="button round secondary disabled" data-reveal-id="request-invite-modal" href="#">
+                    <a class="button round disabled" data-reveal-id="request-invite-modal" href="#">
                         <squarespace:block-field id="PricingMediumCTA" columns="1" lock-layout="true" />
                     </a>
                 </li>
