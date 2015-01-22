@@ -2,10 +2,8 @@
     <div class="row">
         <div class="large-12 columns">
             <div>
-                <h2>Stipso is a creative tool for digital marketers.</h2>
-                <p class="subtitle">Stipso enables brands and agency creatives to create and publish powerful, 
-                    social infographics which simultaneously visualise data and allow users to contribute their own. 
-                    We call them Living Infographics: powerful, visual, branded content to engage and delight your audience.</p>
+                <h2><squarespace:block-field id="WhatIsH2" columns="1" lock-layout="true" /></h1>
+                <div class="subtitle"><squarespace:block-field id="WhatIsSubHeroParagraph" columns="1" lock-layout="true" /></div>
             </div>
         </div>
     </div>
