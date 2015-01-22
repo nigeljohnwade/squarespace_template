@@ -102,7 +102,7 @@ h1 {
     font-size: 30px; }
   .block h3 {
     font-size: 20px; }
-  .block .subtitle {
+  .block .subtitle, .block .subtitle p {
     font-size: 20px;
     margin-bottom: 70px; }
   .block .button {
