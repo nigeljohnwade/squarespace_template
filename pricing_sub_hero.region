@@ -19,7 +19,7 @@
     <div class="row" id="pricing-tables-all">
         
         <div class="large-4 columns pricing-table">
-            <ul class="pricing-table">
+            <ul>
                 <li class="title">
                     <div>
                         <squarespace:block-field id="PricingSmallTitle" columns="1" lock-layout="true" /></div>
@@ -58,7 +58,7 @@
             </ul>
         </div>
         <div class="large-4 columns" id="pricing-table-medium">
-            <ul class="pricing-table">
+            <ul>
                 <li class="title">
                     <div>
                         <squarespace:block-field id="PricingMediumTitle" columns="1" lock-layout="true" /></div>
@@ -97,7 +97,7 @@
             </ul>
         </div>
         <div class="large-4 columns pricing-table">
-            <ul class="pricing-table">
+            <ul>
                 <li class="title">
                     <div>
                         <squarespace:block-field id="PricingLargeTitle" columns="1" lock-layout="true" /></div>
