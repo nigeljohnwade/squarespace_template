@@ -924,3 +924,9 @@ input#company-name {
     line-height: normal;
     text-shadow: none;
 }
+
+/*Blog Styles*/
+.post-content .image-block-outer-wrapper{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
