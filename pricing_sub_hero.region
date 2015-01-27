@@ -49,8 +49,8 @@
                     </div>
                 </li>
                 <li class="cta-button">
-                    <a class="button round disabled" data-reveal-id="request-invite-modal" href="#">
-                        <squarespace:block-field id="PricingMediumCTA" columns="1" lock-layout="true" />
+                    <a class="button round" href="https://editor.stipso.com/users/new">
+                        <squarespace:block-field id="CTAButtonText" columns="1" lock-layout="true" />
                     </a>
                 </li>
             </ul>
@@ -88,8 +88,8 @@
                     </div>
                 </li>
                 <li class="cta-button">
-                    <a class="button round secondary disabled" data-reveal-id="request-invite-modal" href="#">
-                        <squarespace:block-field id="PricingMediumCTA" columns="1" lock-layout="true" />
+                    <a class="button round secondary" href="https://editor.stipso.com/users/new">
+                        <squarespace:block-field id="CTAButtonText" columns="1" lock-layout="true" />
                     </a>
                 </li>
             </ul>
@@ -127,8 +127,8 @@
                     </div>
                 </li>
                 <li class="cta-button">
-                    <a class="button round disabled" data-reveal-id="request-invite-modal" href="#">
-                        <squarespace:block-field id="PricingMediumCTA" columns="1" lock-layout="true" />
+                    <a class="button round" href="https://editor.stipso.com/users/new">
+                        <squarespace:block-field id="CTAButtonText" columns="1" lock-layout="true" />
                     </a>
                 </li>
             </ul>
