@@ -1,0 +1,50 @@
+<div class="signup">
+    <form accept-charset="UTF-8" action="/users" class="new_user" id="new_user" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="0s8xtSoB7P58XuluvO6w0MsIDyDFnrXcLRpEbgXNY4g="></div>
+        <div class="row">
+            <div class="large-12 columns">
+                <input id="user_company_name" name="user[company_name]" placeholder="Company Name" type="text">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+                <input id="user_username" name="user[username]" placeholder="username" type="text">
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <input id="user_contact_name" name="user[contact_name]" placeholder="Contact Name" type="text">
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <input id="user_contact_email" name="user[contact_email]" placeholder="email@example.org" type="text">
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-6 columns">
+                <input id="user_password" name="user[password]" placeholder="Password" type="password">
+            </div>
+            <div class="large-6 columns">
+                <p style="font-size:14px">(Passwords must be a minimum of 8 characters.)</p>
+            </div>
+        </div>
+        <div class="row" style="">
+            <div class="large-6 columns">
+                <input id="user_password_confirmation" name="user[password_confirmation]" placeholder="Confirm Password" type="password">
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <p>By clicking 'sign up', you accept Stipso's <a href="http://www.stipso.com/terms-and-conditions" target="_blank">terms and conditions</a> and <a href="http://www.stipso.com/privacy-policy" target="_blank">privacy policy</a>.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-12 columns">
+                <input id="invitation_token" name="invitation_token" type="hidden">
+                <input class="button small round success" name="commit" type="submit" value="Sign Up">
+            </div>
+        </div>
+
+    </form>        
+</div>
