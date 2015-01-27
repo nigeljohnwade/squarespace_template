@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="large-12 columns">
+        <div id="mc_embed_signup">
+            <form action="http://stipso.us4.list-manage.com/subscribe/post?u=1ad23b5de7bb71c2b1f6e628b&amp;id=2eb9a69f07" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                <h4>Get Stipso’s weekly content marketing digest straight to your inbox</h4>
+                <label for="mce-FNAME">Name  <span class="asterisk">*</span></label>
+                <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+
+                <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <p class="required"><span class="asterisk">*</span> required</p>
+
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="submit button round small ">
+
+                <div id="mce-responses">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
