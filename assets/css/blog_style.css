@@ -129,7 +129,7 @@ img.aligncenter {
     margin-left: 15px;
 }
 
-.post-content img{
+.post-content .image-block-outer-wrapper{
     padding-top: 20px;
     padding-bottom: 20px;
 }
