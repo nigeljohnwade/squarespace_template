@@ -31,9 +31,7 @@
                             {title}
                             {.end}
                         </h2>
-                        <p>
-                            {body}
-                        </p>
+                        {body}
                     </div>
                     {.section author}
                         {.repeated section socialOptions}
@@ -65,9 +63,7 @@
                             {title}
                             {.end}
                         </h2>
-                        <p>
-                            {body}
-                        </p>
+                        {body}
                     </div>
                     {.section author}
                         {.repeated section socialOptions}
@@ -98,9 +94,7 @@
                             {title}
                             {.end}
                         </h2>
-                        <p>
-                            {body}
-                        </p>
+                        {body}
                     </div>
                     {.section author}
                         {.repeated section socialOptions}
