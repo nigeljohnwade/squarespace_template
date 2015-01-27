@@ -1,5 +1,5 @@
 <div class="signup">
-    <form accept-charset="UTF-8" action="/users" class="new_user" id="new_user" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="0s8xtSoB7P58XuluvO6w0MsIDyDFnrXcLRpEbgXNY4g="></div>
+    <form accept-charset="UTF-8" action="http://editor.stipso.com/users" class="new_user" id="new_user" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="0s8xtSoB7P58XuluvO6w0MsIDyDFnrXcLRpEbgXNY4g="></div>
         <div class="row">
             <div class="large-12 columns">
                 <input id="user_company_name" name="user[company_name]" placeholder="Company Name" type="text">
