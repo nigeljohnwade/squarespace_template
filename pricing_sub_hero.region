@@ -3,9 +3,7 @@
         <div class="large-12 columns">
             <div>
                 <h2><squarespace:block-field id="PricingH2" columns="1" lock-layout="true" /></h1>
-                <p class="subtitle"><b>Stipso is now boarding. Click below to request an invitation, and we’ll show you to your seat shortly</b><b style="font-family: inherit; line-height: 1.6;">.</b></p>
             </div>
-            <a href="#" data-reveal-id="request-invite-modal" class="button round">Get started</a>
             <div>
                 <p class="plan-intro"><squarespace:block-field id="PricingIntro" columns="1" lock-layout="true" /></p>
             </div>

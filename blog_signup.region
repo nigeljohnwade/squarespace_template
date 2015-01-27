@@ -10,7 +10,7 @@
                 <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
                 <p class="required"><span class="asterisk">*</span> required</p>
 
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="submit button round small ">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="submit button round small " style="width: auto">
 
                 <div id="mce-responses">
                     <div class="response" id="mce-error-response" style="display:none"></div>
