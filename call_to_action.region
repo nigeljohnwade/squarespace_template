@@ -5,7 +5,7 @@
                 <h3><squarespace:block-field id="CTAH3" columns="1" lock-layout="true" /></h3>
                 <p><squarespace:block-field id="CTAParagraph" columns="1" lock-layout="true" /></p>
             </div>
-            <a href="#" data-reveal-id="request-invite-modal" class="button round"><squarespace:block-field id="CTAButtonText" columns="1" lock-layout="true" /></a>
+            <a href="https://editor.stipso.com/users/new" class="button round"><squarespace:block-field id="CTAButtonText" columns="1" lock-layout="true" /></a>
         </div>
     </div>
 </div>

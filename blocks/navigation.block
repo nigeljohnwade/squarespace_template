@@ -59,7 +59,7 @@
         </li>
         
     {.end}
-      <li><a href="#" class="button round" data-reveal-id="request-invite-modal"><squarespace:block-field id="CTAButtonText" columns="1" lock-layout="true" /></a></li>
+      <li><a href="https://editor.stipso.com/users/new" class="button round"><squarespace:block-field id="CTAButtonText" columns="1" lock-layout="true" /></a></li>
       <li><a href="http://editor.stipso.com" target="_blank">Log In</a></li>
   </ul>
 </nav>
