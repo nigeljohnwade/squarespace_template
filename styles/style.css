@@ -930,7 +930,7 @@ input#company-name {
     padding-top: 20px;
 }
 
-#mc_embed_signup .newsletter-form-button.sqs-system-button{
+.newsletter-block .newsletter-form-button.sqs-system-button{
     border-radius: 1000px;
     background-color: rgb(30, 161, 215);
     border: none;
