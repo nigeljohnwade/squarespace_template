@@ -44,7 +44,7 @@
 
     </script>
     {squarespace-headers}
-    <link rel="stylesheet" href="/assets/css/blog_style.css">
+    <link rel="stylesheet" href="/styles/blog_style.css">
 </head>
 
 <body>
