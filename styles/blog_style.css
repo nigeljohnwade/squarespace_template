@@ -692,6 +692,11 @@ blockquote {
 }
 
 
+/*Blog Styles*/
+.post-content .image-block-outer-wrapper{
+    padding-top: 20px;
+}
+
 /* Mobile */
 
 @media screen and (max-width: 1024px) {
