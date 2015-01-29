@@ -423,7 +423,7 @@ blockquote {
 /* New */
 
 #hero.block {
-    background-image: url('../assets/img/header.jpg');
+    background-image: url('../img/header.jpg');
     background-size: cover;
     padding: 0 0 100px;
     text-shadow: 0 0 5px black;
@@ -552,7 +552,7 @@ blockquote {
 }
 
 #footer {
-    background-image: url('../assets/img/footer.png');
+    background-image: url('../img/footer.png');
     background-size: cover;
     text-shadow: 0 0 0 5px black;
     background-color: #444346; }
@@ -601,7 +601,7 @@ blockquote {
     margin-bottom: 20px;
 }
 #footer {
-    background-image: url(../assets/img/footer.png);
+    background-image: url(../img/footer.png);
     background-size: cover;
     text-shadow: 0 0 10px black;
     background-color: #444346; }
