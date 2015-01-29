@@ -924,3 +924,13 @@ input#company-name {
     line-height: normal;
     text-shadow: none;
 }
+
+/*Blog Styles*/
+.post-content .image-block-outer-wrapper{
+    padding-top: 20px;
+}
+
+#mc_embed_signup .sqs-system-button{
+    border-radius: 1000px;
+    background-color: rgb(30, 161, 215);
+}
