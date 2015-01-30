@@ -935,7 +935,3 @@ input#company-name {
     background-color: rgb(30, 161, 215);
     border: none;
 }
-.summary-item-list-container.sqs-gallery-container .summary-item{
-    border-top: 1px solid #ccc;
-    padding-top: 5px;
-}
