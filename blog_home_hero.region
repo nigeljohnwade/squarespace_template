@@ -1,0 +1,25 @@
+<div id="hero" class="blog block">
+    <div id="nav-wrapper">
+        <div class="row">
+            <div class="large-12 columns">
+                <nav class="top-bar" data-topbar=""><ul class="title-area"><li class="name">
+                    <h1><a href="/"><img src="/assets/img/logo.png" alt=""><span>Stipso</span></a></h1>
+                </li>
+                    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+                    <section class="top-bar-section">
+                        <squarespace:navigation navigationId="mainNav" template="navigation">
+                    </section>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <div>
+                <h1><squarespace:block-field id="BlogHomeH1" columns="1" lock-layout="true" /></h1>
+                <p><squarespace:block-field id="BlogHomeParagraph" columns="1" lock-layout="true" /></p>
+            </div>
+        </div>
+    </div>
+</div>
+<squarespace:navigation navigationId="blogNav" template="blog_navigation">
