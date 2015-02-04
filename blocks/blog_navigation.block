@@ -1,4 +1,4 @@
-<div id="blog-specific-nav">
+<div id="blog-specific-nav" data-content-field="navigation-blogNav">
     <div class="row">
         <div class="large-7 columns">
             <div class="menu-main-container"><ul class="button-group" role="navigation"><li><a href="http://blog.stipso.com" class="button current-menu-item current_page_item">Home</a></li>
