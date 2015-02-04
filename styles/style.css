@@ -935,3 +935,6 @@ input#company-name {
     background-color: rgb(30, 161, 215);
     border: none;
 }
+#hero.blog{
+    border-bottom: none;
+}
