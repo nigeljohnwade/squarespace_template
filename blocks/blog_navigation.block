@@ -25,7 +25,7 @@
                 </ul>
             </div>
         </div>
-        <div class="large-5 columns" id="search-blog">
+        <div class="large-2 columns" id="search-blog">
             <a class="button round secondary tiny hs-rss-link" id="rss-link" href="/blog/?format=rss"
                target="_blank"><span class="typcn typcn-rss"></span></a>
 
