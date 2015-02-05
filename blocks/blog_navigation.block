@@ -3,14 +3,24 @@
         <div class="large-7 columns">
             <div class="menu-main-container">
                 <ul class="button-group" role="navigation">
-                    <li><a href="/blog" class="button current-menu-item current_page_item">Home</a>
+                    <li>
+                        <a href="/blog" class="button current-menu-item current_page_item">Home</a>
                     </li>
-                    <li><a href="/blog/?category=Content+marketing" class="button">Content</a>
+                    <li>
+                        <a href="/blog/?category=Content+marketing" class="button">Content</a>
                     </li>
-                    <li><a href="/blog/?category=Marketing" class="button">Marketing</a></li>
-                    <li><a href="/blog/?category=Data" class="button">Data</a>
+                    <li>
+                        <a href="/blog/?category=Marketing" class="button">Marketing</a>
                     </li>
-                    <li><a href="/blog/?category=SEO" class="button">SEO</a></li>
+                    <li>
+                        <a href="/blog/?category=Data" class="button">Data</a>
+                    </li>
+                    <li>
+                        <squarespace:block-field id="BlogSearch" columns="1" lock-layout="true" />
+                    </li>
+                    <li>
+                        <a href="/blog/?category=SEO" class="button">SEO</a>
+                    </li>
                 </ul>
             </div>
         </div>
