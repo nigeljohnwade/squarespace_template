@@ -938,3 +938,6 @@ input#company-name {
 #hero.blog{
     border-bottom: none;
 }
+.sqs-search-ui-button-wrapper .search-input.hover-effect:hover, .sqs-search-ui-button-wrapper .search-input.hover-effect:focus{
+    background-repeat: no-repeat;
+}
