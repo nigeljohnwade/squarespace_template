@@ -947,4 +947,5 @@ li.blog-search{
 }
 li.blog-search input.search-input{
     background-color: white;
+    opacity: 0;
 }
