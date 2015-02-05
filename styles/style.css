@@ -940,4 +940,5 @@ input#company-name {
 }
 .sqs-search-ui-button-wrapper .search-input.hover-effect:hover, .sqs-search-ui-button-wrapper .search-input.hover-effect:focus{
     background-repeat: no-repeat;
+    background-position: 15px 8px;
 }
