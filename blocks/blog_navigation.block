@@ -16,7 +16,7 @@
                         <a href="/blog/?category=Data" class="button">Data</a>
                     </li>
                     <li>
-                        <squarespace:block-field id="BlogSearch" columns="1" lock-layout="true" />
+                        <squarespace:block-field id="BlogSearch" columns="1" />
                     </li>
                     <li>
                         <a href="/blog/?category=SEO" class="button">SEO</a>
