@@ -16,6 +16,9 @@
     <div class="row">
         <div class="large-12 columns">
             <div><h1>{item.title}</h1></div>
+            {.if excerpt}
+            {excerpt}
+            {.end}
         </div>
     </div>
 </div>
