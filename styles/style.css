@@ -945,6 +945,6 @@ input#company-name {
 li.blog-search{
     padding-top:8px;
 }
-li.blog-search input{
+li.blog-search input.search-input{
     background-color: white;
 }
