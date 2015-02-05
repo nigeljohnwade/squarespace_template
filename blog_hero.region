@@ -23,3 +23,6 @@
     </div>
 </div>
 <squarespace:navigation navigationId="blogNav" template="blog_navigation">
+<div class="large-12 columns">
+    <squarespace:block-field id="BlogSearch" columns="12" />
+</div>

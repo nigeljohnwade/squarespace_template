@@ -19,6 +19,9 @@
                     <li>
                         <a href="/blog/?category=SEO" class="button">SEO</a>
                     </li>
+                    <li class="blog-search right">
+                        <squarespace:block-field id="BlogSearch" columns="1" />
+                    </li>
                 </ul>
             </div>
         </div>
