@@ -942,14 +942,11 @@ input#company-name {
     background-repeat: no-repeat;
     background-position: 15px 8px;
 }
-li.blog-search{
+div.blog-search{
     padding-top:8px;
 }
-li.blog-search input.search-input{
+div.blog-search input.search-input{
     background-color: white;
     opacity: 1;
     margin-bottom: 0px;
-}
-.sqs-row{
-    
 }
