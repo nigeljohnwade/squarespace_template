@@ -25,11 +25,6 @@
         <div class="large-2 columns" id="search-blog">
             <a class="button round secondary tiny hs-rss-link" id="rss-link" href="/blog/?format=rss"
                target="_blank"><span class="typcn typcn-rss"></span></a>
-
-            <!--<form id="searchform" method="get" action="http://blog.stipso.com">-->
-                <!--<input type="text" value="" name="s" id="s" placeholder="">-->
-                <!--<input type="submit" class="button round tiny secondary" value="Search">-->
-            <!--</form>-->
         </div>
     </div>
 </div>
