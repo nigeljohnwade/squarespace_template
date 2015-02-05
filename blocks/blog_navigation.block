@@ -1,6 +1,6 @@
 <div id="blog-specific-nav" data-content-field="navigation-blogNav">
     <div class="row">
-        <div class="large-7 columns">
+        <div class="large-10 columns">
             <div class="menu-main-container">
                 <ul class="button-group" role="navigation">
                     <li>
@@ -19,7 +19,7 @@
                     <li>
                         <a href="/blog/?category=SEO" class="button">SEO</a>
                     </li>
-                    <li>
+                    <li class="blog-search right">
                         <squarespace:block-field id="BlogSearch" columns="1" />
                     </li>
                 </ul>
