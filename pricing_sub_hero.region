@@ -40,11 +40,6 @@
                 </li>
                 <li class="bullet-item">
                     <div>
-                        <squarespace:block-field id="PricingSmallINfographics" columns="1" lock-layout="true" />
-                    </div>
-                </li>
-                <li class="bullet-item">
-                    <div>
                         <squarespace:block-field id="PricingSmallVisitors" columns="1" lock-layout="true" />
                     </div>
                 </li>
@@ -79,11 +74,6 @@
                 </li>
                 <li class="bullet-item">
                     <div>
-                        <squarespace:block-field id="PricingMediumINfographics" columns="1" lock-layout="true" />
-                    </div>
-                </li>
-                <li class="bullet-item">
-                    <div>
                         <squarespace:block-field id="PricingMediumVisitors" columns="1" lock-layout="true" />
                     </div>
                 </li>
@@ -114,11 +104,6 @@
                 <li class="bullet-item">
                     <div>
                         <squarespace:block-field id="PricingLargeFeatures" columns="1" lock-layout="true" />
-                    </div>
-                </li>
-                <li class="bullet-item">
-                    <div>
-                        <squarespace:block-field id="PricingLargeINfographics" columns="1" lock-layout="true" />
                     </div>
                 </li>
                 <li class="bullet-item">
