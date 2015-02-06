@@ -103,6 +103,9 @@
     
             });
         }
+        if($('.sqs-main-image img[data-src]').length > 0){
+            console.log($('.sqs-main-image img[data-src]'));
+        }
     });
 
 </script>
