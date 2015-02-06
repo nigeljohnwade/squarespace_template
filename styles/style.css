@@ -965,3 +965,7 @@ div.blog-search input.search-input{
 .sqs-search-page.sqs-search-page-content h5 {
     font-family: 'azo-sans-web', Arial, sans-serif;
 }
+
+.sqs-search-page-input{
+    border: none;
+}
