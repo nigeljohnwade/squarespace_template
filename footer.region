@@ -77,6 +77,10 @@
     </div>
     <a class="close-reveal-modal">&#215;</a>
 </div>
+    
+<script src='/assets/js/jquery.js'></script>
+<script src='/assets/js/foundation.min.js'></script>
+<script src='/assets/js/retina.js'></script>
 
 <script type="text/javascript">
     $(document).foundation();
