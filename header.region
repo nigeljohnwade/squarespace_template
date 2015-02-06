@@ -8,6 +8,10 @@
 
     <link href="/assets/favicon.ico" rel="shortcut icon">
     <link href="/assets/apple-touch-icon.png" rel="apple-touch-icon">
+    <meta name=og:description" content="Stipso enables content marketers to easily mash up social polling and 
+real-time data visualisation for visual content that converts.">
+    <meta name=og:title" content="Stipso — people-powered infographics for visual content marketing">
+    <meta name="og:image" content="http://stipso.com/assets/img/mac.png"
 
     <title>Stipso</title>
 
