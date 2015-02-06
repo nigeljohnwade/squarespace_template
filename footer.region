@@ -107,7 +107,7 @@
             console.log($('.sqs-main-image img[data-src]'));
             var imgs = $('.sqs-main-image img[data-src]');
             imgs.each(function(idx, elem){
-               $(eleme),.attr('src', $(elem).attr('data-src')); 
+               $(eleme).attr('src', $(elem).attr('data-src')); 
             });
         }
     });
