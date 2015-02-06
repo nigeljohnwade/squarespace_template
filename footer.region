@@ -89,7 +89,23 @@
             $(this).toggleClass("selected");
         });
 
-    });</script>
+    });
+    $(document).ready(function() {
+        if($('.euros').length > 0){
+            $('.euros').hide()
+            $('.dollars').hide()
+    
+            $('#currency-choice').change(function () {
+                $('.pounds').hide()
+                $('.euros').hide()
+                $('.dollars').hide()
+                $('.' + this.value).show();
+    
+            });
+        }
+    });
+
+</script>
 
 </body>
 
