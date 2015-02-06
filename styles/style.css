@@ -950,3 +950,18 @@ div.blog-search input.search-input{
     opacity: 1;
     margin-bottom: 0px;
 }
+
+.sqs-search-page.sqs-search-page-content{
+    font-family: "rooney-web",serif;
+    line-height: 1.5;
+    color: #444346;
+    font-size: 16px;
+}
+
+.sqs-search-page.sqs-search-page-content h1,
+.sqs-search-page.sqs-search-page-content h2,
+.sqs-search-page.sqs-search-page-content h3,
+.sqs-search-page.sqs-search-page-content h4,
+.sqs-search-page.sqs-search-page-content h5 {
+    font-family: 'azo-sans-web', Arial, sans-serif;
+}
