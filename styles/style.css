@@ -970,11 +970,11 @@ div.blog-search input.search-input{
     border: none;
 }
 
-.blog-navigation .newer{
+.blog-navigation.newer{
     float:right;
 }
 
-.blog-navigation .older{
+.blog-navigation.older{
     float:left;
 }
 
