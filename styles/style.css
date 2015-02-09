@@ -970,15 +970,18 @@ div.blog-search input.search-input{
     border: none;
 }
 
-.blog-navigation-newer{
+.blog-navigation .newer{
     float:right;
 }
 
-.blog-navigation-older{
+.blog-navigation .older{
     float:left;
 }
 
 nav a.disabled{
     cursor: text;
     color: #bfbdc2;
+}
+nav a.blog-navigation span{
+    font-size: 21px;
 }
