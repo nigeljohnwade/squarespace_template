@@ -971,9 +971,9 @@ div.blog-search input.search-input{
 }
 
 .blog-navigation-newer{
-    flost:right;
+    float:right;
 }
 
 .blog-navigation-older{
-    flost:left;
+    float:left;
 }
