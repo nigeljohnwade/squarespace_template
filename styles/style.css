@@ -977,3 +977,8 @@ div.blog-search input.search-input{
 .blog-navigation-older{
     float:left;
 }
+
+nav a.disabled{
+    cursor: text;
+    color: #bfbdc2;
+}
