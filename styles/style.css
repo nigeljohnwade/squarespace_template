@@ -969,3 +969,11 @@ div.blog-search input.search-input{
 .sqs-search-page-input{
     border: none;
 }
+
+.blog-navigation-newer{
+    flost:right;
+}
+
+.blog-navigation-older{
+    flost:left;
+}
