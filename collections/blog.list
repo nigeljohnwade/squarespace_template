@@ -124,7 +124,7 @@
     {.if pagination.prevPage}
       <a href="{pagination.prevPageUrl}" class="blog-navigation-newer">Newer</a>
     {.or}
-      <a class="disabled">Newer</a>
+      <a class="blog-navigation-newer disabled">Newer</a>
     {.end}
 
     <!--OLDER PAGE-->
@@ -132,7 +132,7 @@
     {.if pagination.nextPage}
       <a href="{pagination.nextPageUrl}" class="blog-navigation-older">Older</a>
     {.or}
-      <a class="disabled">Older</a>
+      <a class="blog-navigation-older disabled">Older</a>
     {.end}
 
   </nav>
