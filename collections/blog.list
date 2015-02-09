@@ -130,9 +130,9 @@
     <!--OLDER PAGE-->
 
     {.if pagination.nextPage}
-      <a href="{pagination.nextPageUrl}" class="blog-navigation-older">Older</a>
+      <a href="{pagination.nextPageUrl}" class="blog-navigation-older"><span class="typcn typcn-arrow-left-outline"></span>Older</a>
     {.or}
-      <a class="blog-navigation-older disabled"><span class="typcn typcn-arrow-left-outline"></span>Older</a>
+      <a class="blog-navigation-older disabled"><span class="typcn typcn-arrow-right-outline"></span>Older</a>
     {.end}
 
   </nav>
