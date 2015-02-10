@@ -15,9 +15,17 @@
     </div>
     <div class="row">
         <div class="large-12 columns">
-            <div><h1>{item.title}</h1></div>
+            <div><h1>
+                {.if item.title}
+                    {item.title}
+                {.or}
+                    The Stipso Blog
+                {.end}
+            </h1></div>
             {.if item.excerpt}
                 {item.excerpt}
+            {.or}
+                <p>Notes and commentary on what's now and next in content, marketing and technology.</p>
             {.end}
         </div>
     </div>
