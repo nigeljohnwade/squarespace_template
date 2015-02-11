@@ -1,0 +1,39 @@
+<div id="hero" class="test block">
+    <div id="nav-wrapper">
+        <div class="row">
+            <div class="large-12 columns">
+                <nav class="top-bar" data-topbar>
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1>
+                                <a href="/">
+                                    <img src="/assets/img/logo.png" alt="" />
+                                    <span>Stipso</span>
+                                </a>
+                            </h1>
+                        </li>
+                        <li class="toggle-topbar menu-icon">
+                            <a href="#">Menu</a>
+                        </li>
+                    </ul>
+                    <section class="top-bar-section">
+                        <squarespace:navigation navigationId="mainNav" template="navigation">
+                    </section>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <div>
+                <h1><squarespace:block-field id="H1" columns="1" /></h1>
+                <p><squarespace:block-field id="Paragrpah" columns="1" /></p>
+            </div>
+            <a href="https://editor.stipso.com/users/new" class="button round">Start my 30-day free trial</a>
+        </div>
+    </div>
+    <div id="mac-img">
+        <img src="/assets/img/mac.png" alt="" />
+    </div>
+
+</div>
