@@ -68,6 +68,19 @@ ul, ol {
 }
 #hero.block.test{
     background-image: url(../assets/img/img_1@2560.jpg);
+    background-position: center 100%;
+    animation-duration: 3s;
+    animation-name: slideup;
+}
+
+@keyframes slideup {
+    from {
+        background-position: center 100%;
+    }
+
+    to {
+        background-position: center 0%;
+    }
 }
 
 #mac-img {
