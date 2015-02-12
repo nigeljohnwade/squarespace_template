@@ -74,11 +74,11 @@ ul, ol {
 }
 
 @-webkit-keyframes slideup {
-    from {
+    0% {
         background-position: center 100%;
     }
 
-    to {
+    100% {
         background-position: center 0%;
     }
 }
