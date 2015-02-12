@@ -69,11 +69,11 @@ ul, ol {
 #hero.block.test{
     background-image: url(../assets/img/img_1@2560.jpg);
     background-position: center 100%;
-    animation-duration: 3s;
-    animation-name: slideup;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: slideup;
 }
 
-@keyframes slideup {
+@-webkit-keyframes slideup {
     from {
         background-position: center 100%;
     }
