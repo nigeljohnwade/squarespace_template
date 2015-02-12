@@ -66,6 +66,9 @@ ul, ol {
 #hero.block.home {
     padding: 0px 0 180px;
 }
+#hero.block.test{
+    background-image: url(../assets/img/img_1@2560.jpg);
+}
 
 #mac-img {
     position: absolute;
