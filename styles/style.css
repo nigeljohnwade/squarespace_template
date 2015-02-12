@@ -71,15 +71,19 @@ ul, ol {
     background-position: center 100%;
     -webkit-animation-duration: 3s;
     -webkit-animation-name: slideup;
+    -webkit-animation-repeat: infinite;
 }
 
 @-webkit-keyframes slideup {
     0% {
         background-position: center 100%;
     }
+    50% {
+        background-position: center 0%;
+    }
 
     100% {
-        background-position: center 0%;
+        background-position: center 100%;
     }
 }
 
