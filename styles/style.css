@@ -69,9 +69,10 @@ ul, ol {
 #hero.block.test{
     background-image: url(../assets/img/img_1@2560.jpg);
     background-position: center 100%;
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 30s;
     -webkit-animation-name: blowup;
-    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
 }
 
 @-webkit-keyframes slideup {
@@ -93,7 +94,7 @@ ul, ol {
     }
 
     100% {
-        background-size: 105%;
+        background-size: 110%;
     }
 }
 
