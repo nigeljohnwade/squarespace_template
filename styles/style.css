@@ -74,7 +74,14 @@ ul, ol {
     /*-webkit-animation-iteration-count: 1;*/
     /*-webkit-animation-timing-function: linear;*/
 }
-
+#hero.block.test{
+    background-image: url(../assets/img/img_2@2560.jpg);
+    background-position: center 100%;
+    /*-webkit-animation-duration: 30s;*/
+    /*-webkit-animation-name: blowup;*/
+    /*-webkit-animation-iteration-count: 1;*/
+    /*-webkit-animation-timing-function: linear;*/
+}
 @-webkit-keyframes slideup {
     0% {
         background-position: center 100%;
