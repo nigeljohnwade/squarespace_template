@@ -67,42 +67,12 @@ ul, ol {
     padding: 0px 0 180px;
 }
 #hero.block.test{
-    background-image: url(../assets/img/img_1@2560.jpg);
+    background-image: url(../assets/img/img_1@2560x75%.jpg);
     background-position: center 100%;
-    /*-webkit-animation-duration: 30s;*/
-    /*-webkit-animation-name: blowup;*/
-    /*-webkit-animation-iteration-count: 1;*/
-    /*-webkit-animation-timing-function: linear;*/
 }
 #hero.block.test{
-    background-image: url(../assets/img/img_2@2560.jpg);
+    background-image: url(../assets/img/img_2@2560x75%.jpg);
     background-position: center 100%;
-    /*-webkit-animation-duration: 30s;*/
-    /*-webkit-animation-name: blowup;*/
-    /*-webkit-animation-iteration-count: 1;*/
-    /*-webkit-animation-timing-function: linear;*/
-}
-@-webkit-keyframes slideup {
-    0% {
-        background-position: center 100%;
-    }
-    50% {
-        background-position: center 0%;
-    }
-
-    100% {
-        background-position: center 100%;
-    }
-}
-
-@-webkit-keyframes blowup {
-    0% {
-        background-size: 100%;
-    }
-
-    100% {
-        background-size: 110%;
-    }
 }
 
 #mac-img {
