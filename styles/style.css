@@ -67,11 +67,11 @@ ul, ol {
     padding: 0px 0 180px;
 }
 #hero.block.test{
-    background-image: url(../assets/img/img_1@2560x75%.jpg);
+    background-image: url(../assets/img/img_1@2560.jpg);
     background-position: center 100%;
 }
 #hero.block.test{
-    background-image: url(../assets/img/img_2@2560x75%.jpg);
+    background-image: url(../assets/img/img_2@2560.jpg);
     background-position: center 100%;
 }
 
