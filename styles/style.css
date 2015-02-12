@@ -71,7 +71,7 @@ ul, ol {
     background-position: center 100%;
     -webkit-animation-duration: 3s;
     -webkit-animation-name: slideup;
-    -webkit-animation-repeat: infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes slideup {
