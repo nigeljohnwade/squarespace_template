@@ -757,10 +757,10 @@ h1 {
 .client-logo#axxon {
     width: 134px;
     height: 29px;
-    background-image: url(../img/logos/axxon-bw.png);
+    background-image: url(../assets/img/logos/axxon-bw.png);
     background-size: 134px 29px; }
 .client-logo#axxon:hover {
-    background-image: url(../img/logos/axxon.png); }
+    background-image: url(../assets/img/logos/axxon.png); }
 
 .client-logo#edinair {
     width: 183px;
