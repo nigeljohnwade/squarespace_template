@@ -104,10 +104,12 @@
             });
         }
         //IMG rotation
-        var imgs = ['img_1@2560.jpg', 'img_2@2560.jpg'],
-            $targetImg = $('#hero'),
-            assetBaseUrl = '/assets/img/';
-        $targetImg.css('background-image', 'url(' + assetBaseUrl + imgs[~~(Math.random() * 2)] + ')');
+        var imgs = [{src: 'img_2@2560.jpg', attrib:'Daniel Robert Dinu', attribUrl: 'http://concertphotography.ro/'}]
+            $targetImg = $('#hero.test'),
+            assetBaseUrl = '/assets/img/',
+            pluck = imgs[~~(Math.random() * 2)];
+        $targetImg.css('background-image', 'url(' + assetBaseUrl + pluck.src + ')');
+        $targetImg.append('<p class="attribution"><a href="' + pluck.attribUrl + '">' + pluck.attrib + '</a></p>')
         //Hack for squarespace search not working properly in non ajax mode
         if($('.sqs-main-image img[data-src]').length > 0){
             var imgs = $('.sqs-main-image img[data-src]');
