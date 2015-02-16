@@ -746,6 +746,22 @@ h1 {
     background-image: url(../assets/img/logos/freeagent.png);
 }
 
+.client-logo#unbounce {
+    width: 183px;
+    height: 38px;
+    background-image: url(../assets/img/logos/unbounce-bw.png);
+    background-size: 183px 38px; }
+.client-logo#unbounce:hover {
+    background-image: url(../assets/img/logos/unbounce.png); }
+
+.client-logo#axxon {
+    width: 134px;
+    height: 29px;
+    background-image: url(../img/logos/axxon-bw.png);
+    background-size: 134px 29px; }
+.client-logo#axxon:hover {
+    background-image: url(../img/logos/axxon.png); }
+
 .client-logo#edinair {
     width: 183px;
     height: 49px;

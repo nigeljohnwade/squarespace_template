@@ -8,13 +8,15 @@
             </div>
         </div>
         <div class="large-12 columns">
+            <a href="http://unbounce.com" target="_blank" class="client-logo" id="unbounce"></a>
             <a href="http://freeagent.com" target="_blank" class="client-logo" id="freeagent"></a>
+            <a href="http://biteglobal.com" target="_blank" class="client-logo" id="bite"></a>
+            <a href="http://digitaslbi.com" target="_blank" class="client-logo" id="digitaslbi"></a>
             <a href="http://edinburghairport.com" target="_blank" class="client-logo" id="edinair"></a>
             <a href="http://turingfestival.com" target="_blank" class="client-logo" id="turing"></a>
-            <a href="http://biteglobal.com" target="_blank" class="client-logo" id="bite"></a>
-            <a href="http://www.morganintl.com/" target="_blank" class="client-logo" id="morgan" title="Global lead in professional training for certifications: CPA, CFA, CMA, CIA"></a><br><a href="http://workplacesystems.com" target="_blank" class="client-logo" id="workplace"></a>
+            <a href="http://www.morganintl.com/" target="_blank" class="client-logo" id="morgan" title="Global lead in professional training for certifications: CPA, CFA, CMA, CIA"></a>
+            <a href="http://workplacesystems.com" target="_blank" class="client-logo" id="workplace"></a>
             <a href="http://disciplinedentrepreneurship.com" target="_blank" class="client-logo" id="disciplined"></a>
-            <a href="http://digitaslbi.com" target="_blank" class="client-logo" id="digitaslbi"></a>
             <a href="http://powa.com" target="_blank" class="client-logo" id="powa"></a>
         </div>
     </div>
