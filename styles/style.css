@@ -51,7 +51,7 @@ ul, ol {
 }
 
 #hero.block h1, #hero.block p {
-    text-shadow: 0 0 10px black;
+    text-shadow: 0 0 10px #000, 0 0 30px #000;
 }
 
 #hero.block h1 {
