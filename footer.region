@@ -109,7 +109,7 @@
             assetBaseUrl = '/assets/img/',
             pluck = imgs[~~(Math.random() * 2)];
         $targetImg.css('background-image', 'url(' + assetBaseUrl + pluck.src + ')');
-        $targetImg.append('<p class="attribution"><a href="' + pluck.attribUrl + '">' + pluck.attrib + '</a></p>')
+        $targetImg.append('<p class="attribution">Photo by <a href="' + pluck.attribUrl + '">' + pluck.attrib + '</a>.</p>')
         //Hack for squarespace search not working properly in non ajax mode
         if($('.sqs-main-image img[data-src]').length > 0){
             var imgs = $('.sqs-main-image img[data-src]');
