@@ -73,6 +73,14 @@ ul, ol {
     background-position: center 100%;
 }
 
+#hero p.attribution{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    font-size: 14px;
+}
+
+
 #mac-img {
     position: absolute;
     top: 0;
