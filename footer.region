@@ -107,7 +107,7 @@
         var imgs = [{src: 'img_2@2560.jpg', attrib:'Daniel Robert Dinu', attribUrl: 'http://concertphotography.ro/'}]
             $targetImg = $('#hero.test'),
             assetBaseUrl = '/assets/img/',
-            pluck = imgs[~~(Math.random() * 2)];
+            pluck = imgs[~~(Math.random() * 1)];
         $targetImg.css('background-image', 'url(' + assetBaseUrl + pluck.src + ')');
         $targetImg.append('<p class="attribution">Photo by <a href="' + pluck.attribUrl + '">' + pluck.attrib + '</a>.</p>')
         //Hack for squarespace search not working properly in non ajax mode
