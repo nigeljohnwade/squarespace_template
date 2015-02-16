@@ -103,8 +103,12 @@
     
             });
         }
+        //IMG rotation
+        var imgs = ['img_1@2560x75%.jpg', 'img_2@2560x75%.jpg'],
+            $targetImg = $('.imgRotator');
+        $targetImg.attr('src', imgs[~~(Math.random() * 2)]);
+        //Hack for squarespace search not working properly in non ajax mode
         if($('.sqs-main-image img[data-src]').length > 0){
-            console.log($('.sqs-main-image img[data-src]'));
             var imgs = $('.sqs-main-image img[data-src]');
             imgs.each(function(idx, elem){
                $(elem).attr('src', $(elem).attr('data-src')); 
