@@ -105,8 +105,8 @@
         }
         //IMG rotation
         var imgs = ['img_1@2560x75%.jpg', 'img_2@2560x75%.jpg'],
-            $targetImg = $('.imgRotator');
-        $targetImg.attr('src', imgs[~~(Math.random() * 2)]);
+            $targetImg = $('#hero.test');
+        $targetImg.css('background-image', 'url(' + imgs[~~(Math.random() * 2)] + ')');
         //Hack for squarespace search not working properly in non ajax mode
         if($('.sqs-main-image img[data-src]').length > 0){
             var imgs = $('.sqs-main-image img[data-src]');
