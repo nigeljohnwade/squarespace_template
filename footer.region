@@ -104,6 +104,13 @@
     
             });
         }
+        //Open external links in new tab/window
+        $('a[href]').each(function(idx, elem){
+            if(elem.href.match(/http[s]?:\/\/[a-zA-Z0-9]*\.stipso\.com/) > -1){
+                console.log(elem);
+            }
+            
+        });
         //Hack for squarespace search not working properly in non ajax mode
         if($('.sqs-main-image img[data-src]').length > 0){
             var imgs = $('.sqs-main-image img[data-src]');
