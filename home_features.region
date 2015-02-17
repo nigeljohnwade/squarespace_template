@@ -11,8 +11,7 @@
                         <span class="typcn typcn-input-checked" id="icon-ask"></span>
                     </div>
                     <div>
-                        <squarespace:block-field id="HomeAskH3" columns="1" lock-layout="true"/>
-                        <p>Tell a story. Ask a question. Start a conversation. Invite your audience to contribute and co-create with you.</p>
+                        <squarespace:block-field id="HomeAskH3" columns="1"/>
                     </div>
                 </div>
                 <div class="large-4 columns">
