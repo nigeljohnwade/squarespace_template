@@ -105,11 +105,11 @@
             });
         }
         //Open external links in new tab/window
-        $('a[href]').each(function(idx, elem){
+        $('a[href]:not[target]').each(function(idx, elem){
             if(elem.href.search(/http[s]?:\/\/[a-zA-Z0-9]*\.stipso\.com/) === -1){
                 console.log(elem.href.search(/http[s]?:\/\/[a-zA-Z0-9]*\.stipso\.com/));
                 console.log(elem.href);
-                $(elem ).attr('target', '_blank');
+                //$(elem ).attr('target', '_blank');
             }
             
         });
