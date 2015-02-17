@@ -2,7 +2,7 @@
     <div class="row">
         <div class="large-12 columns">
             <div>
-                <h2>a creative tool for content marketers.</h2>
+                <squarespace:block-field id="HomeSubHeadH2" columns="1" lock-layout="true"/>
                 <p class="subtitle">Stipso is built for visual content marketing. Living Infographics mash up interactive polls and data visualisation, enabling you to create beautiful, social content that grows as people engage.</p>
             </div>
             <div class="row">
