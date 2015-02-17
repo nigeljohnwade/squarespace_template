@@ -12,7 +12,7 @@
                     </div>
                     <div>
                         <squarespace:block-field id="HomeAskH3" columns="1" lock-layout="true"/>
-                        <squarespace:block-field id="HomeH3Paragraph" columns="1" lock-layout="true"/>
+                        <p>Tell a story. Ask a question. Start a conversation. Invite your audience to contribute and co-create with you.</p>
                     </div>
                 </div>
                 <div class="large-4 columns">
