@@ -19,7 +19,7 @@
                         <span class="typcn typcn-image" id="icon-visualise"></span>
                     </div>
                     <div>
-                        <squarespace:block-field id="HomeVisualiseH3" columns="1" lock-layout="true"/>
+                        <squarespace:block-field id="HomeVisualiseH3" columns="1"/>
                         <p>Stipso visualises user contributions in real time, creating infographics that grow and blossom as people engage.</p>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
                         <span class="typcn typcn-world-outline" id="icon-engage"></span>
                     </div>
                     <div>
-                        <squarespace:block-field id="HomeEngageH3" columns="1" lock-layout="true"/>
+                        <squarespace:block-field id="HomeEngageH3" columns="1"/>
                         <p>Living Infographics are beautiful visual content tailor-made for the social web. Engage people, not Google robots.</p>
                     </div>
                 </div>
