@@ -46,7 +46,11 @@
                 </div>
             </div>
             <div class="benefits-footer">
-                <div><h4 style="text-align: center; "><b>All of which means you’re better equipped to engage your audience—and generate&nbsp;leads.</b></h4></div>
+                <div>
+                    <h4 style="text-align: center; ">
+                        <squarespace:block-field id="HomeBenefitsFooterH4" columns="1"/>
+                    </h4>
+                </div>
                 <a class="button round small" href="/what-is">Read more here</a>
             </div>
         </div>
