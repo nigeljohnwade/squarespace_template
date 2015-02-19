@@ -38,7 +38,10 @@
                 <div class="large-3 columns" id="benefits_connected">
                     <span class="typcn typcn-plug"></span>
                     <div class="content">
-                        <div><h3>Connected</h3><p>Stipso is a team player, built to work with the tools you rely on – from rich media, to MailChimp and HubSpot forms, to Google Analytics and beyond.&nbsp;</p></div>
+                        <div>
+                            <h3>Connected</h3>
+                            <squarespace:block-field id="HomeBenefitsConnectedParagraph" columns="1"/>
+                        </div>
                     </div>
                 </div>
             </div>
