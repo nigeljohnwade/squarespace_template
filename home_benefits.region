@@ -11,7 +11,9 @@
                 <div class="large-3 columns" id="benefits_fast">
                     <span class="typcn typcn-stopwatch"></span>
                     <div class="content">
-                        <div><h3>Fast</h3><p>A simple canvas with a powerful, intuitive drag-and-drop interface makes creating engaging, interactive visual content faster, easier and less costly than ever.</p></div>
+                        <div>
+                            <squarespace:block-field id="HomeBenefitsFastH3" columns="1"/>
+                        </div>
                     </div>
                 </div>
                 <div class="large-3 columns" id="benefits_creative">
