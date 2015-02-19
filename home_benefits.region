@@ -13,7 +13,7 @@
                     <div class="content">
                         <div>
                             <h3>Fast</h3>
-                            <squarespace:block-field id="HomeBenefitsFastH3" columns="1"/>
+                            <squarespace:block-field id="HomeBenefitsFastParagraph" columns="1"/>
                         </div>
                     </div>
                 </div>
