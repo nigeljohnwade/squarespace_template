@@ -29,7 +29,10 @@
                 <div class="large-3 columns" id="benefits_social">
                     <span class="typcn typcn-social-twitter"></span>
                     <div class="content">
-                        <div><h3>Social</h3><p>The power of social sharing is at the heart of Stipso. You can even publish directly to your Facebook page, so you can engage with your audience where they <i>live</i>.</p></div>
+                        <div>
+                            <h3>Social</h3>
+                            <squarespace:block-field id="HomeBenefitsSocialParagraph" columns="1"/>
+                        </div>
                     </div>
                 </div>
                 <div class="large-3 columns" id="benefits_connected">
