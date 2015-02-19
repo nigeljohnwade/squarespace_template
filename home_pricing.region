@@ -2,9 +2,7 @@
     <div class="row">
         <div class="large-12 columns">
             <div>
-                <h2>Pricing</h2>
-                <h4>Let's talk about you.</h4>
-                <p class="subtitle">From the enterprise CMO to the lone startup marketer, Stipso has a plan that’s right for you.&nbsp;</p>
+                <squarespace:block-field id="HomePricingIntro" columns="1"/>
             </div>
             <div class="row">
                 <div class="large-6 columns">
