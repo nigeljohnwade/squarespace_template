@@ -4,7 +4,7 @@
             <div>
                 <squarespace:block-field id="HomeBenefitsSubHeadH2" columns="1" lock-layout="true"/>
                 <div class="subtitle">
-                    <p>Stipso is the creative marketer’s new best friend — a powerful creative tool built for the social web.</p>
+                    <squarespace:block-field id="HomeBenefitsSubHeadParagraph" columns="1" lock-layout="true"/>
                 </div>
             </div>
             <div class="row">
