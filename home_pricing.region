@@ -18,8 +18,8 @@
                 <div class="large-6 columns">
                     <img src="assets/img/agencies.png" alt="">
                     <div>
-                        <h3>stipso For Agencies</h3>
-                        <p>Our agency plan is geared to the unique requirements of the digital agency, whether you’re a global group or a boutique creative shop. </p></div>
+                        <squarespace:block-field id="HomePricingAgencies" columns="1"/>
+                    </div>
                     <a href="mailto:hello@stipso.com" class="button round secondary small">Get in touch</a>
                 </div>
             </div>
