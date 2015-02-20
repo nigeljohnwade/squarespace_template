@@ -101,7 +101,7 @@
     {.section prevItem}
       <a href="{fullUrl}" class="blog-navigation newer">Newer<span class="typcn typcn-arrow-right-outline"></span></a>
     {.or}
-      <a class="disabled" class="blog-navigation newer disabled">Newer<span class="typcn typcn-arrow-right-outline"></span></a>
+      <a class="blog-navigation newer disabled">Newer<span class="typcn typcn-arrow-right-outline"></span></a>
     {.end}
 
     {.section nextItem}
