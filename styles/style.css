@@ -996,6 +996,7 @@ nav a.blog-navigation span{
     font-family: "rooney-web", serif;
     font-size: 18px;
     background-image: none;
+    padding-left: 0px;
 }
 
 .social .squarespace-social-buttons.button-style .ss-social-button-wrapper,
