@@ -62,12 +62,11 @@
       <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with},
     {.end}
     -->
-    <!--SHARE AND LIKE
+    <!--SHARE AND LIKE-->
 
     {@|like-button}
     {@|social-button}
     
-    -->
 
     <!--AUTHOR AND DATE-->
           
