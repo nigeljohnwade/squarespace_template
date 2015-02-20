@@ -967,6 +967,9 @@ div.blog-search input.search-input{
 .sqs-search-page-input{
     border: none;
 }
+nav.blog-pagination{
+    margin-top: 16px;
+}
 
 .blog-navigation.newer{
     float:right;

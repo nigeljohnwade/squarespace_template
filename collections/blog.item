@@ -96,7 +96,7 @@
 <!--PAGINATION-->
   
 {.section pagination}
-  <nav class="large-9 large-offset-3">
+  <nav class="large-9 large-offset-3 blog-pagination">
 
     {.section prevItem}
       <a href="{fullUrl}" class="blog-navigation newer">Newer<span class="typcn typcn-arrow-right-outline"></span></a>
