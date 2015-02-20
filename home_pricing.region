@@ -10,14 +10,14 @@
             <div class="row">
                 <div class="large-6 columns">
                     <img src="assets/img/cmos.png" alt="">
-                    <div>
+                    <div class="content">
                         <squarespace:block-field id="HomePricingMarketers" columns="1"/>
                     </div>
                     <a href="/pricing" class="button round secondary small">Plans &amp; Pricing</a>
                 </div>
                 <div class="large-6 columns">
                     <img src="assets/img/agencies.png" alt="">
-                    <div>
+                    <div class="content">
                         <squarespace:block-field id="HomePricingAgencies" columns="1"/>
                     </div>
                     <a href="mailto:hello@stipso.com" class="button round secondary small">Get in touch</a>
