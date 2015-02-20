@@ -1003,7 +1003,7 @@ nav a.blog-navigation span{
     padding-right: 0px;
 }
 
-.team-single .sqs-block, .main-navigation .sqs-block{
+.team-single .sqs-block, #main-navigation .sqs-block{
     padding-left: 17px;
     padding-right: 17px;
 }
