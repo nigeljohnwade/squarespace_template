@@ -991,5 +991,6 @@ nav a.blog-navigation span{
 }
 
 .squarespace-social-buttons.button-style .ss-social-button-wrapper{
-    background-color: transparent;
+    background: none transparent;
 }
+
