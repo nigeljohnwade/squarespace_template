@@ -64,11 +64,11 @@
     -->
     <!--SHARE AND LIKE
 
-    {@|like-button}-->
+    {@|like-button}
     
       <div class="social">
     {@|social-button}
-      </div>
+      </div>-->
 
     <!--AUTHOR AND DATE-->
           
