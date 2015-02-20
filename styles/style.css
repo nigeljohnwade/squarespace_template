@@ -1018,3 +1018,7 @@ nav a.blog-navigation span{
     background-image: url('')
 }
 
+.social span.typcn, .social > div{
+    float: left;
+}
+

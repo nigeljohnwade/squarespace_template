@@ -67,8 +67,9 @@
     {@|like-button}-->
     
       <div class="social">
-          <span class="typcn typcn-export"></span>
+          
     {@|social-button}
+          <span class="typcn typcn-export"></span>
       </div>
 
     <!--AUTHOR AND DATE-->
