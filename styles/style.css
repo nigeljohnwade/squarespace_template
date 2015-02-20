@@ -998,7 +998,7 @@ nav a.blog-navigation span{
     box-shadow: none;
 }
 
-.post-content [class*=sqs-col] .sqs-block{
+[class*=sqs-col] .sqs-block{
     padding-left: 0px;
     padding-right: 0px;
 }
