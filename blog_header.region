@@ -44,6 +44,13 @@
     </script>
     {squarespace-headers}
     <link rel="stylesheet" href="/assets/css/blog_style.css">
+    <style>
+
+        #hero.block {
+            background-image: url(../assets/img/img_2@2560.jpg);
+        }
+        
+    </style>
 </head>
 
 <body>
