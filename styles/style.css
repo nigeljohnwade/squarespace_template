@@ -985,7 +985,11 @@ nav a.blog-navigation span{
 }
 
 .social .squarespace-social-buttons.button-style .ss-social-button-wrapper .ss-social-button{
-    background-color: transparent;
+    color: #444346;
     font-family: "rooney-web", serif;
     font-size: 18px;
+}
+
+.squarespace-social-buttons.button-style .ss-social-button-wrapper{
+    background-color: transparent;
 }
