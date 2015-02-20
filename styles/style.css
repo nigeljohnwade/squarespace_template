@@ -1014,4 +1014,7 @@ nav a.blog-navigation span{
     padding-left: 17px;
     padding-right: 17px;
 }
+.squarespace-social-buttons.button-style .ss-social-button-wrapper .ss-social-button{
+    background-image: url('')
+}
 
