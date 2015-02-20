@@ -67,7 +67,7 @@
     {@|like-button}-->
     
       <div class="social">
-          <span class="typcn typcn-share"></span>
+          <span class="typcn typcn-export"></span>
     {@|social-button}
       </div>
 
