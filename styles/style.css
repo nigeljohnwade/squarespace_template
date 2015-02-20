@@ -995,12 +995,11 @@ nav a.blog-navigation span{
     color: #444346;
     font-family: "rooney-web", serif;
     font-size: 18px;
-    background-image: none;
 }
 
 .social .squarespace-social-buttons.button-style .ss-social-button-wrapper,
 .social .squarespace-social-buttons.button-style .ss-social-button-wrapper:hover{
-    background: none transparent;
+    background-color: transparent;
     border: none;
     box-shadow: none;
 }
