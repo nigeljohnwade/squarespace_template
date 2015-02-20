@@ -428,7 +428,7 @@ blockquote {
 /* New */
 
 #hero.block {
-    background-image: url('../img/header.jpg');
+    background-image: url(../assets/img/img_2@2560.jpg);
     background-size: cover;
     padding: 0 0 100px;
     text-shadow: 0 0 5px black;
