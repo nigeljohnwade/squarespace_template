@@ -991,7 +991,8 @@ nav a.blog-navigation span{
     background-image: none;
 }
 
-.squarespace-social-buttons.button-style .ss-social-button-wrapper{
+.social .squarespace-social-buttons.button-style .ss-social-button-wrapper,
+.social .squarespace-social-buttons.button-style .ss-social-button-wrapper:hover{
     background: none transparent;
     border: none;
     box-shadow: none;
