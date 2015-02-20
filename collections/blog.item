@@ -93,24 +93,28 @@
 {.end}
     
 
-<!--PAGINATION
+<!--PAGINATION-->
   
-{.section pagination}
-  <nav>
+  
+{.if pagination}
+  <nav class="large-9 large-offset-3">
 
-    {.section prevItem}
-      <a href="{fullUrl}">Newer</a>
+    <!--NEWER PAGE-->
+
+    {.if pagination.prevPage}
+    <a href="{pagination.prevPageUrl}" class="blog-navigation newer">Newer<span class="typcn typcn-arrow-right-outline"></span></a>
     {.or}
-      <a class="disabled">Newer</a>
+    <a class="blog-navigation newer disabled">Newer<span class="typcn typcn-arrow-right-outline"></span></a>
     {.end}
 
-    {.section nextItem}
-      <a href="{fullUrl}">Older</a>
+    <!--OLDER PAGE-->
+
+    {.if pagination.nextPage}
+    <a href="{pagination.nextPageUrl}" class="blog-navigation older"><span class="typcn typcn-arrow-left-outline"></span>Older</a>
     {.or}
-      <a class="disabled">Older</a>
+    <a class="blog-navigation older disabled"><span class="typcn typcn-arrow-left-outline"></span>Older</a>
     {.end}
 
-  </nav>
-{.end}
-    -->
+    </nav>
+    {.end}
 </div>
