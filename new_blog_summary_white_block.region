@@ -1,4 +1,4 @@
-<div class="block">
+<div class="grey block">
     <div class="row">
         <div class="large-12 columns">
             <squarespace:block-field id="blog_summary_blockField" columns="12"/>
