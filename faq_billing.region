@@ -4,12 +4,12 @@
             <div>
                 <h3>Billing and Payment</h3>
                 <h4 id="billing-1">How does my free trial work?</h4>
-                <p>After you create your account, we’ll give you 30 days on our <a href="http://www.stipso.com/pricing">Maple plan</a> free of charge, so that you can take Stipso for a test drive.                
+                <p>After you create your account, we’ll give you 30 days on our <a href="/pricing">Maple plan</a> free of charge, so that you can take Stipso for a test drive.                
                     You can create, preview and publish Living Infographics. </p>
                 <p>Once your free trial ends, you’ll need to start a monthly subscription in order to create new infographics and to continue accepting contributions to any you’ve already published.</p>
                 <h4 id="billing-2">What is the billing period?</h4><p>Stipso subscriptions work on a rolling monthly basis.</p>
                 <h4 id="billing-3">Can I pay annually?</h4><p>Not just yet — we'll be introducing this facility soon.</p>
-                <h4 id="billing-4">Do prices include VAT?</h4><p><a href="pricing.html">Prices shown</a> do not include VAT, which is charged at 20% to customers in the UK only.</p>
+                <h4 id="billing-4">Do prices include VAT?</h4><p><a href="/pricing">Prices shown</a> do not include VAT, which is charged at 20% to customers in the UK only.</p>
                 <h4 id="billing-5">How are payments handled?</h4><p>All payments are processed through <a href="http://stripe.com" target="_blank">Stripe</a>.                
                 We accept all major international credit cards.</p>
                 <h4 id="billing-6">Do you hold my credit card details?</h4>

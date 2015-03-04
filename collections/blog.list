@@ -117,7 +117,7 @@
 <!--PAGINATION-->
   
 {.if pagination}
-  <nav class="large-9 large-offset-3">
+  <nav class="large-9 large-offset-3 blog-pagination">
 
     <!--NEWER PAGE-->
 

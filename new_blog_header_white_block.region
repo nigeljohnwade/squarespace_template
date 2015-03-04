@@ -1,0 +1,7 @@
+<div class="block">
+    <div class="row">
+        <div class="large-12 columns">
+            <squarespace:block-field id="blog_header_blockField" columns="12"/>
+        </div>
+    </div>
+</div>

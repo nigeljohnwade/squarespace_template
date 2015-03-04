@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" async="" src="//www.google-analytics.com/ga.js"></script>
     <script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <link rel="alternate" type="application/atom+xml" title="Atom" href="blog.stipso.com/feed/atom/">
     <!--<link rel="stylesheet" href="/assets/css/foundation.css">-->
     <script type="text/javascript" src="/assets/js/foundation.min.js"></script>
     <meta class="foundation-mq-small">
@@ -44,6 +43,13 @@
     </script>
     {squarespace-headers}
     <link rel="stylesheet" href="/assets/css/blog_style.css">
+    <style>
+
+        #hero.block {
+            background-image: url(../assets/img/img_2@2560.jpg);
+        }
+        
+    </style>
 </head>
 
 <body>

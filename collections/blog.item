@@ -64,10 +64,13 @@
     -->
     <!--SHARE AND LIKE
 
-    {@|like-button}
-    {@|social-button}
+    {@|like-button}-->
     
-    -->
+      <div class="social">
+          
+    {@|social-button}
+          <span class="typcn typcn-export"></span>
+      </div>
 
     <!--AUTHOR AND DATE-->
           
@@ -92,24 +95,24 @@
 {.end}
     
 
-<!--PAGINATION
+<!--PAGINATION-->
   
 {.section pagination}
-  <nav>
+  <nav class="large-9 large-offset-3 blog-pagination">
 
     {.section prevItem}
-      <a href="{fullUrl}">Newer</a>
+      <a href="{fullUrl}" class="blog-navigation newer">Newer<span class="typcn typcn-arrow-right-outline"></span></a>
     {.or}
-      <a class="disabled">Newer</a>
+      <a class="blog-navigation newer disabled">Newer<span class="typcn typcn-arrow-right-outline"></span></a>
     {.end}
 
     {.section nextItem}
-      <a href="{fullUrl}">Older</a>
+      <a href="{fullUrl}" class="blog-navigation older"><span class="typcn typcn-arrow-left-outline"></span>Older</a>
     {.or}
-      <a class="disabled">Older</a>
+      <a class="blog-navigation older disabled"><span class="typcn typcn-arrow-left-outline"></span>Older</a>
     {.end}
 
   </nav>
 {.end}
-    -->
+
 </div>

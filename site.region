@@ -5,7 +5,13 @@
         <div class="large-12 columns">
             {squarespace.main-content}
         </div>
-        <squarespace:block-field id="blockField1" columns="12"/>
+    </div>
+</div>
+<div class="block">
+    <div class="row">
+        <div class="large-12 columns">
+            <squarespace:block-field id="blockField1" columns="12"/>
+        </div>
     </div>
 </div>
 

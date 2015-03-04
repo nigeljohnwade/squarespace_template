@@ -359,7 +359,7 @@ h1 {
 }
 
 #footer {
-    background-image: url(../assets/img/footer.png);
+    background-image: url(../assets/img/footer.jpg);
     background-size: cover;
     text-shadow: 0 0 10px black;
     background-color: #444346;
@@ -527,40 +527,8 @@ h1 {
 .signup .typcn {
     font-size: 22px;
 }
-
-.signup .account-type {
-    display: block;
-    padding: 10px 10px 20px;
-    text-align: center;
-    margin-bottom: 10px;
-    color: #bbb;
-    transition: background 500ms, color 500ms;
-    -webkit-transition: background 500ms, color 500ms;
-    -moz-transition: background 500ms, color 500ms;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-}
-
-.signup .account-type:hover {
-    cursor: pointer;
-}
-
-.signup .account-type .typcn {
-    display: block;
-    margin: 0 auto 10px;
-    font-size: 38px;
-    line-height: 38px;
-}
-
-.signup .account-type.selected {
-    background: #eee;
-    color: #444346;
-}
-
-.signup .account-type.selected .typcn {
-    color: #1ea1d7;
-}
+.signup  .typcn-tick {
+    color: #43ac6a; }
 
 #connect {
     text-align: center;
@@ -999,6 +967,9 @@ div.blog-search input.search-input{
 .sqs-search-page-input{
     border: none;
 }
+nav.blog-pagination a{
+    margin-top: 16px;
+}
 
 .blog-navigation.newer{
     float:right;
@@ -1014,4 +985,46 @@ nav a.disabled{
 }
 nav a.blog-navigation span{
     font-size: 21px;
+}
+
+.social{
+    margin-top: 16px;
+    margin-left: -17px;
+}
+
+.social .squarespace-social-buttons.button-style .ss-social-button-wrapper .ss-social-button{
+    color: #444346;
+    font-family: "rooney-web", serif;
+    font-size: 18px;
+    background-image: none;
+    padding-left: 0px;
+}
+
+.social .squarespace-social-buttons.button-style .ss-social-button-wrapper,
+.social .squarespace-social-buttons.button-style .ss-social-button-wrapper:hover{
+    background: none transparent;
+    border: none;
+    box-shadow: none;
+    width: auto;
+}
+
+[class*=sqs-col] .sqs-block{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.team-single .sqs-block, #main-navigation .sqs-block, .content .sqs-block{
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.squarespace-social-buttons.button-style .ss-social-button-wrapper .ss-social-button{
+    background-image: url('')
+}
+
+.social span.typcn, .social > div{
+    float: left;
+}
+
+.menu-main-container{
+    margin-left: -17px;
 }
