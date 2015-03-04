@@ -15,8 +15,9 @@
                 <h4 id="billing-6">Do you hold my credit card details?</h4>
                 <p>Stipso does not hold payment details; they are held securely by Stripe for repeatable billing (your monthly subscription.)</p>
                 <h4 id="billing-7">How do I close my account/cancel my subscription?</h4>
-                <p>You can cancel your subscription any time by [...] — any Living Infographics you’ve already published will remain viewable, but will no longer accept contributions, and you won’t be able to create new infographics without restarting your subscription.</p>
-                <p>To close your account entirely, email <a href="mailto:support@stipso.com">support@stipso.com</a> with your Stipso username. Please note that this will also delete all of your previously published infographics.</p>
+                <p>You can cancel your subscription any time by  emailing <a href="mailto:support@stipso.com">support@stipso.com</a> with your Stipso username
+                    — any Living Infographics you’ve already published will remain viewable, but will no longer accept contributions, and you won’t be able to create new infographics without restarting your subscription.</p>
+                <p>You can also choose to close your account entirely — please note that this will also irreversibly delete all of your previously published infographics and the data they have collected.</p>
                 <h4 id="billing-8">What's the difference between each plan?</h4>
                 <p>Each of our three plans is tailored to a different level of scale-- how many infographics you can create, and how many pageviews each infographic receives.</p>
                 <h4 id="billing-9">What happens if I go over my pageview limit?</h4>
