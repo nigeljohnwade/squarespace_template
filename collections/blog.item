@@ -15,7 +15,7 @@
           <div class="large-1 columns"></div>
       </div>
       <div class="row">
-          <div class="large-12 columns" id="related-posts">
+          <div class="large-11 columns" id="related-posts">
               <h3>Related Posts:</h3>
               <squarespace:query collection="blog" tag="{tags}" category="{categories}" limit="5">
 
@@ -26,6 +26,7 @@
               </squarespace:query>
               
           </div>
+          <div class="large-1 columns"></div>
       </div>
   </div>
 
