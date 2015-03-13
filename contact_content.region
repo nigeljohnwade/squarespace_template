@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="large-6 columns">
-            <div<div style="padding: 0 2em">
+            <div style="padding: 0 2em">
                 <squarespace:block-field id="ContactRight" columns="1" />
             </div>
         </div>
