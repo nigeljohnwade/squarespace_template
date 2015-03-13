@@ -28,6 +28,10 @@ p, .top-bar-section ul li > a.button {
     background: rgba(20, 20, 20, 0.75) !important;
 }
 
+.home nav .button{
+    display: none;
+}
+
 ul, ol {
     font-weight: 100;
 }
