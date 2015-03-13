@@ -7,11 +7,12 @@
       <div class="row">
           <div class="large-4 columns" id="avatar">
               <img alt="{author.displayName}" src="/global/{author.avatarId}?format=100w" class="avatar avatar-95 photo" height="95" width="95">            </div>
-          <div class="large-8 columns meta-text">
+          <div class="large-7 columns meta-text">
               <p class="author"><a href="/{collection.urlId}?author={author.id}" title="Posts by {author.displayName}" rel="author">{author.displayName}</a></p>
               <p><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></p>
               <p class="author-bio">{author.bio}</p>
           </div>
+          <div class="large-1 columns"></div>
       </div>
       <div class="row">
           <div class="large-12 columns" id="related-posts">
