@@ -64,6 +64,7 @@ ul, ol {
 }
 #hero.block a p{
     text-shadow: none;
+    font-size: 16px;
 }
 
 #hero.block.home {
