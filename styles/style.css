@@ -975,8 +975,12 @@ div.blog-search input.search-input{
 .sqs-search-page-input{
     border: none;
 }
-nav.blog-pagination a{
+nav.blog-pagination-bottom a{
     margin-top: 16px;
+}
+
+nav.blog-pagination-top a{
+    margin-bottom: 16px;
 }
 
 .blog-navigation.newer{
