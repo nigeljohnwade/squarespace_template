@@ -21,6 +21,30 @@
 
     <!--ITEM LOOP-->
     <div id="main-posts">
+        <!--PAGINATION-->
+
+        {.if pagination}
+        <nav class="large-9 large-offset-3 blog-pagination clearfix">
+
+            <!--NEWER PAGE-->
+
+            {.if pagination.prevPage}
+            <a href="{pagination.prevPageUrl}" class="blog-navigation newer">Newer<span class="typcn typcn-arrow-right-outline"></span></a>
+            {.or}
+            <a class="blog-navigation newer disabled">Newer<span class="typcn typcn-arrow-right-outline"></span></a>
+            {.end}
+
+            <!--OLDER PAGE-->
+
+            {.if pagination.nextPage}
+            <a href="{pagination.nextPageUrl}" class="blog-navigation older"><span class="typcn typcn-arrow-left-outline"></span>Older</a>
+            {.or}
+            <a class="blog-navigation older disabled"><span class="typcn typcn-arrow-left-outline"></span>Older</a>
+            {.end}
+
+        </nav>
+        {.end}
+
         {.repeated section items}
         
           <!--WRAPPER-->
@@ -119,7 +143,7 @@
 <!--PAGINATION-->
   
 {.if pagination}
-  <nav class="large-9 large-offset-3 blog-pagination">
+  <nav class="large-9 large-offset-3 blog-pagination clearfix">
 
     <!--NEWER PAGE-->
 
