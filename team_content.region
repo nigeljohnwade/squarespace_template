@@ -109,3 +109,13 @@
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(function(){
+        $('a[data-social-type=twitter]').each(function(idx,elem){
+            $(elem).attr('href', 'http://twitter.com/' + $(elem).attr('data-social-username'));
+        });
+        $('a[data-social-type=linkedin]').each(function(idx,elem){
+            $(elem).attr('href', 'http://uk.linkedin.com/in' + $(elem).attr('data-social-username'));
+        });
+    });
+</script>
