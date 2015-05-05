@@ -983,7 +983,7 @@ nav.blog-pagination-top{
     border-bottom: 1px solid rgb(204, 204, 204)
 }
 nav.blog-pagination-top a{
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 .blog-navigation.newer{
