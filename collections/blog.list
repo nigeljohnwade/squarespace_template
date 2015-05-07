@@ -89,12 +89,17 @@
                     <div class="large-6 columns">
                     {.if excerpt}
                       {excerpt}
-                      <a class="button round small read-more-button" href="{fullUrl}">Read More</a>
+                        {.if sourceUrl}
+                            <a class="button round small read-more-button" href="{sourceUrl}">Read More</a>
+                        {.else}
+                            <a class="button round small read-more-button" href="{fullUrl}">Read More</a>
+                        <.end}
                     {.or}
                 
                     <!--MAIN CONTENT-->
                 
                       {body}
+
                       <a class="button round small read-more-button" href="{fullUrl}">Permalink</a>
                 
                     {.end}
