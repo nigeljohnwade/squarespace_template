@@ -19,13 +19,13 @@
                 {.if item.title}
                 {item.title}
                 {.or}
-                The Product Blog
+                CHANGEBLOG
                 {.end}
             </h1></div>
             {.if item.excerpt}
             {item.excerpt}
             {.or}
-            <p>Nerdy notes on what's now and next in the Stipso product.</p>
+            <p>Feature updates and notes on design and development from the Stipso product team.</p>
             {.end}
         </div>
     </div>
