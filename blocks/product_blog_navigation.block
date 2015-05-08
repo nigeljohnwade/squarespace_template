@@ -7,23 +7,25 @@
                         <a href="/blog" class="button current-menu-item current_page_item">Home</a>
                     </li>
                     <li>
-                        <a href="/blog/?category=Content+marketing" class="button">Content</a>
+                        <a href="/blog/?category=Bug-fixes" class="button">Bug-fixes</a>
                     </li>
                     <li>
-                        <a href="/blog/?category=Marketing" class="button">Marketing</a>
+                        <a href="/blog/?category=Design" class="button">Design</a>
                     </li>
                     <li>
-                        <a href="/blog/?category=Data" class="button">Data</a>
+                        <a href="/blog/?category=Development" class="button">Development</a>
                     </li>
-                    
                     <li>
-                        <a href="/blog/?category=SEO" class="button">SEO</a>
+                        <a href="/blog/?category=Future-releases" class="button">Future releases</a>
+                    </li>
+                    <li>
+                        <a href="/blog/?category=UX" class="button">UX</a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="large-2 columns" id="search-blog">
-            <a class="button round secondary tiny hs-rss-link" id="rss-link" href="/blog/?format=rss"
+            <a class="button round secondary tiny hs-rss-link" id="rss-link" href="/product-blog/?format=rss"
                target="_blank"><span class="typcn typcn-rss"></span></a>
         </div>
     </div>
