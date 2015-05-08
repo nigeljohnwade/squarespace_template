@@ -4,22 +4,22 @@
             <div class="menu-main-container">
                 <ul class="button-group" role="navigation">
                     <li>
-                        <a href="/blog" class="button current-menu-item current_page_item">Home</a>
+                        <a href="/product-blog" class="button current-menu-item current_page_item">Home</a>
                     </li>
                     <li>
-                        <a href="/blog/?category=Bug-fixes" class="button">Bug-fixes</a>
+                        <a href="/product-blog/?category=Bug-fixes" class="button">Bug-fixes</a>
                     </li>
                     <li>
-                        <a href="/blog/?category=Design" class="button">Design</a>
+                        <a href="/product-blog/?category=Design" class="button">Design</a>
                     </li>
                     <li>
-                        <a href="/blog/?category=Development" class="button">Development</a>
+                        <a href="/product-blog/?category=Development" class="button">Development</a>
                     </li>
                     <li>
-                        <a href="/blog/?category=Future-releases" class="button">Future releases</a>
+                        <a href="/product-blog/?category=Future-releases" class="button">Future releases</a>
                     </li>
                     <li>
-                        <a href="/blog/?category=UX" class="button">UX</a>
+                        <a href="/product-blog/?category=UX" class="button">UX</a>
                     </li>
                 </ul>
             </div>
