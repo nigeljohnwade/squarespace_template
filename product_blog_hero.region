@@ -30,7 +30,7 @@
         </div>
     </div>
 </div>
-<squarespace:navigation navigationId="blogNav" template="blog_navigation">
+<squarespace:navigation navigationId="blogNav" template="product_blog_navigation">
     <div class="row">
         <div class="large-12 columns blog-search">
             <squarespace:block-field id="BlogSearch" columns="12" />
