@@ -8,7 +8,7 @@
             <!--Feature Image-->
             {.main-image?}
             <div class="large-6 columns image">
-                <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:100%" />
+                <img {@|image-meta} src="{sourceUrl}?format=original" class="main-image content-fill" style="width:100%" />
             </div>
             <div class="large-6 columns text">
                 {.or}
