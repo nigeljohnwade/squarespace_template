@@ -254,7 +254,7 @@ h1 {
     text-align: center;
 }
 
-.block.orange a, #features-page .block:nth-child(4n+1) a {
+.block.orange a, #features-page a {
     color: #a35400;
 }
 
