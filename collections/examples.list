@@ -1,4 +1,4 @@
-<div id="examples-page">
+<div id="features-page">
     {.repeated section items}
 
     <!--WRAPPER-->
