@@ -6,10 +6,12 @@
         <article id="post-{id}" class="{@|item-classes} row">
 
             <!--Feature Image-->
+            <a href="{sourceUrl}">
             {.main-image?}
             <div class="large-6 columns image">
                 <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:100%" />
             </div>
+            </a>
             <div class="large-6 columns text">
                 {.or}
                 <div class="large-12 columns text">
