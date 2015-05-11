@@ -1,0 +1,10 @@
+<div id="sub-hero" class="block">
+    <div class="row">
+        <div class="large-12 columns">
+            <div>
+                <h2><squarespace:block-field id="ExamplesH2" columns="1" lock-layout="true" /></h1>
+                    <div class="subtitle"><squarespace:block-field id="ExamplesSubHeroParagraph" columns="1" lock-layout="true" /></div>
+            </div>
+        </div>
+    </div>
+</div>
