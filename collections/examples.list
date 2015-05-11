@@ -3,46 +3,45 @@
 
     <!--WRAPPER-->
     <div class="block">
-        <a href="{sourceUrl}">
         <article id="post-{id}" class="{@|item-classes} row">
 
             <!--Feature Image-->
-            
             {.main-image?}
-            <div class="large-6 columns image">
-                <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:100%" />
-            </div>
-            
+                <a href="{sourceUrl}">
+                    <div class="large-6 columns image">
+                        <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:100%" />
+                    </div>
+                </a>
             <div class="large-6 columns text">
-                {.or}
-                <div class="large-12 columns text">
-                    {.end}
-
-                    <div class="post-content row">
-                        <!--Feature title -->
-                        <h3 class="title">
+            {.or}
+            <div class="large-12 columns text">
+                {.end}
+                <div class="post-content row">
+                    <!--Feature title -->
+                    <h3 class="title">
+                        <a href="{sourceUrl}">
                             {.passthrough?}
                             {title}
                             {.or}
                             {title}
                             {.end}
-                        </h3>
-                        <!--EXCERPT OR BODY-->
-                        <div>
-                            {.if excerpt}
-                            {excerpt}
-                            {.or}
+                        </a>
+                    </h3>
+                    <!--EXCERPT OR BODY-->
+                    <div>
+                        {.if excerpt}
+                        {excerpt}
+                        {.or}
 
-                            <!--MAIN CONTENT-->
+                        <!--MAIN CONTENT-->
 
-                            {body}
+                        {body}
 
-                            {.end}
-                        </div>
+                        {.end}
                     </div>
                 </div>
+            </div>
         </article>
-        </a>
     </div>
     {.or}
     No examples defined.
