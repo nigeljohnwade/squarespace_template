@@ -1059,10 +1059,9 @@ nav a.blog-navigation span{
 }
 body.modal-open {
     overflow: hidden;
-    position: fixed;
 }
 .reveal-modal {
     overflow-y: auto;
-    height: 100%;
+    height: 90%%;
     position: fixed;
 }
