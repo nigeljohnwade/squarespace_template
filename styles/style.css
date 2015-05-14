@@ -248,7 +248,6 @@ h1 {
     background: #ef7d00;
     color: white;
 }
-
 .block.orange h2, .block.orange .subtitle, .block.orange p.center,
 #features-page .block:nth-child(4n+1) h2, #features-page .block:nth-child(4n+1) .subtitle, #features-page .block:nth-child(4n+1) p.center {
     text-align: center;
@@ -291,6 +290,9 @@ h1 {
     font-size: 48px;
 }
 
+.block.blue .button{
+    background-color: #ef7d00
+}
 #pricing .large-6 {
     text-align: center;
 }
