@@ -125,7 +125,7 @@
         $('.close-reveal-modal').bind("click touchstart", function () {
             var scroll = $('body' ).css('top');
             $('body').css('top', '')
-            $('body' ).scrollTop(scroll ).removeClass('modal-open');
+            $('body' ).scrollTop(parseInt(scroll)).removeClass('modal-open');
         });
     });
 
