@@ -1047,3 +1047,13 @@ nav a.blog-navigation span{
 .menu-main-container{
     margin-left: -17px;
 }
+
+
+/* Example Modal*/
+.reveal-modal.example{
+    bottom: 100px;
+} 
+.example iframe{
+    width:100%;
+    height: 100%;
+}
