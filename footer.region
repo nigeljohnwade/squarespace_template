@@ -120,7 +120,7 @@
         }
         //Make sticky modals
         $(".reveal-modal").on("open", function () {
-            $("body").addClass("modal-open");
+            $("body").css('top', -$('body').scrollTop()).addClass("modal-open" );
         });
         $('.close-reveal-modal').bind("click touchstart", function () {
             $('body').removeClass('modal-open');
