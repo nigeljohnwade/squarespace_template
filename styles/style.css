@@ -1057,3 +1057,12 @@ nav a.blog-navigation span{
     width:100%;
     height: 100%;
 }
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
+.reveal-modal {
+    overflow-y: auto;
+    height: 100%;
+    position: fixed;
+}

@@ -118,6 +118,13 @@
                $(elem).attr('src', $(elem).attr('data-src')); 
             });
         }
+        //Make sticky modals
+        $(".reveal-modal").on("open", function () {
+            $("body").addClass("modal-open");
+        });
+        $('.close-reveal-modal').bind("click touchstart", function () {
+            $('body').removeClass('modal-open');
+        });
     });
 
 </script>
