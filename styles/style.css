@@ -290,7 +290,7 @@ h1 {
     font-size: 48px;
 }
 
-.block.blue .button{
+#features-list .block:nth-child(4n+2) .button{
     background-color: #ef7d00
 }
 #pricing .large-6 {
