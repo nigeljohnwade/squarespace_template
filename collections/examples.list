@@ -7,7 +7,7 @@
 
             <!--Feature Image-->
             {.main-image?}
-                <a  href="#" data-reveal-id="myModal">
+                <a  href="#" data-reveal-id="myModal{@index}">
                     <div class="large-6 columns image">
                         <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:100%" />
                     </div>
