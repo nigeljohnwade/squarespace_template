@@ -1050,18 +1050,19 @@ nav a.blog-navigation span{
 
 
 /* Example Modal*/
-.reveal-modal.example{
-    bottom: 100px;
-} 
+/*.reveal-modal.example{*/
+    /*bottom: 100px;*/
+/*} */
 .example iframe{
     width:100%;
-    height: 100%;
+    height: 85%;
 }
 body.modal-open {
     overflow: hidden;
+    position: fixed;
 }
 .reveal-modal {
     overflow-y: auto;
-    height: 90%%;
+    height: 90%;
     position: fixed;
 }
