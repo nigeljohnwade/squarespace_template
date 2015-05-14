@@ -123,7 +123,7 @@
             $("body").css('top', -$('body').scrollTop()).addClass("modal-open" );
         });
         $('.close-reveal-modal').bind("click touchstart", function () {
-            $('body' ).css('top','').removeClass('modal-open');
+            $('body' ).css('top', Math.abs($('body' ).css('top'))).removeClass('modal-open');
         });
     });
 
