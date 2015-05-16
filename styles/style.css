@@ -291,7 +291,8 @@ h1 {
 }
 
 #features-page .block:nth-child(4n+2) .button{
-    background-color: #ef7d00;
+    background-color: #fff;
+    color: #1ea1d7;
 }
 #pricing .large-6 {
     text-align: center;
