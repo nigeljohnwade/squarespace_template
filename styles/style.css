@@ -517,7 +517,7 @@ h1 {
     border: 10px solid #e8e7e7;
 }
 #whatis-page .post-content img, #features-page .post-content img {
-    border: 10px solid #e8e7e7;
+    border: none;
 }
 .reveal-modal #buttons {
     text-align: right;
