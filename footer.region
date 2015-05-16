@@ -120,6 +120,8 @@
         }
         //Make sticky modals
         $(".reveal-modal").on("open", function () {
+            var src = $(this ).find('iframe' ).getAttribute('data-src');
+            $(this ).find('iframe' ).setAttribute('src', src);
             var scroll = $('body' ).scrollTop();
             $("body").css('top', -scroll).addClass("modal-open" );
         });
