@@ -43,7 +43,7 @@
                 </div>
             </div>
         </article>
-        <div id="myModal{@index}" class="reveal-modal xlarge example" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+        <div id="myModal{@index}" class="reveal-modal xlarge example" data-css-top="5%" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
             <h2 id="modalTitle">{title}.</h2>
             <iframe data-src="{sourceUrl}"></iframe>
             <a class="close-reveal-modal" aria-label="Close">&#215;</a>
