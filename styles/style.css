@@ -1071,3 +1071,7 @@ body.modal-open {
     height: 90%;
     position: fixed;
 }
+
+.row .row .row{
+    margin-left: 0px;
+}
