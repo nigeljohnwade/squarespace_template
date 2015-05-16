@@ -29,13 +29,13 @@
                     </h3>
                     <!--EXCERPT OR BODY-->
                     <div>
-                        {.if excerpt}
-                        {excerpt}
+                        {.if body}
+                        {body}
                         {.or}
 
                         <!--MAIN CONTENT-->
 
-                        {body}
+                        {excerpt}
 
                         {.end}
                     </div>
