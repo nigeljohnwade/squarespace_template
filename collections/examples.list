@@ -39,7 +39,6 @@
 
                         {.end}
                     </div>
-                    <a href="https://editor.stipso.com/users/new" class="button round"><squarespace:block-field id="CTAButtonText" columns="1" lock-layout="true" /></a>
                 </div>
             </div>
         </article>
