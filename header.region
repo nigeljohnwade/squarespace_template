@@ -12,7 +12,7 @@
 real-time data visualisation for visual content that converts.">
     <meta name=og:title" content="Stipso — people-powered infographics for visual content marketing">
     <!--<meta name="og:image" content="http://stipso.com/assets/img/mac.png">-->
-    <script src='/assets/js/jquery-2.0.3.min.js'></script>
+    <script src='/assets/js/jquery-1.8.3.min.js'></script>
     {squarespace-headers}
 </head>
 
