@@ -901,11 +901,11 @@ ul.sub-footer{
     overflow: hidden;
 }
 
-#sub-footer ul li {
+#sub-footer ul li, ul.sub-footer li {
     float: left;
 }
 
-#sub-footer ul li a {
+#sub-footer ul li a, ul.sub-footer li a {
     padding: 20px;
     font-size: 12px;
     display: inline-block;
