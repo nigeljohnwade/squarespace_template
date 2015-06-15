@@ -1,5 +1,10 @@
 <div id="footer" class="block">
     <div class="row">
+        <div class="large-12 columns">
+            <squarespace:navigation navigationId="footerNav" template="footer_nav">
+        </div>
+    </div>
+    <div class="row">
         <div class="large-1 columns">
             <img src="/assets/img/logo.png" alt="" />
         </div>
