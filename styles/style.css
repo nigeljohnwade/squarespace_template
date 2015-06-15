@@ -780,7 +780,7 @@ h1 {
 
 .client-logo#brightfire {
     width: 160px;
-    height: 52px;
+    height: 50px;
     background-image: url(../assets/img/logos/brightfire-bw.jpg);
     background-size: 160px 40px;
 }
@@ -791,8 +791,9 @@ h1 {
 
 .client-logo#velocity {
     width: 159px;
-    height: 32px;
+    height: 42px;
     background-image: url(../assets/img/logos/velocity-bw.png);
+    background-repeat: no-repeat;
     background-size: 159px 32px;
 }
 
