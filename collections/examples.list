@@ -7,7 +7,7 @@
 
             <!--Feature Image-->
             {.main-image?}
-                <a  href="javascript:void(0)" data-reveal-id="myModal{@index}">
+                <a  href="{sourceUrl}">
                     <div class="large-6 columns image">
                         <img {@|image-meta} src="{fullUrl}?format=original" class="main-image content-fill" style="width:100%" />
                     </div>
@@ -19,7 +19,7 @@
                 <div class="post-content row">
                     <!--Feature title -->
                     <h3 class="title">
-                        <a href="#" data-reveal-id="myModal{@index}">
+                        <a href="{sourceUrl}">
                             {.passthrough?}
                             {title}
                             {.or}
@@ -42,11 +42,6 @@
                 </div>
             </div>
         </article>
-        <div id="myModal{@index}" class="reveal-modal xlarge example" data-css-top="50" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
-            <h2 id="modalTitle">{title}.</h2>
-            <iframe data-src="{sourceUrl}"></iframe>
-            <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-        </div>
     </div>
     {.or}
     No examples defined.
