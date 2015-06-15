@@ -1,5 +1,5 @@
 
-<nav id="footer-navigation" data-content-field="navigation-footerNav">
+<div id="footer-navigation" data-content-field="navigation-footerNav">
     <ul>
         {.repeated section items}
 
@@ -60,4 +60,4 @@
 
         {.end}
     </ul>
-</nav>
+</div>
