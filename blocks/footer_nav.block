@@ -1,63 +1,60 @@
+<ul class="sub-navigation">
+    {.repeated section items}
 
-<div id="footer-navigation" data-content-field="navigation-footerNav">
-    <ul>
-        {.repeated section items}
+    <li class="{.section active} active-link{.end}{.if folderActive} active-folder{.end}">
 
-        <li class="{.section active} active-link{.end}{.if folderActive} active-folder{.end}">
+        {.folder?}
 
-            {.folder?}
+        <!--FOLDER-->
 
-            <!--FOLDER-->
+        <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
 
-            <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
+        <ul>
 
-            <ul>
+            {.repeated section items}
 
-                {.repeated section items}
+            <!--COLLECTION IN A FOLDER-->
 
-                <!--COLLECTION IN A FOLDER-->
-
-                {.collection?}
-                <li class="{.section active} active-link{.end}">
-                    <a href="{collection.fullUrl}">
-                        {collection.navigationTitle}
-                    </a>
-                </li>
-                {.end}
-
-                <!--EXTERNAL LINK IN A FOLDER-->
-
-                {.section externalLink}
-                <li>
-                    <a href="{url}"{.section newWindow} target="_blank"{.end}>
-                    {title}
-                    </a>
-                </li>
-                {.end}
-                {.end}
-
-            </ul>
-
-            {.or}
-
-            <!--COLLECTION-->
-
-            {.section collection}
-            <a href="{fullUrl}">{navigationTitle}</a>
+            {.collection?}
+            <li class="{.section active} active-link{.end}">
+                <a href="{collection.fullUrl}">
+                    {collection.navigationTitle}
+                </a>
+            </li>
             {.end}
 
-            <!--EXTERNAL LINK-->
+            <!--EXTERNAL LINK IN A FOLDER-->
 
             {.section externalLink}
-            <a href="{url}"{.section newWindow} target="_blank"{.end}>
-            {title}
-            </a>
+            <li>
+                <a href="{url}"{.section newWindow} target="_blank"{.end}>
+                {title}
+                </a>
+            </li>
+            {.end}
             {.end}
 
-            {.end}
+        </ul>
 
-        </li>
+        {.or}
+
+        <!--COLLECTION-->
+
+        {.section collection}
+        <a href="{fullUrl}">{navigationTitle}</a>
+        {.end}
+
+        <!--EXTERNAL LINK-->
+
+        {.section externalLink}
+        <a href="{url}"{.section newWindow} target="_blank"{.end}>
+        {title}
+        </a>
+        {.end}
 
         {.end}
-    </ul>
-</div>
+
+    </li>
+
+    {.end}
+</ul>
