@@ -378,6 +378,7 @@ h1 {
     background-size: cover;
     text-shadow: 0 0 10px black;
     background-color: #444346;
+    padding-top: 40px;
 }
 
 #footer h5, #footer p {
@@ -914,7 +915,6 @@ ul.sub-footer{
     -moz-transition: background 500ms, color 500ms;
     color: white;
 }
-
 #sub-footer ul li a:hover {
     background: #222;
 }
