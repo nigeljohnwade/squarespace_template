@@ -915,8 +915,13 @@ ul.sub-footer{
     -moz-transition: background 500ms, color 500ms;
     color: white;
 }
+
 #sub-footer ul li a:hover {
     background: #222;
+}
+
+#sub-footer ul li:first-child a, ul.sub-footer li:first-child a {
+    padding-left: 0;
 }
 
 #features-page article div.image {
