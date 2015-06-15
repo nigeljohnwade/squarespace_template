@@ -29,7 +29,6 @@
 <div id="sub-footer">
     <div class="row">
         <div class="large-12 columns">
-            <squarespace:navigation navigationId="footerNav" template="footer_nav">
             <ul class="sub-navigation">
                 <li><a href="/privacy-policy">Privacy Policy</a></li>
                 <li><a href="/faq">FAQ</a></li>
