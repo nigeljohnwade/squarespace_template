@@ -18,7 +18,9 @@
         </div>
     </div>
 </div>
-
+        
+<squarespace:navigation navigationId="footerNav" template="footer_nav">
+    
 <div id="sub-footer">
     <div class="row">
         <div class="large-12 columns">
