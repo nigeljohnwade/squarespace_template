@@ -1,4 +1,4 @@
-<ul class="sub-navigation">
+<ul class="sub-navigation sub-footer">
     {.repeated section items}
 
     <li class="{.section active} active-link{.end}{.if folderActive} active-folder{.end}">

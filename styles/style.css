@@ -893,7 +893,8 @@ input#company-name {
     background: black;
 }
 
-#sub-footer ul {
+#sub-footer ul, 
+ul.sub-footer{
     list-style: none;
     margin: 0 0;
     padding: 0 0;
