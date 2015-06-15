@@ -8,9 +8,9 @@
             </div>
         </div>
         <div class="large-12 columns">
-            <a href="http://www.axxon.co.uk" target="_blank" class="client-logo" id="axxon"></a>
-            <a href="http://brightfire.co.uk" target="_blank" class="client-logo" id="brightfire"></a>
-            <a href="http://velocitydigital.co.uk" target="_blank" class="client-logo" id="velocity"></a>
+            <a href="http://www.axonn.media" target="_blank" class="client-logo" id="axxon" alt="Axxon"></a>
+            <a href="http://brightfire.co.uk" target="_blank" class="client-logo" id="brightfire" alt="Brightfire"></a>
+            <a href="http://velocitydigital.co.uk" target="_blank" class="client-logo" id="velocity" alt="Velocity Digital"></a>
         </div>
     </div>
 </div>
