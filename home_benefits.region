@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="benefits-footer">
+            <div class="benefits-footer" style="padding-top: 16px;">
                 <a class="button round small" href="/features">Show me how it works</a>
             </div>
         </div>
