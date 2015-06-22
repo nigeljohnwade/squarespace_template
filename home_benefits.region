@@ -27,10 +27,10 @@
                     </div>
                 </div>
                 <div class="large-3 columns" id="benefits_social">
-                    <span class="typcn typcn-social-twitter"></span>
+                    <span class="typcn typcn-eye-outline"></span>
                     <div class="content">
                         <div>
-                            <h3>Social</h3>
+                            <h3>Informed</h3>
                             <squarespace:block-field id="HomeBenefitsSocialParagraph" columns="1"/>
                         </div>
                     </div>
@@ -46,12 +46,7 @@
                 </div>
             </div>
             <div class="benefits-footer">
-                <div>
-                    <h4 style="text-align: center; ">
-                        <squarespace:block-field id="HomeBenefitsFooterH4" columns="1"/>
-                    </h4>
-                </div>
-                <a class="button round small" href="/what-is">Read more here</a>
+                <a class="button round small" href="/features">Show me how it works</a>
             </div>
         </div>
     </div>
