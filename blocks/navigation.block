@@ -9,9 +9,9 @@
 
             <!--FOLDER-->
 
-              <a href="{collection.fullUrl}">{collection.navigationTitle}</a>
+              <a>{collection.navigationTitle}</a>
 
-              <ul>
+              <ul class="subnav">
 
                 {.repeated section items}
 
