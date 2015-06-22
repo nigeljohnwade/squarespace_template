@@ -3,7 +3,7 @@
   <ul class="right">
     {.repeated section items}
 
-        <li class="{.section active} active-link{.end}{.if folderActive} active-folder{.end}{.folder?}has-dropdown{.end}">
+        <li class="{.section active} active-link{.end}{.if folderActive} active-folder{.end}{.folder?} has-dropdown{.end}">
 
           {.folder?}
 
