@@ -3,7 +3,7 @@
   <ul class="right">
     {.repeated section items}
 
-        <li class="{.section active} active-link{.end}{.if folderActive} active-folder{.end}">
+        <li class="{.section active} active-link{.end}{.if folderActive} active-folder{.end}{.folder?}has-dropdown{.end}">
 
           {.folder?}
 
@@ -11,7 +11,7 @@
 
               <a>{collection.navigationTitle}</a>
 
-              <ul class="subnav">
+              <ul class="dropdown">
 
                 {.repeated section items}
 
