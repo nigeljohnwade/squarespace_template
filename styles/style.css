@@ -1061,6 +1061,9 @@ nav a.blog-navigation span{
     margin-left: -17px;
 }
 
+ul.dropdown{
+    padding-left: 0px !important;
+}
 
 /* Example Modal*/
 /*.reveal-modal.example{*/
