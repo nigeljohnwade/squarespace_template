@@ -1,0 +1,7 @@
+<div class="block">
+    <div class="row" id="faq-contents">
+        <h2>Questions</h2>
+
+        <squarespace:block-field id="FAQIndex">
+    </div>
+</div>
