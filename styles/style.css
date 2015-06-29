@@ -1064,7 +1064,7 @@ nav a.blog-navigation span{
     margin-left: -17px;
 }
 
-ul.dropdown{
+ul.dropdown, ul.pricing-table{
     padding-left: 0px !important;
 }
 
