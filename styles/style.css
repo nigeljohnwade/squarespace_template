@@ -492,6 +492,9 @@ h1 {
 #custom-plans {
     text-align: center;
 }
+#custom-plans a{
+    color: white;
+}
 
 #custom-plans .typcn {
     font-size: 48px;
