@@ -1,4 +1,8 @@
+{.main-image?}
+<div id="hero" class="block" style="background-image: none;">
+{.or}
 <div id="hero" class="block">
+{.end}
     <div id="nav-wrapper">
         <div class="row">
             <div class="large-12 columns">
