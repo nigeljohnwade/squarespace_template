@@ -1,5 +1,9 @@
-{.main-image?}
+{.collection?}
+{collection.main-image?}
 <div id="hero" class="block" style="background-image: none;">
+{.or}
+<div id="hero" class="block">
+{.end}
 {.or}
 <div id="hero" class="block">
 {.end}
