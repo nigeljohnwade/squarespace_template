@@ -1,0 +1,7 @@
+<div class="block gray faq-section">
+    <div class="row">
+        <div class="large-12 columns">
+            <squarespace:block-field id="FAQTechnical">
+        </div>
+    </div>
+</div>
