@@ -1,7 +1,7 @@
 <div class="block faq-section">
     <div class="row" id="faq-billing">
         <div class="large-12 columns">
-            <squarespace:block-field id="FAQIndex">
+            <squarespace:block-field id="FAQBilling">
             <div>
                 <h3>Billing and Payment New</h3>
                 <h4 id="billing-1">How  does my free trial work?</h4>
