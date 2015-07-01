@@ -1,8 +1,10 @@
 {.collection?}
-{collection.main-image?}
+{section collection}
+{.main-image?}
 <div id="hero" class="block" style="background-image: none;">
 {.or}
 <div id="hero" class="block">
+{.end}
 {.end}
 {.or}
 <div id="hero" class="block">
