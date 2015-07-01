@@ -2,28 +2,6 @@
     <div class="row" id="faq-billing">
         <div class="large-12 columns">
             <squarespace:block-field id="FAQBilling">
-            <div>
-                <h3>Billing and Payment New</h3>
-                <h4 id="billing-1">How  does my free trial work?</h4>
-                <p>After you create your account, we’ll give you 30 days on our <a href="/pricing">Maple plan</a> free of charge, so that you can take Stipso for a test drive.
-                    You can create, preview and publish Living Infographics. </p>
-                <p>Once your free trial ends, you’ll need to start a monthly subscription in order to create new infographics and to continue accepting contributions to any you’ve already published.</p>
-                <h4 id="billing-2">What is the billing period?</h4><p>Stipso subscriptions work on a rolling monthly basis.</p>
-                <h4 id="billing-3">Can I pay annually?</h4><p>Not just yet — we'll be introducing this facility soon.</p>
-                <h4 id="billing-4">Do prices include VAT?</h4><p><a href="/pricing">Prices shown</a> do not include VAT, which is charged at 20% to customers in the UK only.</p>
-                <h4 id="billing-5">How are payments handled?</h4><p>All payments are processed through <a href="http://stripe.com" target="_blank">Stripe</a>.
-                We accept all major international credit cards.</p>
-                <h4 id="billing-6">Do you hold my credit card details?</h4>
-                <p>Stipso does not hold payment details; they are held securely by Stripe for repeatable billing (your monthly subscription.)</p>
-                <h4 id="billing-7">How do I close my account/cancel my subscription?</h4>
-                <p>You can cancel your subscription any time by  emailing <a href="mailto:support@stipso.com">support@stipso.com</a> with your Stipso username
-                    — any Living Infographics you’ve already published will remain viewable, but will no longer accept contributions, and you won’t be able to create new infographics without restarting your subscription.</p>
-                <p>You can also choose to close your account entirely — please note that this will also irreversibly delete all of your previously published infographics and the data they have collected.</p>
-                <h4 id="billing-8">What's the difference between each plan?</h4>
-                <p>Each of our three plans is tailored to a different level of scale-- how many infographics you can create, and how many pageviews each infographic receives.</p>
-                <h4 id="billing-9">What happens if I go over my pageview limit?</h4>
-                <p>If you go over your limit — that’s great news! We want you to get the best ROI possible, so if you’re on a hot streak we won’t get in the way, but if you’re regularly going over your limit, we may need to adjust your plan.</p>
-            </div>
         </div>
     </div>
 </div>
