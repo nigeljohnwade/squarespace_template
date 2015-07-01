@@ -1,7 +1,7 @@
 {.collection?}
 {.section collection}
 {.main-image?}
-<div id="hero" class="block" style="background-image: none;">
+<div id="hero" class="block" style="background-image: url('{main-image.assetUrl}');">
 {.or}
 <div id="hero" class="block">
 {.end}
